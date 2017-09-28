@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+.Festival { font-family: festival, sans-serif; }
+.Rye { font-family: rye, sans-serif; }
+.Teko-Light { font-family: tekoLight, sans-serif; }
+.Teko-Regular { font-family: tekoRegular, sans-serif; }
+.Teko-Medium { font-family: tekoMedium, sans-serif; }
+.Roboto { font-family: 'Roboto', sans-serif; }
+.Thin { font-weight: 100; }
+.Light { font-weight: 300; }
+.Regular { font-weight: 400; }
+.Medium { font-weight: 500; }
+.Bold { font-weight: 700; }
+.Black { font-weight: 900; }
+.size8 { font-size: 8px }
+.size9 { font-size: 9px }
+.size10 { font-size: 10px; }
+.size11 { font-size: 11px; }
+.size12 { font-size: 12px; }
+.size13 { font-size: 13px; }
+.size14 { font-size: 14px; }
+.size15 { font-size: 15px; }
+.size16 { font-size: 16px; }
+.size17 { font-size: 17px; }
+.size18 { font-size: 18px; }
+.size19 { font-size: 19px; }
+.size20 { font-size: 20px; }
+.size21 { font-size: 21px; }
+.size22 { font-size: 22px; }
+.size23 { font-size: 23px; }
+.size24 { font-size: 24px; }
+.size25 { font-size: 25px; }
+.size26 { font-size: 26px; }
+.size27 { font-size: 27px; }
+.size28 { font-size: 28px; }
+.size29 { font-size: 29px; }
+.size30 { font-size: 30px; }
+.size31 { font-size: 31px; }
+.size32 { font-size: 32px; }
+.size33 { font-size: 33px; }
+.size34 { font-size: 34px; }
+.size35 { font-size: 35px; }
+.size36 { font-size: 38px; }
+.size37 { font-size: 37px; }
+.size38 { font-size: 38px; }
+.size39 { font-size: 39px; }
+.size40 { font-size: 40px; }
+.size41 { font-size: 41px; }
+.size42 { font-size: 42px; }
+.size43 { font-size: 43px; }
+.size44 { font-size: 44px; }
+.size45 { font-size: 45px; }
+.size46 { font-size: 46px; }
+.size47 { font-size: 47px; }
+.size48 { font-size: 48px; }
+.size49 { font-size: 49px; }
+.size50 { font-size: 50px; }
+.size55 { font-size: 55px; }
+.size60 { font-size: 60px; }
+.size80 { font-size: 80px; }
+.margin-zero { margin: 0; }
+.padding-zero { padding: 0; }
+.justify { text-align: justify; }
+.Uppercase { text-transform: uppercase; }
+.Lowercase { text-transform: lowercase; }
+.link-default { text-decoration: none; }
+.line-height10 { line-height: 10px; }
+.line-height11 { line-height: 11px; }
+.line-height12 { line-height: 12px; }
+.line-height13 { line-height: 13px; }
+.line-height14 { line-height: 14px; }
+.line-height15 { line-height: 15px; }
+.line-height16 { line-height: 16px; }
+.line-height17 { line-height: 17px !important }
+.line-height18 { line-height: 18px; }
+.line-height19 { line-height: 19px; }
+.line-height20 { line-height: 20px; }
+.line-height21 { line-height: 21px; }
+.line-height22 { line-height: 22px; }
+.line-height23 { line-height: 23px; }
+.line-height24 { line-height: 24px; }
+.line-height25 { line-height: 25px; }
+.line-height26 { line-height: 26px; }
+.line-height27 { line-height: 27px; }
+.line-height28 { line-height: 28px; }
+.line-height29 { line-height: 29px; }
+.line-height30 { line-height: 30px; }
+.line-height31 { line-height: 31px; }
+.line-height32 { line-height: 32px; }
+.line-height33 { line-height: 33px; }
+.line-height34 { line-height: 34px; }
+.line-height35 { line-height: 35px; }
+.line-height36 { line-height: 36px; }
+.line-height37 { line-height: 37px; }
+.line-height38 { line-height: 38px; }
+.line-height39 { line-height: 39px; }
+.line-height40 { line-height: 40px; }
+.line-height45 { line-height: 45px; }
+.letter-spacing1 { letter-spacing: 1px }
+a.link-default { background-color: transparent; text-decoration: none }
+a.link-default:hover { background-color: transparent; text-decoration: none }
+a.link-default:active { background-color: transparent; text-decoration: none }
+a.link-default:focus { background-color: transparent; text-decoration: none }

@@ -1,0 +1,16 @@
+.bege-fonte { color: #e1d1aa !important; }
+.bege-alternativo-fonte { color: #ffdd8b !important; }
+.preto-fonte { color: #080808 !important; }
+.branco-fonte { color: #ffffff !important; }
+.cinza-fonte { color: #353535 !important; }
+.cinza-alternativo-fonte { color: #232323 !important; }
+.marrom-fonte { color: #460f01 !important; }
+.bg-laranja {background-color: #f1a014;}
+.bg-bege { background-color: #e1d1aa !important }
+.bg-preto { background-color: #131313 !important }
+.bg-dark { background-color: #000000 !important }
+.bg-branco { background-color: #ffffff !important }
+.bg-preto-transparente { background-color: #000000 !important; opacity: 0.5 }
+.marrom-claro-bg {background-color:  #3f2d00!important;}
+.marrom-claro-fonte {color:  #3f2d00!important;}
+.borderTBmarrom{border-top: 1px solid #3f2d00!important; border-bottom: 1px solid #3f2d00!important;}
