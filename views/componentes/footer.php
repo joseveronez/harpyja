@@ -4,9 +4,9 @@
 </html>
 
 <script type="text/javascript">
-	$(document).ready(function() 
-                      
-	});
+	$(document).ready(function() {
+        
+    });
 
 	function Trim() {
 		var get_value = document.getElementById('telefone');

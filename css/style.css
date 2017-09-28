@@ -1,0 +1,175 @@
+.nav>li>a:hover {
+    background-color: #666666 !important;
+}
+
+
+/* LG MD SM  */
+@media (min-width: 768px) {
+    .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
+}
+
+/* XS */
+@media (max-width: 767px) {
+    
+}
+
+
+.sp-thumbnail{
+    width: 100%!important;
+}
+
+.imagens-topo{
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100px; 
+    margin-top: 5px;
+}
+
+ .sp-thumbnail-image-container {
+	width: 30%;
+	height: 100px;
+	overflow: hidden;
+	float: left;
+}
+
+ .sp-thumbnail-image {
+	height: 100%;
+}
+
+ .sp-thumbnail-text {
+	width: 70%;
+    height: 100px;
+    float: left;
+    padding: 8px;
+    background-color: #F0F0F0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ .sp-thumbnail-title {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #333;
+     float: left;
+}
+
+ .sp-thumbnail-description {
+     font-size: 14px;
+     color: #333;
+     float: left;
+     width: 95%;
+
+}
+
+.sp-right-thumbnails.sp-has-pointer .sp-selected-thumbnail:before{
+    border-left: 5px solid #2d2d2d !important;
+}
+
+.sp-right-thumbnails.sp-has-pointer .sp-selected-thumbnail:after{
+    border-right: 13px solid #2d2d2d !important;
+}
+
+@media (max-width: 500px) {
+	 .sp-thumbnail {
+		text-align: center;
+	}
+
+	 .sp-thumbnail-image-container {
+		display: none;
+	}
+
+	 .sp-thumbnail-text {
+		width: 120px;
+	}
+
+	 .sp-thumbnail-title {
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	 .sp-thumbnail-description {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+    .navbar-centralizada
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+}
+
+
+.hrPadrao {
+    margin-left: 0%;
+    margin-bottom: 6%;
+}
+
+.hrTitle {
+    width: 5%;
+    height: 4px;
+    background-color: #666666;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+.MarginT1{margin-top: 1%!important;}
+.MarginT2{margin-top: 2%!important;}
+.MarginT3{margin-top: 3%!important;}
+.MarginT4{margin-top: 4%!important;}
+.MarginT5{margin-top: 5%!important;}
+.MarginT6{margin-top: 6%!important;}
+.MarginT7{margin-top: 7%!important;}
+.MarginT8{margin-top: 8%!important;}
+.MarginT9{margin-top: 9%!important;}
+.MarginT10{margin-top: 10%!important;}
+.MarginT11{margin-top: 11%!important;}
+.MarginT12{margin-top: 12%!important;}
+.MarginT13{margin-top: 13%!important;}
+.MarginT14{margin-top: 14%!important;}
+.MarginT15{margin-top: 15%!important;}
+.MarginT16{margin-top: 16%!important;}
+.MarginT17{margin-top: 17%!important;}
+.MarginT18{margin-top: 18%!important;}
+.MarginT19{margin-top: 19%!important;}
+.MarginT20{margin-top: 20%!important;}
+.MarginT21{margin-top: 21%!important;}
+.MarginT22{margin-top: 22%!important;}
+.MarginT23{margin-top: 23%!important;}
+.MarginT24{margin-top: 24%!important;}
+.MarginT25{margin-top: 25%!important;}
+
+.MarginB1{margin-bottom: 1%!important;}
+.MarginB2{margin-bottom: 2%!important;}
+.MarginB3{margin-bottom: 3%!important;}
+.MarginB4{margin-bottom: 4%!important;}
+.MarginB5{margin-bottom: 5%!important;}
+.MarginB6{margin-bottom: 6%!important;}
+.MarginB7{margin-bottom: 7%!important;}
+.MarginB8{margin-bottom: 8%!important;}
+.MarginB9{margin-bottom: 9%!important;}
+.MarginB10{margin-bottom: 10%!important;}
+.MarginB11{margin-bottom: 11%!important;}
+.MarginB12{margin-bottom: 12%!important;}
+.MarginB13{margin-bottom: 13%!important;}
+.MarginB14{margin-bottom: 14%!important;}
+.MarginB15{margin-bottom: 15%!important;}
+.MarginB16{margin-bottom: 16%!important;}
+.MarginB17{margin-bottom: 17%!important;}
+.MarginB18{margin-bottom: 18%!important;}
+.MarginB19{margin-bottom: 19%!important;}
+.MarginB20{margin-bottom: 20%!important;}
+.MarginB21{margin-bottom: 21%!important;}
+.MarginB22{margin-bottom: 22%!important;}
+.MarginB23{margin-bottom: 23%!important;}
+.MarginB24{margin-bottom: 24%!important;}
+.MarginB25{margin-bottom: 25%!important;}

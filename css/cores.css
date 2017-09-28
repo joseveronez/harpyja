@@ -1,9 +1,13 @@
 .bege-fonte { color: #e1d1aa !important; }
 .preto-fonte { color: #080808 !important; }
 .branco-fonte { color: #ffffff !important; }
-.cinza-fonte { color: #353535 !important; }
-.bg-bege { background-color: #e1d1aa !important }
-.bg-preto { background-color: #131313 !important }
-.bg-dark { background-color: #000000 !important }
-.bg-branco { background-color: #ffffff !important }
-.bg-preto-transparente { background-color: #000000 !important; opacity: 0.5 }
+.cinza-fonte { color: #4d4d4d; !important; }
+.bg-cinza-claro {background-color: #ccc!important;}
+.bg-branco { background-color: #ffffff !important;}
+.bg-bege { background-color: #e1d1aa !important; }
+.bg-preto { background-color: #2d2d2d !important; }
+.bg-dark { background-color: rgba(27,27,27,0.95); !important; }
+.bg-cinza { background-color: #666666 !important; }
+.bg-branco { background-color: #ffffff !important; }
+.bg-preto-transparente { background-color: #000000 !important; opacity: 0.5; }
+.bg-azul {background-color: #091264 !important;}
