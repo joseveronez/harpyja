@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.Montserrat {font-family: 'Montserrat', sans-serif;}
 .Festival { font-family: festival, sans-serif; }
 .Rye { font-family: rye, sans-serif; }
 .Teko-Light { font-family: tekoLight, sans-serif; }

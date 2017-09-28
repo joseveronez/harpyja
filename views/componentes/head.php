@@ -14,9 +14,6 @@
     		$pagina_atual = $string_recebida;
     	}
     }
-
-    require RAIZ.'/cms/includes/config.php';
-    require RAIZ.'/cms/model/Tabelas.php';
 ?>
 <!DOCTYPE html>
 <html>
