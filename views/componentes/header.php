@@ -7,7 +7,7 @@
             <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs col-sm-offset-3 text-right cinza-claro-fonte" style="margin-top: 25px;">
                 <a href="#"><i class="fa fa-facebook-square fa-3x preto-fonte2" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-twitter-square fa-3x preto-fonte2" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram fa-3x preto-fonte2" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube-square fa-3x preto-fonte2" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
