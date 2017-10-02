@@ -13,7 +13,7 @@
 </div>
 
 
-<div class="container">
+<div class="container MarginT5 MarginB5">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h1>
             Lorem ipsum
@@ -25,7 +25,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container MarginT5 MarginB5">
     <div class="" style="margin-top: 5px;">
         <div class="slider-pro sp-vertical" id="my-slider2">
             <div class="sp-slides">
@@ -81,16 +81,59 @@
         </div>    
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-claro MarginT2 MarginB2">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-claro MarginT5 MarginB5">
     <div class="container">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-zero">
             <img class="img-responsive" src="imagens/teste.jpg"/>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
             <h3>Lorem ipsum</h3>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</h5>
         </div>
     </div>
 </div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5 MarginB5">
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <h2>GALERIA DE VIDEOS</h2>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
+            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-claro parallax-img parallax-default MarginT5 MarginB5">
+    <div class="container"></div>
+</div>
+
 <script type="text/javascript">
         jQuery( document ).ready(function( $ ) {
 		  $( '#my-slider' ).sliderPro({
