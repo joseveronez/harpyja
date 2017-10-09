@@ -60,6 +60,7 @@
 .size60 { font-size: 60px; }
 .size80 { font-size: 80px; }
 .margin-zero { margin: 0; }
+.margin-bot-zero { margin-bottom: 0!important; }
 .padding-zero { padding: 0; }
 .justify { text-align: justify; }
 .Uppercase { text-transform: uppercase; }

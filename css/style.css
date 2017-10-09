@@ -9,6 +9,8 @@
 .parallax-img {background-image: url(../imagens/parallax.jpg);}
 .parallax-default { background-size: cover; height: 300px; background-attachment: fixed; background-position: center left;}
 
+.border-nota{border: 3px solid #091264;}
+
 /* LG MD SM  */
 @media (min-width: 768px) {
     .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
@@ -179,3 +181,57 @@
 .MarginB23{margin-bottom: 23%!important;}
 .MarginB24{margin-bottom: 24%!important;}
 .MarginB25{margin-bottom: 25%!important;}
+
+
+
+.PaddingT1{padding-top: 1%!important;}
+.PaddingT2{padding-top: 2%!important;}
+.PaddingT3{padding-top: 3%!important;}
+.PaddingT4{padding-top: 4%!important;}
+.PaddingT5{padding-top: 5%!important;}
+.PaddingT6{padding-top: 6%!important;}
+.PaddingT7{padding-top: 7%!important;}
+.PaddingT8{padding-top: 8%!important;}
+.PaddingT9{padding-top: 9%!important;}
+.PaddingT10{padding-top: 10%!important;}
+.PaddingT11{padding-top: 11%!important;}
+.PaddingT12{padding-top: 12%!important;}
+.PaddingT13{padding-top: 13%!important;}
+.PaddingT14{padding-top: 14%!important;}
+.PaddingT15{padding-top: 15%!important;}
+.PaddingT16{padding-top: 16%!important;}
+.PaddingT17{padding-top: 17%!important;}
+.PaddingT18{padding-top: 18%!important;}
+.PaddingT19{padding-top: 19%!important;}
+.PaddingT20{padding-top: 20%!important;}
+.PaddingT21{padding-top: 21%!important;}
+.PaddingT22{padding-top: 22%!important;}
+.PaddingT23{padding-top: 23%!important;}
+.PaddingT24{padding-top: 24%!important;}
+.PaddingT25{padding-top: 25%!important;}
+
+.PaddingB1{padding-bottom: 1%!important;}
+.PaddingB2{padding-bottom: 2%!important;}
+.PaddingB3{padding-bottom: 3%!important;}
+.PaddingB4{padding-bottom: 4%!important;}
+.PaddingB5{padding-bottom: 5%!important;}
+.PaddingB6{padding-bottom: 6%!important;}
+.PaddingB7{padding-bottom: 7%!important;}
+.PaddingB8{padding-bottom: 8%!important;}
+.PaddingB9{padding-bottom: 9%!important;}
+.PaddingB10{padding-bottom: 10%!important;}
+.PaddingB11{padding-bottom: 11%!important;}
+.PaddingB12{padding-bottom: 12%!important;}
+.PaddingB13{padding-bottom: 13%!important;}
+.PaddingB14{padding-bottom: 14%!important;}
+.PaddingB15{padding-bottom: 15%!important;}
+.PaddingB16{padding-bottom: 16%!important;}
+.PaddingB17{padding-bottom: 17%!important;}
+.PaddingB18{padding-bottom: 18%!important;}
+.PaddingB19{padding-bottom: 19%!important;}
+.PaddingB20{padding-bottom: 20%!important;}
+.PaddingB21{padding-bottom: 21%!important;}
+.PaddingB22{padding-bottom: 22%!important;}
+.PaddingB23{padding-bottom: 23%!important;}
+.PaddingB24{padding-bottom: 24%!important;}
+.PaddingB25{padding-bottom: 25%!important;}
