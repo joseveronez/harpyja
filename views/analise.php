@@ -1,6 +1,6 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10 MarginB10">
     <div class="container">
-        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 MarginT5p">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background-image:url(imagens/produto.jpg);  background-size: cover; background-position: center center; background-repeat: no-repeat; height:500px;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT3 MarginB3">
                 <h1>Liquidificador Mondial L-66 850W</h1>
@@ -121,8 +121,7 @@ Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque h
                         <th>Lorem</th>
                         <th>Lorem</th>
                         <th>Lorem</th>
-                        <th>Lorem</th>
-                        <th>Lorem</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -130,19 +129,15 @@ Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque h
                         <td>Ipsum</td>
                         <td>Ipsum</td>
                         <td>Ipsum</td>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
+                       
                     </tr>
                     <tr>
                         <td>Ipsum</td>
                         <td>Ipsum</td>
                         <td>Ipsum</td>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
+                        
                     </tr>
                     <tr>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
                         <td>Ipsum</td>
                         <td>Ipsum</td>
                         <td>Ipsum</td>
@@ -188,10 +183,116 @@ Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque h
                 </div>
             </div>
             
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-zero MarginT1 MarginB1 bg-cinza-claro">
-                
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-zero text-center MarginT1 MarginB1 bg-cinza-claro" style="border-right: 5px solid white;">
+                <h5><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></h5>
+                <h4>Avaliação anterior</h4>
             </div>
-            
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-zero text-center MarginT1 MarginB1 bg-cinza-claro">
+                <h5><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></h5>
+                <h4>Próxima avaliação</h4>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
+                <h4>SOBRE O AUTOR</h4>
+                <hr class="hrTitleFull hrPadrao">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-4 padding-zero">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero"  style="background-image:url(imagens/teste.jpg);  background-size: cover; background-position: center center; background-repeat: no-repeat; padding-top: 100%; border-radius: 50%;">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 text-justify">
+                        <div class="col-xs-12 padding-zero MarginT3p hidden-lg hidden-md hidden-sm"></div>
+                        <h3 class="margin-zero">Lorem ipsum</h3>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
+                <h4>POSTS RELACIONADOS</h4>
+                <hr class="hrTitleFull hrPadrao">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-imagem brdrRW" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-imagem" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
+                <h4>RESPOSTAS</h4>
+                <hr class="hrTitleFull hrPadrao">
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 MarginT5p">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                <div class="input-group add-on div-search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit" style="border-radius: 0px; background: #ccc; color: white;"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                    <input class="form-control" name="srch-term" id="srch-term" type="text" style="border-radius: 0px;">
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero text-center MarginT5p">
+                    <h4>ÚLTIMAS POSTAGENS</h4>
+                    <hr class="hrTitleFull hrPadrao">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero text-center">
+                    <h4>ACOMPANHE A HARPYJA</h4>
+                    <hr class="hrTitleFull hrPadrao">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero ">
+                    <h6 class="MarginT7p">Fique por dentro de novas avaliações e dicas</h6>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                        <h6 class="MarginT7p">Email</h6>
+                        <input type="email" class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <button type="button" class="btn btn-default btn-assinar">Assinar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
