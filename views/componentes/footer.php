@@ -1,16 +1,16 @@
-<footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <div class="container">
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+<footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer">
+    <div class="container Relative">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 MarginT20p">
             <img src="imagens/Harpyja-logo.png" class="img-responsive" >
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center MarginT5p">
             <h3>Lorem ipsum</h3>
             <h5>Lorem ipsum</h5>
             <h5>Lorem ipsum</h5>
             <h5>Lorem ipsum</h5>
             <h5>Lorem ipsum</h5>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  MarginT10p  MarginB5p">
             <form action="" class="form-horizontal Roboto Regular" id="formulario">
                 <input type="text" class="form-control branco-fonte size13" name="nome" placeholder="NOME *" required><br>
 
@@ -27,8 +27,8 @@
                 <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
             </form>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <img src="imagens/comberweb_logo.png" class="img-responsive" style="margin: 0 auto;" >
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right MarginT10p" style="">
+            <h6>COMBERWEB.COM.BR</h6>
         </div>
     </div>
 </footer>

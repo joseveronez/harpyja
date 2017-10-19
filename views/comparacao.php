@@ -7,6 +7,9 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
                 <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;">
             </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB15p"  style="height: 100px;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit leo, ultrices non massa quis, ultrices tempus risus. Ut in justo elementum, lacinia ex nec, vestibulum lacus. Aenean porta eros quis euismod varius. In nec mi neque. Mauris facilisis ullamcorper semper. Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
+            </div>
             <table class="table table-hover">
                 <thead>
                     <tr>
@@ -43,6 +46,9 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
                 <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;">
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB15p" style="height: 100px;">
+                <p>Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
             <table class="table table-hover  text-center">
                 <thead>
