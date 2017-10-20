@@ -7,8 +7,11 @@
     {
         private static $_routes = array(
             ''=>array('layout'=>'default','view'=>'home'),
-            'analise'=>array('layout'=>'default','view'=>'analise'),
-            'comparacao'=>array('layout'=>'default','view'=>'comparacao')
+            'avaliacao'=>array('layout'=>'default','view'=>'avaliacao'),
+            'avaliacoes'=>array('layout'=>'default','view'=>'avaliacoes'),
+            'comparacao'=>array('layout'=>'default','view'=>'comparacao'),
+            'contato'=>array('layout'=>'default','view'=>'contato'),
+            'sobre'=>array('layout'=>'default','view'=>'sobre'),
             
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada

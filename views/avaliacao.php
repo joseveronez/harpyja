@@ -114,57 +114,64 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
 
 Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas hendrerit laoreet elit id rhoncus. Nam viverra odio eu dapibus semper. Nam libero odio, iaculis eu dolor nec, imperdiet fermentum sapien. Maecenas in nulla augue. Cras sodales quis nunc a vestibulum. Aenean pretium suscipit sapien a blandit. Pellentesque orci dolor, pulvinar vel purus eu, rutrum tempus augue. Nunc sollicitudin, eros dapibus tempor accumsan, neque tortor finibus nisl, sit amet dapibus ligula leo et leo.
             </div>
-            
-            <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1">
-                <thead>
-                    <tr>
-                        <th>Lorem</th>
-                        <th>Lorem</th>
-                        <th>Lorem</th>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                       
-                    </tr>
-                    <tr>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1">
-                <tbody>
-                    <tr>
-                        <th>Lorem</th>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                    </tr>
-                    <tr>
-                        <th>Lorem</th>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                    </tr>
-                    <tr>
-                        <th>Lorem</th>
-                        <td>Ipsum</td>
-                        <td>Ipsum</td>
-                    </tr>
-                </tbody>
-            </table>
-            
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
+                <a href="comparacao" class="link-default">
+                    <h4 style="color: #333">CARASCTERÍSTICAS</h4>
+                </a>
+                <hr class="hrTitleFull hrPadrao">
+                <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
+                    <thead>
+                        <tr>
+                            <th>Lorem</th>
+                            <th>Lorem</th>
+                            <th>Lorem</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
+                <h4>PREÇO</h4>
+                <hr class="hrTitleFull hrPadrao">
+                <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
+                    <tbody>
+                        <tr>
+                            <th>Lorem</th>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                        </tr>
+                        <tr>
+                            <th>Lorem</th>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                        </tr>
+                        <tr>
+                            <th>Lorem</th>
+                            <td>Ipsum</td>
+                            <td>Ipsum</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
                 <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
                 <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
