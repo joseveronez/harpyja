@@ -205,7 +205,7 @@ Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque h
                 <hr class="hrTitleFull hrPadrao">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
                     <div class="col-lg-2 col-md-2 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-4 padding-zero">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero"  style="background-image:url(imagens/teste.jpg);  background-size: cover; background-position: center center; background-repeat: no-repeat; padding-top: 100%; border-radius: 50%;">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero"  style="background-image:url(<?= RAIZSITE ?>/imagens/autor.png);  background-size: cover; background-position: center center; background-repeat: no-repeat; padding-top: 100%; border-radius: 50%;">
                         </div>
                     </div>
                     <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 text-justify">
