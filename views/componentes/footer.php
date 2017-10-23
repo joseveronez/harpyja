@@ -7,9 +7,10 @@
 
     @media screen and (min-width: 768px) {
         footer .bloco-logo { height: 380px }
-        .bloco-links { margin-top: 50px; }
-        .bloco-formulario { margin-top: 50px; margin-bottom: 45px }
-        footer img { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+        .bloco-links { margin-top: 50px }
+        .bloco-formulario { margin-top: 50px }
+        .bloco-mapa { margin-top: 50px; margin-bottom: 45px }
+        footer .bloco-logo .conteudo { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
     }
     @media screen and (min-width: 991px) {
         input[type="email"].form-control { width: 95% }
@@ -19,20 +20,32 @@
         footer .bloco-logo { margin-top: 40px; margin-bottom: 40px }
         footer .bloco-links { margin-bottom: 40px }
         footer .bloco-formulario { margin-bottom: 40px }
+        footer .bloco-mapa { margin-bottom: 40px }
+        footer .bloco-mapa iframe { width: 100%; }
     }
 </style>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <footer>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer">
         <div class="container Relative">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-logo">
-                <a href="<?= RAIZSITE ?>"><img src="<?= RAIZSITE ?>/imagens/logo-sem-fundo.png" class="img-responsive"></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-links text-center">
-                <h3 class="margin-zero">Lorem ipsum</h3>
-                <h5>Lorem ipsum</h5>
-                <h5>Lorem ipsum</h5>
-                <h5>Lorem ipsum</h5>
-                <h5>Lorem ipsum</h5>
+                <div class="conteudo">
+                    <a href="<?= RAIZSITE ?>"><img src="<?= RAIZSITE ?>/imagens/logo-sem-fundo.png" class="img-responsive"></a><br>
+
+                    <div class="text-center">
+                        <h5><a href="<?= RAIZSITE ?>" class="link-default preto-fonte">Home</a></h5>
+                        <h5><a href="<?= RAIZSITE ?>/avaliacoes" class="link-default preto-fonte">Avaliações</a></h5>
+                        <h5><a href="<?= RAIZSITE ?>/sobre" class="link-default preto-fonte">Sobre</a></h5>
+                        <h5><a href="<?= RAIZSITE ?>/contato" class="link-default preto-fonte">Contato</a></h5>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-formulario">
                 <form action="" class="form-horizontal Roboto Regular" id="formulario">
@@ -50,6 +63,9 @@
 
                     <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
                 </form>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-mapa">
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook"></a></blockquote></div>
             </div>
         </div>
     </div>
