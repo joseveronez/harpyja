@@ -9,17 +9,17 @@
                 <div class="owl-carousel owl-theme" id="avCarousel1">
                     <div>
                         <a href="avaliacao">
-                            <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;">
+                            <div class="" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%; height: 550px;"></div>
                         </a>
                     </div>
                     <div>
                         <a href="avaliacao">
-                            <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;">
+                            <div class="" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%; height: 550px;"></div>
                         </a>
                     </div>
                     <div>
                         <a href="avaliacao">
-                            <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;">
+                            <div class="" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%; height: 550px;"></div>
                         </a>
                     </div>
                 </div>
@@ -84,24 +84,67 @@
             items: 1,
             nav: false,
             dots: true,
+            
         });
         $("#avCarousel2").owlCarousel({
             rtl:true,
             loop:true,
             items: 4,
             margin: 5,
+            responsive:{
+                1200:{
+                    items: 4,
+                },
+                992:{
+                    items:3,
+                },
+                768:{
+                    items:2,
+                },
+                480:{
+                    items:1,
+                }
+            }
         });
         $("#avCarousel3").owlCarousel({
             rtl:true,
             loop:true,
             items: 4,
             margin: 5,
+            responsive:{
+                1200:{
+                    items: 4,
+                },
+                992:{
+                    items:3,
+                },
+                768:{
+                    items:2,
+                },
+                480:{
+                    items:1,
+                }
+            }
         });
         $("#avCarousel4").owlCarousel({
             rtl:true,
             loop:true,
             items: 4,
             margin: 5,
+            responsive:{
+                1200:{
+                    items: 4,
+                },
+                992:{
+                    items:3,
+                },
+                768:{
+                    items:2,
+                },
+                480:{
+                    items:1,
+                }
+            }
         });
     });
 </script>
