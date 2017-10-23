@@ -22,7 +22,7 @@
         </button>
     </div>
     <div class = "collapse navbar-collapse bg-preto" id = "example-navbar-collapse">
-        <div class="navbar-centralizada">
+        <div class="container">
             <ul class = "nav navbar-nav padding-zero">
                 <li><a href="/harpyja" class="branco-fonte">HOME</a></li>
                 <li><a href="avaliacoes" class="branco-fonte">AVALIAÇÕES</a></li>
