@@ -16,37 +16,37 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.1" aria-valuemin="0" aria-valuemax="10" style="width:91%">9.1</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="10">9.1&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESIGN E ACABAMENTO</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="8.3" aria-valuemin="0" aria-valuemax="10" style="width:83%">8.3</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="10">8.3&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">PRATICIDADE</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.6" aria-valuemin="0" aria-valuemax="10" style="width:96%">9.6</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="0" aria-valuemax="10">9.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">LIMPEZA</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="8.6" aria-valuemin="0" aria-valuemax="10" style="width:86%">8.6</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="10">8.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">SEGURANÇA</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
@@ -134,37 +134,37 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.1" aria-valuemin="0" aria-valuemax="10" style="width:91%">9.1</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="10">9.1&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESIGN E ACABAMENTO</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="8.3" aria-valuemin="0" aria-valuemax="10" style="width:83%">8.3</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="10">8.3&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">PRATICIDADE</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.6" aria-valuemin="0" aria-valuemax="10" style="width:96%">9.6</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="0" aria-valuemax="10">9.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">LIMPEZA</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="8.6" aria-valuemin="0" aria-valuemax="10" style="width:86%">8.6</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="10">8.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">SEGURANÇA</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
                     <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
@@ -250,5 +250,8 @@
             loop:true,
             items: 1,
         });
+        $('.progress .progress-bar').css("width",function() { 
+            return $(this).attr("aria-valuenow") + "%"; 
+        })
     });
 </script>
