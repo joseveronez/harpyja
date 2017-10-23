@@ -12,7 +12,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p"  style="height: 200px;">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit leo, ultrices non massa quis, ultrices tempus risus. Ut in justo elementum, lacinia ex nec, vestibulum lacus. Aenean porta eros quis euismod varius. In nec mi neque. Mauris facilisis ullamcorper semper. Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT4p PaddingB4p MarginB5p bg-cinza-claro text-left">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT2 PaddingB4 bg-cinza-claro text-left">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
@@ -43,34 +43,36 @@
                         <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
                     </div>
                 </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
+                    <div class="progress margin-zero">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                    </div>
+                </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                        <h4>PONTOS FORTES</h4>
-                        <ul>
-                            <li>Motor Potente</li>
-                            <li>Tampa prática</li>
-                            <li>Copo Dosador prático</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                        <h4>PONTOS FRACOS</h4>
-                        <ul>
-                            <li>Boca da tampa não pode ser fechada</li>
-                            <li>Barulhento</li>
-                            <li>Eixo do copo frágil (levando a vazar)</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 padding-zero MarginT3p MarginB3p">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero border-nota azul-fonte">
                             <h3 class="size50 azul-fonte">9</h3>
                             <h6 class="azul-fonte">NOTA GERAL</h6>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
-                    <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borda-pontosff MarginT3p" style="height: 114px;">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left padding-zero">
+                            <h4>PONTOS FORTES</h4>
+                            <ul class="pontosff" style="padding-left: 16px!important;">
+                                <li>Motor Potente</li>
+                                <li>Tampa prática</li>
+                                <li>Copo Dosador prático</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left padding-zero">
+                            <h4>PONTOS FRACOS</h4>
+                            <ul class="pontosff" style="padding-left: 16px!important;">
+                                <li>Boca da tampa não pode ser fechada</li>
+                                <li>Barulhento</li>
+                                <li>Eixo do copo frágil (levando a vazar)</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,6 +105,14 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+            </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  text-center">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10p MarginB10p">
@@ -116,7 +126,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p" style="height: 200px;">
                 <p>Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT4p PaddingB4p MarginB5p bg-cinza-claro text-left">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT2 PaddingB4 bg-cinza-claro text-left">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
@@ -147,34 +157,36 @@
                         <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
                     </div>
                 </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
+                    <div class="progress margin-zero">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                    </div>
+                </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                        <h4>PONTOS FORTES</h4>
-                        <ul>
-                            <li>Motor Potente</li>
-                            <li>Tampa prática</li>
-                            <li>Copo Dosador prático</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                        <h4>PONTOS FRACOS</h4>
-                        <ul>
-                            <li>Boca da tampa não pode ser fechada</li>
-                            <li>Barulhento</li>
-                            <li>Eixo do copo frágil (levando a vazar)</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 padding-zero MarginT3p MarginB3p">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero border-nota azul-fonte">
                             <h3 class="size50 azul-fonte">9</h3>
                             <h6 class="azul-fonte">NOTA GERAL</h6>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
-                    <div class="progress margin-zero">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="9.4" aria-valuemin="0" aria-valuemax="10" style="width:94%">9.4</div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borda-pontosff MarginT3p" style="height: 114px;">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left padding-zero">
+                            <h4>PONTOS FORTES</h4>
+                            <ul class="pontosff" style="padding-left: 16px!important;">
+                                <li>Motor Potente</li>
+                                <li>Tampa prática</li>
+                                <li>Copo Dosador prático</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left padding-zero">
+                            <h4>PONTOS FRACOS</h4>
+                            <ul class="pontosff" style="padding-left: 16px!important;">
+                                <li>Boca da tampa não pode ser fechada</li>
+                                <li>Barulhento</li>
+                                <li>Eixo do copo frágil (levando a vazar)</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,6 +219,14 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+            </div>
         </div>
     </div>
 </div>

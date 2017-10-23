@@ -13,7 +13,7 @@
 
 .border-nota{border: 3px solid #091264;}
 
-.tag{ padding: 5px; background-color: #ccc; border-top: 5px solid white; border-bottom: 5px solid white; border-right: 5px solid white;}
+.tag{ padding: 5px; background-color: #f7f7f7; border-top: 5px solid white; border-bottom: 5px solid white; border-right: 5px solid white;}
 .bg-imagem { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 
 .brdrRW{ border-right: 5px solid white;} /* BORDER BRANCO DIREITA */
@@ -32,14 +32,17 @@
     box-shadow: none;
 }
 
+.borda-pontosff {border: 1px solid #aaa;}
+
 /* LG MD SM  */
 @media (min-width: 768px) {
     .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
+    .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px;}
 }
 
 /* XS */
 @media (max-width: 767px) {
-    
+    .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px; }
 }
 
 
