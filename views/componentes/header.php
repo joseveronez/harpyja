@@ -1,5 +1,6 @@
 <style type="text/css">
-    .nav>li>a:focus { color: #666666 !important }
+    .nav>li>a:focus { background-color: #666666; color: #ffffff }
+    .nav>li>a:active { background-color: #666666; color: #ffffff }
     nav .bloco-icones a { color: #2d2d2d }
     nav .bloco-icones a:hover { color: #666666 }
     nav .bloco-icones i { font-size: 35px }
