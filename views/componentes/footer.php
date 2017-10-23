@@ -7,9 +7,9 @@
 
     @media screen and (min-width: 768px) {
         footer .bloco-logo { height: 380px }
-        .bloco-links { margin-top: 50px }
-        .bloco-formulario { margin-top: 50px }
-        .bloco-mapa { margin-top: 50px; margin-bottom: 45px }
+        footer .bloco-links { margin-top: 50px }
+        footer .bloco-formulario { margin-top: 50px }
+        footer .bloco-mapa { margin-top: 50px; margin-bottom: 45px }
         footer .bloco-logo .conteudo { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
     }
     @media screen and (min-width: 991px) {
