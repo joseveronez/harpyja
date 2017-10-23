@@ -50,7 +50,7 @@
                             <h6 class="azul-fonte">NOTA GERAL</h6>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-md-offset-1 borda-pontosff col-sm-12 col-xs-12 MarginT3p" style="height: 114px;">
+                    <div class="col-lg-9 col-md-9 col-md-offset-1 borda-pontosff col-sm-12 col-xs-12 MarginT3p" style="min-height: 114px;">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left padding-zero">
                             <h4>PONTOS FORTES</h4>
                             <ul class="pontosff" style="padding-left: 16px!important;">
@@ -71,16 +71,10 @@
                 </div>
             </div>
             
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT3 MarginB1 text-justify">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet fermentum mi eget maximus. Suspendisse potenti. Ut feugiat ligula vitae tortor varius, id blandit est condimentum. Donec bibendum metus nec nisl fringilla, ac ultricies lectus sagittis. Aliquam aliquam imperdiet est in mollis. Nunc sagittis, nisi nec scelerisque gravida, erat enim hendrerit enim, nec facilisis est nisi sit amet est. Integer quis euismod est.
-
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero  MarginT6p MarginB6p size16 text-justify">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet fermentum mi eget maximus. Suspendisse potenti. Ut feugiat ligula vitae tortor varius, id blandit est condimentum. Donec bibendum metus nec nisl fringilla, ac ultricies lectus sagittis. Aliquam aliquam imperdiet est in mollis. Nunc sagittis, nisi nec scelerisque gravida, erat enim hendrerit enim, nec facilisis est nisi sit amet est. Integer quis euismod est.<br>
+<br>
 Phasellus porta quis lacus non scelerisque. Nulla venenatis porta luctus. Aliquam bibendum ultrices vehicula. In consequat, dui a cursus elementum, nulla tellus porta turpis, et hendrerit ante metus a mauris. Maecenas leo velit, cursus nec nisi vitae, consequat pretium purus. Pellentesque a risus iaculis, suscipit eros non, dictum nibh. Morbi ut aliquam nibh. Suspendisse vitae ex tortor. Phasellus ut est nunc. Nunc nec diam quis eros pulvinar posuere. Pellentesque posuere nunc in est facilisis scelerisque. Praesent ac eros venenatis, vulputate risus quis, lacinia sapien. Donec ut ornare sem. Integer mollis ullamcorper ante eu lobortis. Nulla facilisi. Pellentesque arcu turpis, semper a justo vel, fringilla iaculis felis.
-
-Phasellus elit ex, iaculis non purus a, venenatis cursus quam. Curabitur rutrum quis nisi id viverra. Nam porta placerat dolor sed efficitur. Ut quis semper turpis, id varius dui. Nulla iaculis maximus volutpat. Curabitur fringilla nisl vel neque condimentum porttitor. Proin sem mi, placerat quis ligula cursus, elementum dignissim massa. Nullam velit nulla, sodales tristique lobortis nec, maximus quis sapien. Nullam non nibh viverra, fermentum nisl ut, tempus quam. Fusce semper, neque id rutrum porta, elit mi rhoncus erat, et tempus urna nisl non diam. Curabitur quis justo eu lacus congue eleifend. Fusce non dolor nec urna molestie pellentesque ac non lacus. Praesent eu risus aliquet, tristique ligula ac, gravida metus. Mauris nec lectus a leo vehicula molestie ac sit amet ante. Sed nec bibendum magna.
-
-Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gravida nisl quam in ante. Curabitur diam elit, dictum eget dui ut, molestie condimentum eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum volutpat consequat imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mi ut massa tincidunt dignissim. Curabitur suscipit tempus elit nec pulvinar.
-
-Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas hendrerit laoreet elit id rhoncus. Nam viverra odio eu dapibus semper. Nam libero odio, iaculis eu dolor nec, imperdiet fermentum sapien. Maecenas in nulla augue. Cras sodales quis nunc a vestibulum. Aenean pretium suscipit sapien a blandit. Pellentesque orci dolor, pulvinar vel purus eu, rutrum tempus augue. Nunc sollicitudin, eros dapibus tempor accumsan, neque tortor finibus nisl, sit amet dapibus ligula leo et leo.
             </div>
             
             <div class="slider-pro col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" id="my-slider">
@@ -102,19 +96,38 @@ Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque h
                       <img class="sp-image" src="imagens/teste.jpg"/>
                       <img class="sp-thumbnail" src="imagens/teste.jpg"/>
 		          </div>
+                   
+                   <!-- Slide 4 -->
+		          <div class="sp-slide">
+                      <img class="sp-image" src="imagens/teste.jpg"/>
+                      <img class="sp-thumbnail" src="imagens/teste.jpg"/>
+		          </div>
+                   
+                   <!-- Slide 5 -->
+		          <div class="sp-slide">
+                      <img class="sp-image" src="imagens/teste.jpg"/>
+                      <img class="sp-thumbnail" src="imagens/teste.jpg"/>
+		          </div>
+                   
+                   <!-- Slide 6 -->
+		          <div class="sp-slide">
+                      <img class="sp-image" src="imagens/teste.jpg"/>
+                      <img class="sp-thumbnail" src="imagens/teste.jpg"/>
+		          </div>
+                   
+                   <!-- Slide 7 -->
+                   <div class="sp-slide">
+                      <img class="sp-image" src="imagens/teste.jpg"/>
+                      <img class="sp-thumbnail" src="imagens/teste.jpg"/>
+                   </div>
                 </div>
             </div>
             
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 text-justify">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet fermentum mi eget maximus. Suspendisse potenti. Ut feugiat ligula vitae tortor varius, id blandit est condimentum. Donec bibendum metus nec nisl fringilla, ac ultricies lectus sagittis. Aliquam aliquam imperdiet est in mollis. Nunc sagittis, nisi nec scelerisque gravida, erat enim hendrerit enim, nec facilisis est nisi sit amet est. Integer quis euismod est.
-
-Phasellus porta quis lacus non scelerisque. Nulla venenatis porta luctus. Aliquam bibendum ultrices vehicula. In consequat, dui a cursus elementum, nulla tellus porta turpis, et hendrerit ante metus a mauris. Maecenas leo velit, cursus nec nisi vitae, consequat pretium purus. Pellentesque a risus iaculis, suscipit eros non, dictum nibh. Morbi ut aliquam nibh. Suspendisse vitae ex tortor. Phasellus ut est nunc. Nunc nec diam quis eros pulvinar posuere. Pellentesque posuere nunc in est facilisis scelerisque. Praesent ac eros venenatis, vulputate risus quis, lacinia sapien. Donec ut ornare sem. Integer mollis ullamcorper ante eu lobortis. Nulla facilisi. Pellentesque arcu turpis, semper a justo vel, fringilla iaculis felis.
-
-Phasellus elit ex, iaculis non purus a, venenatis cursus quam. Curabitur rutrum quis nisi id viverra. Nam porta placerat dolor sed efficitur. Ut quis semper turpis, id varius dui. Nulla iaculis maximus volutpat. Curabitur fringilla nisl vel neque condimentum porttitor. Proin sem mi, placerat quis ligula cursus, elementum dignissim massa. Nullam velit nulla, sodales tristique lobortis nec, maximus quis sapien. Nullam non nibh viverra, fermentum nisl ut, tempus quam. Fusce semper, neque id rutrum porta, elit mi rhoncus erat, et tempus urna nisl non diam. Curabitur quis justo eu lacus congue eleifend. Fusce non dolor nec urna molestie pellentesque ac non lacus. Praesent eu risus aliquet, tristique ligula ac, gravida metus. Mauris nec lectus a leo vehicula molestie ac sit amet ante. Sed nec bibendum magna.
-
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT6p MarginB6p size16  text-justify">
+Phasellus elit ex, iaculis non purus a, venenatis cursus quam. Curabitur rutrum quis nisi id viverra. Nam porta placerat dolor sed efficitur. Ut quis semper turpis, id varius dui. Nulla iaculis maximus volutpat. Curabitur fringilla nisl vel neque condimentum porttitor. Proin sem mi, placerat quis ligula cursus, elementum dignissim massa. Nullam velit nulla, sodales tristique lobortis nec, maximus quis sapien. Nullam non nibh viverra, fermentum nisl ut, tempus quam. Fusce semper, neque id rutrum porta, elit mi rhoncus erat, et tempus urna nisl non diam. Curabitur quis justo eu lacus congue eleifend. Fusce non dolor nec urna molestie pellentesque ac non lacus. Praesent eu risus aliquet, tristique ligula ac, gravida metus. Mauris nec lectus a leo vehicula molestie ac sit amet ante. Sed nec bibendum magna.<br>
+<br>
 Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gravida nisl quam in ante. Curabitur diam elit, dictum eget dui ut, molestie condimentum eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum volutpat consequat imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mi ut massa tincidunt dignissim. Curabitur suscipit tempus elit nec pulvinar.
 
-Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas hendrerit laoreet elit id rhoncus. Nam viverra odio eu dapibus semper. Nam libero odio, iaculis eu dolor nec, imperdiet fermentum sapien. Maecenas in nulla augue. Cras sodales quis nunc a vestibulum. Aenean pretium suscipit sapien a blandit. Pellentesque orci dolor, pulvinar vel purus eu, rutrum tempus augue. Nunc sollicitudin, eros dapibus tempor accumsan, neque tortor finibus nisl, sit amet dapibus ligula leo et leo.
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
                 <a href="comparacao" class="link-default">
@@ -219,8 +232,8 @@ Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque h
                 <h4>POSTS RELACIONADOS</h4>
                 <hr class="hrTitleFull hrPadrao">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-imagem brdrRW" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-imagem" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem brdrRWrelacionados" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
                 </div>
             </div>
         </div>
@@ -239,48 +252,48 @@ Donec faucibus tellus dui, non placerat nisi dignissim facilisis. Pellentesque h
                     <hr class="hrTitleFull hrPadrao">
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
-                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
-                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
-                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
-                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
-                        <p class="size12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
             </div>

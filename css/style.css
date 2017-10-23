@@ -40,11 +40,13 @@
 @media (min-width: 768px) {
     .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
     .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px;}
+    .brdrRWrelacionados{ border-right: 5px solid white;}
 }
 
 /* XS */
 @media (max-width: 767px) {
     .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px; }
+    .brdrRWrelacionados{margin: 5px 0px!important;}
 }
 
 
