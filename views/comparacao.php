@@ -75,40 +75,55 @@
                         </div>
                     </div>
                 </div>
+            </div> 
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero painel-caracteristicas MarginT2p">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    <h4 style="color: #333">CARACTERÍSTICAS <i class="fa fa-caret-down" aria-hidden="true"></i></h4>
+                                    <hr class="hrTitleFull hrPadrao">
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">Lorem</th>
+                                            <th class="text-center">Lorem</th>
+                                            <th class="text-center">Lorem</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero  MarginT8p MarginB2p">
-                <h4 class="text-center">CARACTERÍSTICAS</h4>
-                <hr class="hrTitleFull hrPadrao MarginB5p">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th class="text-center">Lorem</th>
-                            <th class="text-center">Lorem</th>
-                            <th class="text-center">Lorem</th>
-                            
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                           
-                        </tr>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            
-                        </tr>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
                 <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
                 <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
@@ -194,38 +209,52 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT8p MarginB2p">
-                <h4 class="text-center">CARACTERÍSTICAS</h4>
-                <hr class="hrTitleFull hrPadrao MarginB5p">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th class="text-center">Lorem</th>
-                            <th class="text-center">Lorem</th>
-                            <th class="text-center">Lorem</th>
-                            
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                           
-                        </tr>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            
-                        </tr>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero painel-caracteristicas MarginT2p">
+                <div class="panel-group" id="accordion2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
+                                    <h4 style="color: #333">CARACTERÍSTICAS <i class="fa fa-caret-down" aria-hidden="true"></i></h4>
+                                    <hr class="hrTitleFull hrPadrao">
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">Lorem</th>
+                                            <th class="text-center">Lorem</th>
+                                            <th class="text-center">Lorem</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
                 <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>

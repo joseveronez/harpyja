@@ -25,6 +25,17 @@
 
 .progress-bar { text-align: right; transition-duration: 3s; }
 
+.bg-nota { background-color: rgba(0,0,0, 0.7);}
+.position-nota {bottom: 0; right: 0;}
+
+
+.painel-caracteristicas .panel-default>.panel-heading { background-color: inherit!important; border-color: none!important;}
+.painel-caracteristicas .panel-heading { padding: 10px 0px; border-bottom: none; border-top-left-radius: 0px; border-top-right-radius: 0px;}
+.painel-caracteristicas .panel{ border: none!important; -webkit-box-shadow: none; box-shadow: none;}
+.painel-caracteristicas a:focus, a:hover { text-decoration: none; }
+.painel-caracteristicas .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body { border-top: none; }
+.painel-caracteristicas .panel-body {padding: 0px;} 
+
 #iframeMaps { width: 100%; height: 288px }
 
 .div-search .form-control:focus {
@@ -305,6 +316,8 @@
 .MarginT30p{margin-top: 150px!important;}
 .MarginT40p{margin-top: 200px!important;}
 
+.MarginB0p{margin-bottom: 0px!important;}
+.MarginB01p{margin-bottom: 1px!important;}
 .MarginB1p{margin-bottom: 5px!important;}
 .MarginB2p{margin-bottom: 10px!important;}
 .MarginB3p{margin-bottom: 15px!important;}

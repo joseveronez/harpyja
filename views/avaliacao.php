@@ -129,41 +129,54 @@ Phasellus elit ex, iaculis non purus a, venenatis cursus quam. Curabitur rutrum 
 Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gravida nisl quam in ante. Curabitur diam elit, dictum eget dui ut, molestie condimentum eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum volutpat consequat imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mi ut massa tincidunt dignissim. Curabitur suscipit tempus elit nec pulvinar.
 
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
-                <a href="comparacao" class="link-default">
-                    <h4 style="color: #333">CARASCTERÍSTICAS</h4>
-                </a>
-                <hr class="hrTitleFull hrPadrao">
-                <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
-                    <thead>
-                        <tr>
-                            <th>Lorem</th>
-                            <th>Lorem</th>
-                            <th>Lorem</th>
-                            
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                           
-                        </tr>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            
-                        </tr>
-                        <tr>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                            <td>Ipsum</td>
-                        </tr>
-                    </tbody>
-                </table>
+             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero painel-caracteristicas MarginT2p">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    <h4 style="color: #333">CARACTERÍSTICAS <i class="fa fa-caret-down" aria-hidden="true"></i></h4>
+                                    <hr class="hrTitleFull hrPadrao">
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
+                                    <thead>
+                                        <tr>
+                                            <th>Lorem</th>
+                                            <th>Lorem</th>
+                                            <th>Lorem</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                            <td>Ipsum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT2p">
                 <h4>PREÇO</h4>
                 <hr class="hrTitleFull hrPadrao">
@@ -229,11 +242,33 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
+                <h4>COMPARE COM</h4>
+                <hr class="hrTitleFull hrPadrao">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
+                    <a href="comparacao">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem brdrRWrelacionados" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
+                    </a>
+                    <a href="comparacao">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
                 <h4>POSTS RELACIONADOS</h4>
                 <hr class="hrTitleFull hrPadrao">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem brdrRWrelacionados" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
+                    <div class="owl-carousel">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
+                                <h3 style="margin: 15px 0px;">9</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
+                                <h3 style="margin: 15px 0px;">9</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -251,66 +286,119 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                     <h4>ÚLTIMAS POSTAGENS</h4>
                     <hr class="hrTitleFull hrPadrao">
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                <a href="" class="link-default preto-fonte-alt">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                            <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                </a>
+                <a href="" class="link-default preto-fonte-alt">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                            <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                </a>
+                <a href="" class="link-default preto-fonte-alt">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                            <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                </a>
+                <a href="" class="link-default preto-fonte-alt">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                            <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
-                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                </a>
+                <a href="" class="link-default preto-fonte-alt">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                            <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero text-center">
-                    <h4>ACOMPANHE A HARPYJA</h4>
-                    <hr class="hrTitleFull hrPadrao">
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero ">
-                    <h6 class="MarginT7p">Fique por dentro de novas avaliações e dicas</h6>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
-                        <h6 class="MarginT7p">Email</h6>
-                        <input type="email" class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <button type="button" class="btn btn-default btn-assinar">Assinar</button>
-                    </div>
-                </div>
-            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p">
+            <table class="table">
+                <tbody class="text-center">
+                    <tr>
+                        <th class="col-lg-1"></th>
+                        <td><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div></td>
+                        <td><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div></td>
+                        <td><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                            </div></td>
+                    </tr>
+                    <tr>
+                        <th class="col-lg-2">LOREM</th>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                    </tr>
+                    <tr>
+                        <th class="col-lg-2">LOREM</th>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                    </tr>
+                    <tr>
+                        <th class="col-lg-2">LOREM</th>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                    </tr>
+                    <tr>
+                        <th class="col-lg-2">LOREM</th>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                    </tr>
+                    <tr>
+                        <th class="col-lg-2">LOREM</th>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                    </tr>
+                    <tr>
+                        <th class="col-lg-2">LOREM</th>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                    </tr>
+                    <tr>
+                        <th class="col-lg-2">LOREM</th>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                        <td>IPSUM</td>
+                    </tr>
+                </tbody>
+            </table>   
         </div>
     </div>
 </div>
@@ -329,4 +417,11 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
               thumbnailPosition: 'bottom',
           });
         });
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 2,
+            loop: true,
+            margin:5,
+        });
+    });
 </script>

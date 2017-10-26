@@ -8,7 +8,7 @@
     @media screen and (min-width: 768px) {
         footer .bloco-logo { height: 380px }
         footer .bloco-links { margin-top: 50px }
-        footer .bloco-formulario { margin-top: 50px }
+        footer .bloco-formulario { margin-top: 107px }
         footer .bloco-mapa { margin-top: 50px; margin-bottom: 45px }
         footer .bloco-logo .conteudo { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
     }
@@ -48,8 +48,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-formulario">
-                <form action="" class="form-horizontal Roboto Regular" id="formulario">
+           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-formulario">
+               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero text-center">
+                   <h4 style="margin-top: 0px;">ACOMPANHE A HARPYJA</h4>
+                   <hr class="hrTitleFull hrPadrao">
+               </div>
+               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero ">
+                   <h6 class="MarginT4p MarginB6p">Fique por dentro de novas avaliações e dicas</h6>
+                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                       <h6 class="MarginT2p MarginB01p">Email</h6>
+                       <input type="email" class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                       <button type="button" class="btn btn-default btn-assinar">Assinar</button>
+                   </div>
+               </div>
+                <!--  <form action="" class="form-horizontal Roboto Regular" id="formulario">
                     <input type="text" class="form-control branco-fonte size13" name="nome" placeholder="NOME *" required><br>
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-zero">
@@ -63,8 +75,11 @@
                     <textarea class="form-control branco-fonte size13" name="mensagem" rows="4" cols="3" placeholder="MENSAGEM *"></textarea><br>
 
                     <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
-                </form>
-            </div>
+                </form>-->
+            </div> 
+            
+            
+            
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-mapa">
                 <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook"></a></blockquote></div>
             </div>
