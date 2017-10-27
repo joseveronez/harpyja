@@ -28,6 +28,9 @@
 .bg-nota { background-color: rgba(0,0,0, 0.7);}
 .position-nota {bottom: 0; right: 0;}
 
+.tabela-header th {border-top: none!important;}
+.tabela-header td {border-top: none!important;}
+.bg-produto-atual {background-color: #eee!important;}
 
 .painel-caracteristicas .panel-default>.panel-heading { background-color: inherit!important; border-color: none!important;}
 .painel-caracteristicas .panel-heading { padding: 10px 0px; border-bottom: none; border-top-left-radius: 0px; border-top-right-radius: 0px;}
@@ -37,27 +40,25 @@
 .painel-caracteristicas .panel-body {padding: 0px;} 
 
 #iframeMaps { width: 100%; height: 288px }
-
-.div-search .form-control:focus {
-    border-color: #ccc;
-    outline: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
+.div-search .form-control:focus { border-color: #ccc; outline: 0; -webkit-box-shadow: none; box-shadow: none;}
 .borda-pontosff {border: 1px solid #aaa;}
+
+#prox-txt {background-color: rgba(0,0,0,0.7);}
+#ant-txt {background-color: rgba(0,0,0,0.7);}
 
 /* LG MD SM  */
 @media (min-width: 768px) {
     .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
     .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px;}
     .brdrRWrelacionados{ border-right: 5px solid white;}
+    .border-right-ava {border-right: 5px solid white;}
 }
 
 /* XS */
 @media (max-width: 767px) {
     .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px; }
     .brdrRWrelacionados{margin: 5px 0px!important;}
+    .border-right-ava {border-right: none;}
 }
 
 

@@ -218,13 +218,19 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
             </div>
             
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-zero text-center MarginT1 MarginB1 bg-cinza-claro" style="border-right: 5px solid white;">
-                <h5><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></h5>
-                <h4>Avaliação anterior</h4>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero text-center MarginT1 MarginB1 bg-cinza-claro border-right-ava" style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);  background-size: 100%; background-position: center center; background-repeat: no-repeat; height: 180px;" id="ant">
+                <a href="avaliacao">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Absolute" style="bottom: 0;" id="ant-txt">
+                        <h4 class="branco-fonte"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Avaliação anterior</h4>
+                    </div>
+                </a>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-zero text-center MarginT1 MarginB1 bg-cinza-claro">
-                <h5><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></h5>
-                <h4>Próxima avaliação</h4>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero text-center MarginT1 MarginB1 bg-cinza-claro Relative" style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);  background-size: 100%; background-position: center center; background-repeat: no-repeat; height: 180px;" id="prox">
+                <a href="avaliacao">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Absolute" style="bottom: 0;" id="prox-txt">
+                        <h4 class="branco-fonte">Próxima avaliação&nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
                 <h4>SOBRE O AUTOR</h4>
@@ -245,29 +251,21 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 <h4>COMPARE COM</h4>
                 <hr class="hrTitleFull hrPadrao">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
-                    <a href="comparacao">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem brdrRWrelacionados" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
-                    </a>
-                    <a href="comparacao">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-imagem" style="background-image:url(imagens/teste.jpg); height: 200px;"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
-                <h4>POSTS RELACIONADOS</h4>
-                <hr class="hrTitleFull hrPadrao">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
                     <div class="owl-carousel">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
-                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
-                                <h3 style="margin: 15px 0px;">9</h3>
+                        <a href="comparacao">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 style="margin: 15px 0px;">9</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
-                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
-                                <h3 style="margin: 15px 0px;">9</h3>
+                        </a>
+                        <a href="comparacao">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 style="margin: 15px 0px;">9</h3>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -343,62 +341,72 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </a>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p">
-            <table class="table">
-                <tbody class="text-center">
-                    <tr>
-                        <th class="col-lg-1"></th>
-                        <td><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
-                            </div></td>
-                        <td><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
-                            </div></td>
-                        <td><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
-                            </div></td>
-                    </tr>
-                    <tr>
-                        <th class="col-lg-2">LOREM</th>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                    </tr>
-                    <tr>
-                        <th class="col-lg-2">LOREM</th>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                    </tr>
-                    <tr>
-                        <th class="col-lg-2">LOREM</th>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                    </tr>
-                    <tr>
-                        <th class="col-lg-2">LOREM</th>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                    </tr>
-                    <tr>
-                        <th class="col-lg-2">LOREM</th>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                    </tr>
-                    <tr>
-                        <th class="col-lg-2">LOREM</th>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                    </tr>
-                    <tr>
-                        <th class="col-lg-2">LOREM</th>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                        <td>IPSUM</td>
-                    </tr>
-                </tbody>
-            </table>   
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p">
+            <h5>COMPARE COM PRODUTOS SEMELHANTES</h5>
+            <hr class="hrTitleFull hrPadrao">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer" style="border: 1px solid #f7f7f7; padding: 0px 15px 0px 15px">
+                <table class="table" style="margin-bottom: 0px;" id="tabela-compara">
+                    <tbody>
+                        <tr class="tabela-header">
+                            <th class="col-lg-1"></th>
+                            <td class="bg-produto-atual">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="col-lg-2">LOREM</th>
+                            <td class="bg-produto-atual">IPSUM</td>
+                            <td>IPSUM</td>
+                            <td>IPSUM</td>
+                        </tr>
+                        <tr>
+                            <th class="col-lg-2">LOREM</th>
+                            <td class="bg-produto-atual">IPSUM</td>
+                            <td>IPSUM</td>
+                            <td>IPSUM</td>
+                        </tr>
+                        <tr>
+                            <th class="col-lg-2">LOREM</th>
+                            <td class="bg-produto-atual">IPSUM</td>
+                            <td>IPSUM</td>
+                            <td>IPSUM</td>
+                        </tr>
+                        <tr>
+                            <th class="col-lg-2">LOREM</th>
+                            <td class="bg-produto-atual">IPSUM</td>
+                            <td>IPSUM</td>
+                            <td>IPSUM</td>
+                        </tr>
+                        <tr>
+                            <th class="col-lg-2">LOREM</th>
+                            <td class="bg-produto-atual">IPSUM</td>
+                            <td>IPSUM</td>
+                            <td>IPSUM</td>
+                        </tr>
+                        <tr>
+                            <th class="col-lg-2">LOREM</th>
+                            <td class="bg-produto-atual">IPSUM</td>
+                            <td>IPSUM</td>
+                            <td>IPSUM</td>
+                        </tr>
+                        <tr>
+                            <th class="col-lg-2">LOREM</th>
+                            <td class="bg-produto-atual">IPSUM</td>
+                            <td>IPSUM</td>
+                            <td>IPSUM</td>
+                        </tr>
+                    </tbody>
+                </table>   
+            </div>
         </div>
     </div>
 </div>
@@ -408,20 +416,59 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 return $(this).attr("aria-valuenow") + "%"; 
             })
             $( '#my-slider' ).sliderPro({
-              width: '100%',
-              height: 350,
-              buttons: true,
-              arrows: true,
-              loop: true,
-              thumbnailArrows: true,
-              thumbnailPosition: 'bottom',
+                width: '100%',
+                height: 350,
+                buttons: true,
+                arrows: true,
+                loop: true,
+                thumbnailArrows: true,
+                thumbnailPosition: 'bottom',
           });
+            //ESCONDE AS DIVS EM RESOLUÇÃO ALTA E MOSTRA SE ESTA NO MOBILE
+            if ($(window).width() > 768) {
+                $('#prox-txt').hide();
+                $('#ant-txt').hide();
+            } else {
+                $('#prox-txt').show();
+                $('#ant-txt').show();
+            }
         });
     $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
             items: 2,
             loop: true,
             margin:5,
+            responsive : {
+                0:{
+                    items: 1,
+                },
+                768:{
+                    items: 2,
+                }
+            }
         });
     });
+    //FUNÇÃO PARA MOSTRAR TEXTO DAS DIVS DE AVALIAÇÃO PROX E ANT 
+    if ($(window).width() > 768) {
+        $('#prox').hover(
+            function () {
+                $('#prox-txt').fadeIn("slow");
+            }, 
+            function () {
+                $('#prox-txt').hide();
+            }
+        );
+        $('#ant').hover(
+            function () {
+                $('#ant-txt').fadeIn("slow");
+            }, 
+            function () {
+                $('#ant-txt').hide();
+            }
+        );
+    } else {
+        $('#prox-txt').show();
+        $('#ant-txt').show();
+    }
+    
 </script>
