@@ -12,6 +12,7 @@
             'comparacao'=>array('layout'=>'default','view'=>'comparacao'),
             'contato'=>array('layout'=>'default','view'=>'contato'),
             'sobre'=>array('layout'=>'default','view'=>'sobre'),
+            'institucional'=>array('layout'=>'default','view'=>'institucional'),
             
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada

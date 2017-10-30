@@ -6,7 +6,7 @@
         #my-slider { margin-top: 70px }
     }
 
-    .bloco-galeria .conteudo { margin-top: 50px; margin-bottom: 65px }
+    .bloco-galeria .conteudo { margin-top: 50px;}
     .bloco-galeria .conteudo .titulo { margin-bottom: 25px }
     .bloco-titulo .conteudo { margin-top: 50px; margin-bottom: 25px }
     .bloco-sobre .conteudo { padding-top: 65px; padding-bottom: 50px }
@@ -115,37 +115,58 @@
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bloco-galeria">
     <div class="container conteudo">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-            <p class="size30 margin-zero titulo">GALERIA DE VÍDEOS</p>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+            <h4 class="size18 margin-zero">GALERIA DE VÍDEOS</h4>
+            <hr class="hrTitleSobre hrPadrao MarginB5p">
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="container galeria-videos MarginB10p">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
         
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
         
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video-container">
-            <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </div>

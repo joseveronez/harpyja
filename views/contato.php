@@ -1,6 +1,6 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Relative MarginT30p" >
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center MarginB3p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB3p">
             <h3>CONTATO</h3>
             <hr class="hrTitleFull hrPadrao MarginB3p">
         </div>

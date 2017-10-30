@@ -39,47 +39,34 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-logo">
                 <div class="conteudo">
                     <a href="<?= RAIZSITE ?>"><img src="<?= RAIZSITE ?>/imagens/logo-sem-fundo.png" class="img-responsive"></a><br>
-
-                    <div class="text-center">
-                        <h5><a href="<?= RAIZSITE ?>" class="link-default preto-fonte">Home</a></h5>
-                        <h5><a href="<?= RAIZSITE ?>/avaliacoes" class="link-default preto-fonte">Avaliações</a></h5>
-                        <h5><a href="<?= RAIZSITE ?>/sobre" class="link-default preto-fonte">Sobre</a></h5>
-                        <h5><a href="<?= RAIZSITE ?>/contato" class="link-default preto-fonte">Contato</a></h5>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                        <h4 style="margin-top: 0px;">ACOMPANHE A HARPYJA</h4>
+                        <hr class="hrTitleFull hrPadrao">
                     </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero ">
+                        <h6 class="MarginT2p MarginB4p">Fique por dentro de novas avaliações e dicas</h6>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                            <h6 class="MarginT2p MarginB01p">Email</h6>
+                            <input type="email" class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB1p padding-zero">
+                            <button type="button" class="btn btn-default btn-assinar">Assinar</button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-formulario">
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero text-center">
-                   <h4 style="margin-top: 0px;">ACOMPANHE A HARPYJA</h4>
-                   <hr class="hrTitleFull hrPadrao">
-               </div>
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero ">
-                   <h6 class="MarginT4p MarginB6p">Fique por dentro de novas avaliações e dicas</h6>
-                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
-                       <h6 class="MarginT2p MarginB01p">Email</h6>
-                       <input type="email" class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                       <button type="button" class="btn btn-default btn-assinar">Assinar</button>
+               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 35px; padding-left: 50px;">
+                   <div class="text-center size18">
+                       <h5><a href="<?= RAIZSITE ?>" class="link-default preto-fonte">Home</a></h5>
+                       <hr class="hrTitleFull hrPadrao">
+                       <h5><a href="<?= RAIZSITE ?>/avaliacoes" class="link-default preto-fonte">Avaliações</a></h5>
+                       <hr class="hrTitleFull hrPadrao">
+                       <h5><a href="<?= RAIZSITE ?>/sobre" class="link-default preto-fonte">Sobre</a></h5>
+                       <hr class="hrTitleFull hrPadrao">
+                       <h5><a href="<?= RAIZSITE ?>/contato" class="link-default preto-fonte">Contato</a></h5>
                    </div>
-               </div>
-                <!--  <form action="" class="form-horizontal Roboto Regular" id="formulario">
-                    <input type="text" class="form-control branco-fonte size13" name="nome" placeholder="NOME *" required><br>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-zero">
-                        <input type="email" class="form-control branco-fonte size13" name="email" placeholder="E-MAIL *" required><br>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-zero">
-                        <input type="text" class="form-control branco-fonte size13" name="telefone" placeholder="TELEFONE *" required><br>
-                    </div>
-
-                    <input type="text" class="form-control branco-fonte size13" name="assunto" placeholder="ASSUNTO *" required><br>
-                    <textarea class="form-control branco-fonte size13" name="mensagem" rows="4" cols="3" placeholder="MENSAGEM *"></textarea><br>
-
-                    <button type="submit" class="btn btn-formulario size13 pull-right">ENVIAR</button>
-                </form>-->
-            </div> 
-            
-            
-            
+                </div>
+            </div>       
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-mapa">
                 <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook"></a></blockquote></div>
             </div>

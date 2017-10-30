@@ -9,7 +9,7 @@
                     <div><img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;"></div>
                 </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p"  style="height: 200px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p text-left"  style="height: 200px;">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit leo, ultrices non massa quis, ultrices tempus risus. Ut in justo elementum, lacinia ex nec, vestibulum lacus. Aenean porta eros quis euismod varius. In nec mi neque. Mauris facilisis ullamcorper semper. Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT2 PaddingB4 bg-cinza-claro text-left">
@@ -80,7 +80,7 @@
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
+                            <h4 class="panel-title text-left">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                                     <h4 style="color: #333">CARACTERÍSTICAS <i class="fa fa-caret-down" aria-hidden="true"></i></h4>
                                     <hr class="hrTitleFull hrPadrao">
@@ -142,7 +142,7 @@
                     <div><img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;"></div>
                 </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p" style="height: 200px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p text-left" style="height: 200px;">
                 <p>Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT2 PaddingB4 bg-cinza-claro text-left">
@@ -213,7 +213,7 @@
                 <div class="panel-group" id="accordion2">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
+                            <h4 class="panel-title text-left">
                                 <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
                                     <h4 style="color: #333">CARACTERÍSTICAS <i class="fa fa-caret-down" aria-hidden="true"></i></h4>
                                     <hr class="hrTitleFull hrPadrao">

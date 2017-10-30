@@ -1,8 +1,8 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT30p MarginB10p">
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h3>AVALIAÇÕES RECENTES</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p  padding-zero">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero">
+                <h3 class="size18">AVALIAÇÕES RECENTES</h3>
                 <hr class="hrTitleFull hrPadrao MarginB3p">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
@@ -25,10 +25,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h3>TORRADEIRAS</h3>
-                <hr class="hrTitleFull hrPadrao MarginB5p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                <h3 class="size18">TORRADEIRAS</h3>
+                <hr class="hrTitleFull hrPadrao MarginB3p">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <div class="owl-carousel owl-theme" id="avCarousel2">
@@ -40,10 +40,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h3>LIQUIDIFICADORES</h3>
-                <hr class="hrTitleFull hrPadrao MarginB5p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                <h3 class="size18">LIQUIDIFICADORES</h3>
+                <hr class="hrTitleFull hrPadrao MarginB3p">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <div class="owl-carousel owl-theme" id="avCarousel3">
@@ -55,10 +55,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h3>AQUECEDORES</h3>
-                <hr class="hrTitleFull hrPadrao MarginB5p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                <h3 class="size18">AQUECEDORES</h3>
+                <hr class="hrTitleFull hrPadrao MarginB3p">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <div class="owl-carousel owl-theme" id="avCarousel4">

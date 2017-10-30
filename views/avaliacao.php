@@ -247,28 +247,6 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
-                <h4>COMPARE COM</h4>
-                <hr class="hrTitleFull hrPadrao">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
-                    <div class="owl-carousel">
-                        <a href="comparacao">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
-                                    <h3 style="margin: 15px 0px;">9</h3>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comparacao">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 200px;">
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
-                                    <h3 style="margin: 15px 0px;">9</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 MarginT5p">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
@@ -280,12 +258,12 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero text-center MarginT5p">
-                    <h4>ÚLTIMAS POSTAGENS</h4>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p">
+                    <h4>ÚLTIMAS AVALIAÇÕES</h4>
                     <hr class="hrTitleFull hrPadrao">
                 </div>
                 <a href="" class="link-default preto-fonte-alt">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
@@ -296,7 +274,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
@@ -307,7 +285,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
@@ -318,7 +296,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
@@ -329,7 +307,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
@@ -341,8 +319,30 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </a>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p">
-            <h5>COMPARE COM PRODUTOS SEMELHANTES</h5>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
+            <h4>COMPARE COM</h4>
+            <hr class="hrTitleFull hrPadrao">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
+                <div class="owl-carousel">
+                    <a href="comparacao">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 250px;">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
+                                <h3 style="margin: 15px 0px;">9</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="comparacao">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem Relative padding-zero" style="background-image:url(imagens/teste.jpg); height: 250px;">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
+                                <h3 style="margin: 15px 0px;">9</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-zero">
+            <h4>COMPARE COM PRODUTOS SEMELHANTES</h4>
             <hr class="hrTitleFull hrPadrao">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer" style="border: 1px solid #f7f7f7; padding: 0px 15px 0px 15px">
                 <table class="table" style="margin-bottom: 0px;" id="tabela-compara">
