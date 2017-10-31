@@ -1,18 +1,18 @@
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT30p MarginB10p">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margem-header MarginB10p">
     <div class="container">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  text-center">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10p MarginB10p">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  text-center xs-padding0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10p MarginB10p padding-zero">
                 <h3>PRODUTO A</h3>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
                 <div class="owl-carousel owl-theme" id="img-carousel1">
-                    <div><img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;"></div>
+                    <div><img src="imagens/teste.jpg" class="img-responsive img-comparacao" style="margin: 0 auto;"></div>
                 </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p text-left"  style="height: 200px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left padding-zero comparacao-descricao">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit leo, ultrices non massa quis, ultrices tempus risus. Ut in justo elementum, lacinia ex nec, vestibulum lacus. Aenean porta eros quis euismod varius. In nec mi neque. Mauris facilisis ullamcorper semper. Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT2 PaddingB4 bg-cinza-claro text-left">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3p PaddingT2 PaddingB4 bg-cinza-claro text-left">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
@@ -56,7 +56,7 @@
                             <h6 class="azul-fonte">NOTA GERAL</h6>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borda-pontosff MarginT3p" style="height: 114px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borda-pontosff MarginT3p" style="min-height: 114px;">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left padding-zero">
                             <h4>PONTOS FORTES</h4>
                             <ul class="pontosff" style="padding-left: 16px!important;">
@@ -125,27 +125,27 @@
             </div>
             
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  text-center">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10p MarginB10p">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center xs-padding0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10p MarginB10p padding-zero">
                 <h3>PRODUTO B</h3>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
                 <div class="owl-carousel owl-theme" id="img-carousel2">
-                    <div><img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 400px;"></div>
+                    <div><img src="imagens/teste.jpg" class="img-responsive img-comparacao" style="margin: 0 auto;"></div>
                 </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p text-left" style="height: 200px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left padding-zero comparacao-descricao">
                 <p>Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT2 PaddingB4 bg-cinza-claro text-left">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3p PaddingT2 PaddingB4 bg-cinza-claro text-left">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
@@ -183,13 +183,13 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 padding-zero MarginT3p MarginB3p">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-4  col-xs-8 col-xs-offset-2 padding-zero MarginT3p MarginB3p">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero border-nota azul-fonte">
                             <h3 class="size50 azul-fonte">9</h3>
                             <h6 class="azul-fonte">NOTA GERAL</h6>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borda-pontosff MarginT3p" style="height: 114px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borda-pontosff MarginT3p" style="min-height: 114px;">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left padding-zero">
                             <h4>PONTOS FORTES</h4>
                             <ul class="pontosff" style="padding-left: 16px!important;">
@@ -257,12 +257,12 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT30p MarginB10p">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margem-header MarginB10p">
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p  padding-zero">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p  padding-zero">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero">
                 <h3 class="size18">AVALIAÇÕES RECENTES</h3>
                 <hr class="hrTitleFull hrPadrao MarginB3p">
@@ -9,17 +9,17 @@
                 <div class="owl-carousel owl-theme" id="avCarousel1">
                     <div>
                         <a href="avaliacao">
-                            <div class="" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%; height: 550px;"></div>
+                            <div class="img-avaliacoes" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
                         </a>
                     </div>
                     <div>
                         <a href="avaliacao">
-                            <div class="" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%; height: 550px;"></div>
+                            <div class="img-avaliacoes" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
                         </a>
                     </div>
                     <div>
                         <a href="avaliacao">
-                            <div class="" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%; height: 550px;"></div>
+                            <div class="img-avaliacoes" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
                         </a>
                     </div>
                 </div>

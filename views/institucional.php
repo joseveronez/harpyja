@@ -2,7 +2,7 @@
     $qualquer = $_GET['inst']
 ?>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT30p MarginB10p">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margem-header">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB7p" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; background-origin: content-box ; height: 250px;">
         </div>

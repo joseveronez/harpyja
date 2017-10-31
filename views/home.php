@@ -12,7 +12,7 @@
     .bloco-sobre .conteudo { padding-top: 65px; padding-bottom: 50px }
     .bloco-sobre .conteudo p { font-size: 16px; text-align: justify }
 </style>
-<div class="slider-pro" id="my-slider">
+<div class="slider-pro margem-header-home" id="my-slider">
     <div class="sp-slides">
         <div class="sp-slide">
             <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg">
@@ -99,11 +99,11 @@
     </div>
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-claro bloco-sobre">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-claro bloco-sobre MarginT10p">
     <div class="container conteudo">
         <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-            <img class="img-responsive img-circle" src="<?= RAIZSITE ?>/imagens/autor.png" style="margin: 0 auto;"><br>
+            <img class="img-responsive img-circle" src="<?= RAIZSITE ?>/imagens/autor.png" style="margin: 0 auto; max-height: 300px;"><br>
         </div>
         <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
             <h3 class="margin-zero">Lorem ipsum</h3><br>

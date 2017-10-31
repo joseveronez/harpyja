@@ -13,7 +13,7 @@
 
 .border-nota{border: 3px solid #091264;}
 
-.tag{ padding: 5px; background-color: #f7f7f7; border-top: 5px solid white; border-bottom: 5px solid white; border-right: 5px solid white;}
+.tag{ padding: 5px; background-color: #f7f7f7; border: 5px solid white;}
 .bg-imagem { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 
 .brdrRW{ border-right: 5px solid white;} /* BORDER BRANCO DIREITA */
@@ -25,6 +25,8 @@
 .galeria-videos {padding: 0px 13px!important;}
 .galeria-videos .video {padding: 2px;}
 .progress-bar { text-align: right; transition-duration: 3s; }
+
+.comparacao-descricao {min-height: 150px;}
 
 .bg-nota { background-color: rgba(0,0,0, 0.7);}
 .position-nota {bottom: 0; right: 0;}
@@ -55,6 +57,11 @@
     .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px;}
     .brdrRWrelacionados{ border-right: 5px solid white;}
     .border-right-ava {border-right: 5px solid white;}
+    .padding-menu-footer {padding-right: 35px; padding-left: 50px;}
+    .img-avaliacoes{height: 550px;}
+    .margem-header {margin-top: 150px!important;}
+    .margem-header-home {margin-top: 130px!important;}
+    .img-comparacao{ height: 400px; }
 }
 
 /* XS */
@@ -62,8 +69,23 @@
     .pontosff { padding-left: 30px!important; text-align: left!important; font-size: 11px; }
     .brdrRWrelacionados{margin: 5px 0px!important;}
     .border-right-ava {border-right: none;}
+    .padding-menu-footer {padding-right: 0px; padding-left: 0px; padding: 0px!important;}
+    .img-avaliacoes{height: 400px;}
+    .margem-header {margin-top: 75px!important;}
+    .margem-header-home {margin-top: 75px!important;}
+    .padding-zero-xs{padding: 0px 0px 0px 5px!important;}
+    .img-prod-semelhante { min-width: 150px; max-width: 150px;}
+    .xs-padding0{padding: 0px!important;}
+    .img-comparacao{ height: 200px; }
 }
 
+@media (max-width: 460px) {
+    .img-avaliacoes{height: 300px;}
+}
+
+@media (max-width: 380px) {
+    .img-avaliacoes{height: 250px;}
+}
 
 .sp-thumbnail{
     width: 100%!important;

@@ -55,7 +55,7 @@
                 </div>
             </div>
            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-formulario">
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 35px; padding-left: 50px;">
+               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-menu-footer">
                    <div class="text-center size18">
                        <h5><a href="<?= RAIZSITE ?>" class="link-default preto-fonte">Home</a></h5>
                        <hr class="hrTitleFull hrPadrao">

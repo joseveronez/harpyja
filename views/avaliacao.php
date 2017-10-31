@@ -1,7 +1,7 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10 MarginB10">
     <div class="container">
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 MarginT5p">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero" style="background-image:url(imagens/produto.jpg);  background-size: cover; background-position: center center; background-repeat: no-repeat; height:500px;"></div>
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 MarginT7p">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero img-avaliacoes" style="background-image:url(imagens/produto.jpg);  background-size: cover; background-position: center center; background-repeat: no-repeat;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT3 MarginB3">
                 <h1>Liquidificador Mondial L-66 850W</h1>
                 <h4 class="cinza-fonte MarginT3"><i class="fa fa-folder-open-o" aria-hidden="true"></i>&nbsp;<a href="#" class="cinza-fonte">Avaliações</a>, <a href="#" class="cinza-fonte">Liquidificadores</a></h4>
@@ -201,12 +201,12 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </table>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 text-justify">
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
-                <a href="#"><div class="col-lg-2 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
+                <a href="#"><div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tag text-center preto-fonte">Lorem</div></a>
             </div>
             
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT1 MarginB1 bg-cinza-claro">
@@ -248,7 +248,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 MarginT5p">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 MarginT7p">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <div class="input-group add-on div-search">
                     <div class="input-group-btn">
@@ -264,55 +264,55 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
-                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
                         </div>
-                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
                             <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
-                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
                         </div>
-                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
                             <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
-                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
                         </div>
-                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
                             <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
-                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
                         </div>
-                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
                             <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-zero">
-                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs padding-zero">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
                             </div>
                         </div>
-                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
                             <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
@@ -345,67 +345,69 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
             <h4>COMPARE COM PRODUTOS SEMELHANTES</h4>
             <hr class="hrTitleFull hrPadrao">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer" style="border: 1px solid #f7f7f7; padding: 0px 15px 0px 15px">
-                <table class="table" style="margin-bottom: 0px;" id="tabela-compara">
-                    <tbody>
-                        <tr class="tabela-header">
-                            <th class="col-lg-1"></th>
-                            <td class="bg-produto-atual">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
-                                </div>
-                            </td>
-                            <td>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
-                                </div>
-                            </td>
-                            <td>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(imagens/teste.jpg);">
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="col-lg-2">LOREM</th>
-                            <td class="bg-produto-atual">IPSUM</td>
-                            <td>IPSUM</td>
-                            <td>IPSUM</td>
-                        </tr>
-                        <tr>
-                            <th class="col-lg-2">LOREM</th>
-                            <td class="bg-produto-atual">IPSUM</td>
-                            <td>IPSUM</td>
-                            <td>IPSUM</td>
-                        </tr>
-                        <tr>
-                            <th class="col-lg-2">LOREM</th>
-                            <td class="bg-produto-atual">IPSUM</td>
-                            <td>IPSUM</td>
-                            <td>IPSUM</td>
-                        </tr>
-                        <tr>
-                            <th class="col-lg-2">LOREM</th>
-                            <td class="bg-produto-atual">IPSUM</td>
-                            <td>IPSUM</td>
-                            <td>IPSUM</td>
-                        </tr>
-                        <tr>
-                            <th class="col-lg-2">LOREM</th>
-                            <td class="bg-produto-atual">IPSUM</td>
-                            <td>IPSUM</td>
-                            <td>IPSUM</td>
-                        </tr>
-                        <tr>
-                            <th class="col-lg-2">LOREM</th>
-                            <td class="bg-produto-atual">IPSUM</td>
-                            <td>IPSUM</td>
-                            <td>IPSUM</td>
-                        </tr>
-                        <tr>
-                            <th class="col-lg-2">LOREM</th>
-                            <td class="bg-produto-atual">IPSUM</td>
-                            <td>IPSUM</td>
-                            <td>IPSUM</td>
-                        </tr>
-                    </tbody>
-                </table>   
+                <div class="table-responsive">
+                    <table class="table" style="margin-bottom: 0px;" id="tabela-compara">
+                        <tbody>
+                            <tr class="tabela-header">
+                                <th class="" style="min-width: 150px;"></th>
+                                <td class="bg-produto-atual">
+                                    <div class="aspect4-3 bg-imagem padding-zero img-prod-semelhante" style="background-image:url(imagens/teste.jpg);">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="aspect4-3 bg-imagem padding-zero img-prod-semelhante" style="background-image:url(imagens/teste.jpg);">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="aspect4-3 bg-imagem padding-zero img-prod-semelhante" style="background-image:url(imagens/teste.jpg);">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="col-lg-2 col-md-2 col-sm-2 col-xs-12">LOREM</th>
+                                <td class="bg-produto-atual col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                            </tr>
+                            <tr>
+                                <th class="col-lg-2 col-md-2 col-sm-2 col-xs-12">LOREM</th>
+                                <td class="bg-produto-atual col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                            </tr>
+                            <tr>
+                                <th class="col-lg-2 col-md-2 col-sm-2 col-xs-12">LOREM</th>
+                                <td class="bg-produto-atual col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                            </tr>
+                            <tr>
+                                <th class="col-lg-2 col-md-2 col-sm-2 col-xs-12">LOREM</th>
+                                <td class="bg-produto-atual col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                            </tr>
+                            <tr>
+                                <th class="col-lg-2 col-md-2 col-sm-2 col-xs-12">LOREM</th>
+                                <td class="bg-produto-atual col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                            </tr>
+                            <tr>
+                                <th class="col-lg-2">LOREM</th>
+                                <td class="bg-produto-atual">IPSUM</td>
+                                <td>IPSUM</td>
+                                <td>IPSUM</td>
+                            </tr>
+                            <tr>
+                                <th class="col-lg-2 col-md-2 col-sm-2 col-xs-12">LOREM</th>
+                                <td class="bg-produto-atual col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                                <td class="col-lg-2 col-md-2 col-sm-2 col-xs-12">IPSUM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
