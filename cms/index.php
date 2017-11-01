@@ -9,7 +9,7 @@
 
     $uriTratada = substr($uri, 1);
     $uriExplode = explode('/', $uriTratada);
-    // var_dump($uriExplode);
+    //var_dump($uriExplode);
     if ($uriExplode[1] == 'cms') {
         $route = $routes[$uriExplode[2]];
 
