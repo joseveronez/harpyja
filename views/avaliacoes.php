@@ -1,31 +1,31 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margem-header MarginB10p">
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p  padding-zero">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero">
-                <h3 class="size18">AVALIAÇÕES RECENTES</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB3p padding-zero">
+                <h3>AVALIAÇÕES RECENTES</h3>
                 <hr class="hrTitleFull hrPadrao MarginB3p">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <div class="owl-carousel owl-theme" id="avCarousel1">
                     <div>
                         <a href="avaliacao">
-                            <div class="img-avaliacoes" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
+                            <div class="img-avaliacoes" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
                         </a>
                     </div>
                     <div>
                         <a href="avaliacao">
-                            <div class="img-avaliacoes" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
+                            <div class="img-avaliacoes" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
                         </a>
                     </div>
                     <div>
                         <a href="avaliacao">
-                            <div class="img-avaliacoes" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
+                            <div class="img-avaliacoes" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <h3 class="size18">TORRADEIRAS</h3>
                 <hr class="hrTitleFull hrPadrao MarginB3p">
@@ -34,13 +34,13 @@
                 <div class="owl-carousel owl-theme" id="avCarousel2">
                     <div>
                         <a href="avaliacao">
-                            <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
+                            <img src="<?= RAIZSITE ?>/imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <h3 class="size18">LIQUIDIFICADORES</h3>
                 <hr class="hrTitleFull hrPadrao MarginB3p">
@@ -49,13 +49,13 @@
                 <div class="owl-carousel owl-theme" id="avCarousel3">
                     <div>
                         <a href="avaliacao">
-                            <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
+                            <img src="<?= RAIZSITE ?>/imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p padding-zero">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB10p">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <h3 class="size18">AQUECEDORES</h3>
                 <hr class="hrTitleFull hrPadrao MarginB3p">
@@ -64,7 +64,7 @@
                 <div class="owl-carousel owl-theme" id="avCarousel4">
                     <div>
                         <a href="avaliacao">
-                            <img src="imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
+                            <img src="<?= RAIZSITE ?>/imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
                         </a>
                     </div>
                 </div>

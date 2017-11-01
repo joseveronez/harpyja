@@ -49,7 +49,8 @@
 #prox-txt {background-color: rgba(0,0,0,0.7);}
 #ant-txt {background-color: rgba(0,0,0,0.7);}
 
-.contato-saiba{letter-spacing: 2px!important; padding: 7px; border: 1px solid #999; font-size: 15px!important;}
+.contato-saiba { letter-spacing: 2px !important; border: 1px solid #444142; border-radius: 0 }
+.contato-saiba:hover { color: #ffffff; border: 1px solid #444142; background-color: #444142 }
 
 /* LG MD SM  */
 @media (min-width: 768px) {
@@ -59,7 +60,7 @@
     .border-right-ava {border-right: 5px solid white;}
     .padding-menu-footer {padding-right: 35px; padding-left: 50px;}
     .img-avaliacoes{height: 550px;}
-    .margem-header {margin-top: 150px!important;}
+    .margem-header {margin-top: 135px!important;}
     .margem-header-home {margin-top: 130px!important;}
     .img-comparacao{ height: 400px; }
 }
