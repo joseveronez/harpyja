@@ -1,3 +1,7 @@
+<?php
+    $videos = Videos::sql("SELECT * FROM videos ORDER BY id DESC");
+?>
+
 <style type="text/css">
     @media screen and (min-width: 768px) {
         #my-slider { margin-top: 137px }
@@ -46,7 +50,7 @@
             <div class="slider-pro sp-vertical" id="my-slider2">
                 <div class="sp-slides">
                     <div class="sp-slide">
-                        <img class="sp-image" src="imagens/teste.jpg"/>
+                        <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg"/>
                         <a href="" class="title-noticia" target="_self">
                             <h5 class="text-noticia">
                                 <b>Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing</b>
@@ -62,7 +66,7 @@
                         </div>
                     </div>
                     <div class="sp-slide">
-                        <img class="sp-image" src="imagens/teste.jpg"/>
+                        <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg"/>
                         <a href="" class="title-noticia" target="_self">
                             <h5 class="text-noticia">
                                 <b>Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing</b>
@@ -78,7 +82,7 @@
                         </div>
                     </div>
                     <div class="sp-slide">
-                        <img class="sp-image" src="imagens/teste.jpg"/>
+                        <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg"/>
                         <a href="" class="title-noticia" target="_self">
                             <h5 class="text-noticia">
                                 <b>Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing</b>
@@ -121,53 +125,17 @@
         </div>
     </div>
     <div class="container galeria-videos MarginB10p">
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
-                <iframe src="https://www.youtube.com/embed/7RxeORpEmEs" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
+        <?php
+            foreach ($videos as $video) {
+                ?>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                        <iframe src="<?= $video->link_video ?>" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <?php
+            }
+        ?>
     </div>
 </div>
 

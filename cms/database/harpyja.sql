@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 01-Nov-2017 às 13:59
+-- Generation Time: 01-Nov-2017 às 17:28
 -- Versão do servidor: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -59,6 +59,16 @@ CREATE TABLE `caracteristicas` (
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `categoria`
+--
+
+CREATE TABLE `categoria` (
+  `id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `configuracoes`
 --
 
@@ -89,6 +99,13 @@ CREATE TABLE `configuracoes` (
   `cep` varchar(255) NOT NULL,
   `mapa` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `configuracoes`
+--
+
+INSERT INTO `configuracoes` (`id`, `banner_topo`, `titulo`, `subtitulo`, `parallax`, `img_autor`, `titulo_autor`, `texto_autor`, `logo_cabecalho`, `logo_footer`, `facebook`, `twitter`, `youtube`, `slug_empresa`, `titulo_empresa`, `texto_empresa`, `slug_nome`, `titulo_nome`, `texto_nome`, `endereco`, `bairro`, `cidade`, `estado-uf`, `cep`, `mapa`) VALUES
+(1, 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'uf', 'teste', 'teste');
 
 -- --------------------------------------------------------
 
@@ -123,6 +140,21 @@ CREATE TABLE `videos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+-- Extraindo dados da tabela `videos`
+--
+
+INSERT INTO `videos` (`id`, `link_video`, `Titulo`) VALUES
+(1, 'https://www.youtube.com/embed/7RxeORpEmEs', 'Como testamos torradeiras'),
+(2, 'https://www.youtube.com/embed/k3bFAiLd514', 'Avaliação de Liquidificador - Walita ProBlend 6 vs. Mondial L-66'),
+(3, 'https://www.youtube.com/embed/VCv78VJtH40', 'Avaliação de Liquidificador - Oster Multi Chef e Walita Pro Blend 4'),
+(4, 'https://www.youtube.com/embed/Aq6UgY5ee5c', 'Além da Casca - Ventiladores de Mesa'),
+(5, 'https://www.youtube.com/embed/gt-N77rVgjk', 'Harpyja - Por que Estamos Aqui?'),
+(6, 'https://www.youtube.com/embed/V5vK2cXpPhs', 'Avaliação de Liquidificador - Arno Faciclic vs. Oster Multi Chef'),
+(8, 'https://www.youtube.com/embed/pO1Af7zRiW4', 'Teste lado a lado - Liquidificador e Processador'),
+(9, 'https://www.youtube.com/embed/fSqk5sEF0jc', 'Avaliação de Liquidificador - Britânia Diamante 800 e Philips Walita Daily Pro Blend 4 e'),
+(10, 'https://www.youtube.com/embed/BthZdlAJsBM', 'Avaliação de Aquecedores (Cadence, Britânia, Confilar e Mondial)');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -136,6 +168,12 @@ ALTER TABLE `avaliacoes`
 -- Indexes for table `caracteristicas`
 --
 ALTER TABLE `caracteristicas`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `categoria`
+--
+ALTER TABLE `categoria`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -171,10 +209,15 @@ ALTER TABLE `avaliacoes`
 ALTER TABLE `caracteristicas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT for table `categoria`
+--
+ALTER TABLE `categoria`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT for table `configuracoes`
 --
 ALTER TABLE `configuracoes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `usuarios`
 --
@@ -184,7 +227,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT for table `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

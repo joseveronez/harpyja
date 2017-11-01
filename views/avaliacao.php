@@ -242,8 +242,8 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                     </div>
                     <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 text-justify">
                         <div class="col-xs-12 padding-zero MarginT3p hidden-lg hidden-md hidden-sm"></div>
-                        <h3 class="margin-zero">Lorem ipsum</h3>
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</h5>
+                        <h3 class="margin-zero" style="margin-bottom: 5px; margin-left: -1px;">Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</p>
                     </div>
                 </div>
             </div>

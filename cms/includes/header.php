@@ -21,8 +21,8 @@
                 <div id="sidebar-wrapper" style="background-color:#17181b">
                 	<ul class="lista">
 
-						<li class="item <?php if($_SESSION["paginaAtual"] == "configuracoes/") echo "menu-active-side" ?>">
-                            <a href="<?= caminhoSite ?>/configuracoes/"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Configuracoes
+						<li class="item <?php if($_SESSION["paginaAtual"] == "configuracoes/gerenciar") echo "menu-active-side" ?>">
+                            <a href="<?= caminhoSite ?>/configuracoes/gerenciar-pagina"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Configuracoes
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
 
