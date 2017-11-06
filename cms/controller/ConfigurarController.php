@@ -1,25 +1,24 @@
 <?php
-	require 'Controller.php';
+    require 'Controller.php';
 	require caminhoFisico . '/model/Tabelas.php';
 	require caminhoFisico . '/helper.php';
-
-	class ConfiguracoesController extends Controller {
+    
+	class ConfigurarController extends Controller {
 
 		public function gerenciar_pagina() {
 			try {
-                $dados = Configuracoes::retrieveByPK(1);
+                $dados = Configurar::retrieveByPK(1);
 
-				setSession('paginaAtual', 'configuracoes/gerenciar');
-				setSession('blackPage', 'configuracoes/gerenciar-pagina');
-				$this->renderView('configuracoes/gerenciar_pagina', $dados);
+				setSession('paginaAtual', 'configurar/gerenciar');
+				setSession('blackPage', 'configurar/gerenciar-pagina');
+				$this->renderView('configurar/gerenciar_pagina', $dados);
 			} catch (Exception $e) {
 				$this->renderViewUnique('/errors/errorServidor', $e);
 			}
 		}
         public function atualizar_pagina() {
             try {
-                $dados = Configuracoes::retrieveByPK(1);
-                
+                $dados = Configurar::retrieveByPK(1);
                 if (!empty($_FILES['banner_topo']['name'])) {
                     $handle = new upload($_FILES['banner_topo']);
                     if ($handle->uploaded) {
@@ -101,13 +100,15 @@
                 $dados->endereco = $this->requestParametrosPost["endereco"];
                 $dados->bairro = $this->requestParametrosPost["bairro"];
                 $dados->cidade = $this->requestParametrosPost["cidade"];
-                $dados->estado-uf = $this->requestParametrosPost["estado-uf"];
+                
+                $dados->estado_uf = $this->requestParametrosPost["estado_uf"];
+                
                 $dados->cep = $this->requestParametrosPost["cep"];
                 $dados->mapa = $this->requestParametrosPost["mapa"];
                 $dados->save();
 
                 setSession("sucesso", "S");
-                $this->redirect(caminhoSite . "/configuracoes/gerenciar-pagina");
+                $this->redirect(caminhoSite . "/configurar/gerenciar-pagina");
             } catch (Exception $e) {
                 $this->renderViewUnique("/errors/errorServidor", $e);
             }

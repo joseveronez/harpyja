@@ -8,9 +8,9 @@
     	$table = 'usuarios';
 	}
 
-	class Configuracoes extends SimpleOrm {
+    class Configurar extends SimpleOrm {
 		protected static
-		$table = 'configuracoes';
+		$table = 'configurar';
 	}
 
 	class Avaliacoes extends SimpleOrm {

@@ -7,7 +7,7 @@
             <h1><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;Configurações - Páginas</h1>
             <h4 class="sub-title">Configure dados das páginas.</h4>
 
-            <form action="<?= caminhoSite ?>/configuracoes/atualizar-pagina" method="post" enctype="multipart/form-data">
+            <form action="<?= caminhoSite ?>/configurar/atualizar-pagina" method="post" enctype="multipart/form-data">
                 <div class="box">
                     <div class="box-title">
                         <h3 class="box-title-title"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;&nbsp;Autor</h3>
@@ -68,9 +68,9 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">estado-uf</label>
+                            <label class="col-sm-2 control-label" align="right">estado_uf</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="estado-uf" maxlength="2" value="<?= $dados->estado-uf ?>" />
+                                <input type="text" class="form-control" name="estado_uf" maxlength="2" value="<?= $dados->estado_uf ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">

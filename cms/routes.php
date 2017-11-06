@@ -21,8 +21,8 @@
 
 	$prefixos['testando']['testando-rotas'] = array('Controller' => 'TestandoRotasController', 'Method' => 'testando_rotas', 'logado' => true);
 
-	$prefixos['configuracoes']['gerenciar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'gerenciar_pagina', 'logado' => true);
-	$prefixos['configuracoes']['atualizar-pagina'] = array('Controller' => 'ConfiguracoesController', 'Method' => 'atualizar_pagina', 'logado' => true);
+    $prefixos['configurar']['gerenciar-pagina'] = array('Controller' => 'ConfigurarController', 'Method' => 'gerenciar_pagina', 'logado' => true);
+	$prefixos['configurar']['atualizar-pagina'] = array('Controller' => 'ConfigurarController', 'Method' => 'atualizar_pagina', 'logado' => true);
 
 	$prefixos['avaliacoes']['novos-dados'] = array('Controller' => 'AvaliacoesController', 'Method' => 'novos_dados', 'logado' => true);
 	$prefixos['avaliacoes']['salvar-dados'] = array('Controller' => 'AvaliacoesController', 'Method' => 'salvar_dados', 'logado' => true);
