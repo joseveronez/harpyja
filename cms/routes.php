@@ -44,4 +44,11 @@
 	$prefixos['caracteristicas']['editar-dados'] = array('Controller' => 'CaracteristicasController', 'Method' => 'editar_dados', 'logado' => true);
 	$prefixos['caracteristicas']['atualizar-dados'] = array('Controller' => 'CaracteristicasController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['caracteristicas']['excluir-dados'] = array('Controller' => 'CaracteristicasController', 'Method' => 'excluir_dados', 'logado' => true);
+
+    $prefixos['categorias']['novos-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['categorias']['salvar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['categorias']['gerenciar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['categorias']['editar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['categorias']['atualizar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['categorias']['excluir-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'excluir_dados', 'logado' => true);
 ?>
