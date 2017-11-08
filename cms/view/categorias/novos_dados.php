@@ -4,7 +4,7 @@
             <h1><i class="fa fa-list" aria-hidden="true"></i>&nbsp;Categorias - Nova Categoria</h1>
             <h4 class="sub-title">Criar uma nova Categoria</h4>
 
-            <form action="<?= caminhoSite ?>/categoria/salvar-dados" method="post" enctype="multipart/form-data" id="formInserirDados">
+            <form action="<?= caminhoSite ?>/categorias/salvar-dados" method="post" enctype="multipart/form-data" id="formInserirDados">
             	<div class="box">
                     <div class="box-title">
                         <h3 class="box-title-title"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Categorias</h3>

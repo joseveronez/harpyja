@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 07-Nov-2017 às 19:26
+-- Generation Time: 08-Nov-2017 às 20:03
 -- Versão do servidor: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -41,9 +41,30 @@ CREATE TABLE `avaliacoes` (
   `pontos_fortes` varchar(255) NOT NULL,
   `pontos_fracos` varchar(255) NOT NULL,
   `preco` varchar(255) NOT NULL,
+  `texto` text NOT NULL,
   `imagens` varchar(255) NOT NULL,
   `tag` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `avaliacoes`
+--
+
+INSERT INTO `avaliacoes` (`id`, `slug`, `nome_produto`, `categoria`, `nota_desempenho`, `nota_design_e_acabamento`, `nota_praticidade`, `nota_limpeza`, `nota_seguranca`, `pontos_fortes`, `pontos_fracos`, `preco`, `texto`, `imagens`, `tag`) VALUES
+(1, 'teste', 'teste', 'teste', '3', '3', '3', '3', '3', 'teste', 'teste', 'teste', '<p>teste</p>', 'banner_teste.png', 'teste');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `avaliacoes_pros_contras`
+--
+
+CREATE TABLE `avaliacoes_pros_contras` (
+  `id` int(11) NOT NULL,
+  `id_produto` int(11) NOT NULL,
+  `tipo` int(11) NOT NULL,
+  `descricao` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -56,6 +77,13 @@ CREATE TABLE `caracteristicas` (
   `caracteristicas` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Extraindo dados da tabela `caracteristicas`
+--
+
+INSERT INTO `caracteristicas` (`id`, `caracteristicas`) VALUES
+(3, 'Consumo de energia');
+
 -- --------------------------------------------------------
 
 --
@@ -67,6 +95,15 @@ CREATE TABLE `caracteristicas_categoria` (
   `id_caracteristica` int(11) NOT NULL,
   `id_categoria` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `caracteristicas_categoria`
+--
+
+INSERT INTO `caracteristicas_categoria` (`id`, `id_caracteristica`, `id_categoria`) VALUES
+(1, 3, 1),
+(2, 3, 2),
+(3, 3, 3);
 
 -- --------------------------------------------------------
 
@@ -92,6 +129,15 @@ CREATE TABLE `categorias` (
   `slug` varchar(255) NOT NULL,
   `categoria` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `categorias`
+--
+
+INSERT INTO `categorias` (`id`, `slug`, `categoria`) VALUES
+(1, 'liquidificadores', 'Liquidificadores'),
+(2, 'torradeiras', 'Torradeiras'),
+(3, 'aquecedores', 'Aquecedores');
 
 -- --------------------------------------------------------
 
@@ -132,7 +178,7 @@ CREATE TABLE `configurar` (
 --
 
 INSERT INTO `configurar` (`id`, `banner_topo`, `titulo`, `subtitulo`, `parallax`, `img_autor`, `titulo_autor`, `texto_autor`, `logo_cabecalho`, `logo_footer`, `facebook`, `twitter`, `youtube`, `slug_empresa`, `titulo_empresa`, `texto_empresa`, `slug_nome`, `titulo_nome`, `texto_nome`, `endereco`, `bairro`, `cidade`, `estado_uf`, `cep`, `mapa`) VALUES
-(1, 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'uf', 'teste', 'teste');
+(1, 'teste', 'teste', 'teste', 'teste', 'imagem-teste.jpeg', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'uf', 'teste', 'teste');
 
 -- --------------------------------------------------------
 
@@ -192,6 +238,12 @@ ALTER TABLE `avaliacoes`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `avaliacoes_pros_contras`
+--
+ALTER TABLE `avaliacoes_pros_contras`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `caracteristicas`
 --
 ALTER TABLE `caracteristicas`
@@ -241,17 +293,22 @@ ALTER TABLE `videos`
 -- AUTO_INCREMENT for table `avaliacoes`
 --
 ALTER TABLE `avaliacoes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `avaliacoes_pros_contras`
+--
+ALTER TABLE `avaliacoes_pros_contras`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `caracteristicas`
 --
 ALTER TABLE `caracteristicas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `caracteristicas_categoria`
 --
 ALTER TABLE `caracteristicas_categoria`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `caracteristicas_produto`
 --
@@ -261,7 +318,7 @@ ALTER TABLE `caracteristicas_produto`
 -- AUTO_INCREMENT for table `categorias`
 --
 ALTER TABLE `categorias`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `configurar`
 --

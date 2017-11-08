@@ -1,5 +1,7 @@
 <?php
-    $dados = $_SESSION["parametrosView"];
+    $dados = $_SESSION["parametrosView"]["dados"];
+    $categorias = $_SESSION['parametrosView']['categorias'];
+    $categ = Categorias::sql("SELECT * FROM categorias");
 ?>
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
@@ -23,6 +25,54 @@
                         </div><br>
             		</div>
                 </div><br>
+                
+                
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-paint-brush" aria-hidden="true"></i>&nbsp;&nbsp;Características</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
+                            <table id="example" class="display dataTable" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>Categorias Associadas</th>
+                                        <th>&nbsp;</th>
+                                        <th>&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                        foreach ($categorias as $categoria) {
+                                    ?>                                        
+                                        <tr>
+                                            <td>
+                                                <?php
+                                                    foreach ($categ as $cat) {
+                                                        if($cat->id == $categoria->id_categoria){
+                                                            echo $cat->categoria;
+                                                        }
+                                                    }
+                                                ?>
+                                            </td>
+                                            <td>
+                                                <?= $caracteristica->valor ?>
+                                            </td>
+                                            <td>
+                                                <center>
+                                                    <a href="<?= caminhoSite ?>/motos/excluirCaractristica/<?= $caracteristica->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                                </center>
+                                            </td>
+                                        </tr>
+                                    <?php
+                                        }
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><br>
+                
 
             	<button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
             </form>
@@ -30,3 +80,47 @@
         <?php include caminhoFisico . "/view/parts/footer.php" ?>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#btnSalvaCategoria').click(function(event) {
+            /* Act on the event */
+            var id = $('#selectCategorias').val();
+            var categoria = $("#selectCategorias option:selected").text();
+            var valor = $("#valorCategorias").val();
+            var registro = '<tr><td data-id="' +  id + '" class="categNome">' + categoria + 
+                '</td><td><center><button type="button" class="btn btn-default btn-excluir btn-excluir-table"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></center></td></tr>'
+            $('#tblCategorias tbody').append(registro);           
+        });
+        $(document).on('click', '.btn-excluir-table', function(event) {
+            // event.preventDefault();
+            /* Act on the event */
+            var tr = $(this).closest('tr');
+            console.log(tr);
+            tr.remove();
+        });        
+
+        $('#caracSalvar').click(function(event) {
+            /* Act on the event */
+            var itensCategorias = '{"itens":[';
+            var count = 0;
+            // each = função para 'percorrer' todos os elementos do seletor
+            $('#tblCategorias tbody tr').each(function(index, el) {
+                if (count != 0) {
+                    itensCategorias = itensCategorias + ',';
+                }
+
+                var idCategoria = $(this).find('.categNome').attr('data-id');
+                
+                itensCategorias = itensCategorias + 
+                        '{"idCategoria":"' + idCategoria + '"}';
+
+                count++;
+            });
+            itensCategorias = itensCategorias + ']}'; 
+
+            $('#carac').append("<input type='hidden' name='jsonCategorias' value='" + itensCategorias + "' >");
+
+            $('#carac').submit();
+        });
+    });
+</script>

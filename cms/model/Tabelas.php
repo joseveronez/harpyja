@@ -32,4 +32,9 @@
 		protected static
 		$table = 'categorias';
 	}
+    
+    class CaracteristicasCategoria extends SimpleOrm {
+		protected static
+		$table = 'caracteristicas_categoria';
+	}
 ?>

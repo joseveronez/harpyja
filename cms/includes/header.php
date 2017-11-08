@@ -51,6 +51,19 @@
 	                            <a href="<?= caminhoSite ?>/videos/gerenciar-dados">Gerenciar Videos</a>
 	                        </li>
                     	</ul>
+                        
+                        <li class="item <?php if($_SESSION["paginaAtual"] == "categorias/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Categorias
+	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+	                    </li>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "categorias/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "categorias/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/categorias/novos-dados">Nova Categoria</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "categorias/gerenciar-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/categorias/gerenciar-dados">Gerenciar Categoria</a>
+	                        </li>
+                    	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "caracteristicas/gerenciar") echo "menu-active-side" ?>">
 	                        <a href="#" class="menu-item-side"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Características
@@ -61,7 +74,7 @@
 	                            <a href="<?= caminhoSite ?>/caracteristicas/novos-dados">Nova Característica</a>
 	                        </li>
 	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "caracteristicas/gerenciar-dados") echo "black" ?>">
-	                            <a href="<?= caminhoSite ?>/caracteristicas/gerenciar-dados">Nova Característica</a>
+	                            <a href="<?= caminhoSite ?>/caracteristicas/gerenciar-dados">Gerenciar Características</a>
 	                        </li>
                     	</ul>
 						<li class="item">
