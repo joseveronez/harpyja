@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 08-Nov-2017 às 20:03
+-- Generation Time: 09-Nov-2017 às 19:37
 -- Versão do servidor: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -51,7 +51,13 @@ CREATE TABLE `avaliacoes` (
 --
 
 INSERT INTO `avaliacoes` (`id`, `slug`, `nome_produto`, `categoria`, `nota_desempenho`, `nota_design_e_acabamento`, `nota_praticidade`, `nota_limpeza`, `nota_seguranca`, `pontos_fortes`, `pontos_fracos`, `preco`, `texto`, `imagens`, `tag`) VALUES
-(1, 'teste', 'teste', 'teste', '3', '3', '3', '3', '3', 'teste', 'teste', 'teste', '<p>teste</p>', 'banner_teste.png', 'teste');
+(1, 'teste', 'teste', 'teste', '3', '3', '3', '3', '3', 'teste', 'teste', 'teste', '<p>teste</p>', 'banner_teste.png', 'teste'),
+(2, 'avalicao-produto-x', 'produtox', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_1.png', 'tag'),
+(3, 'avalicao-produto-x', 'produtox', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_2.png', 'tag'),
+(4, 'avalicao-produto-x', 'produtox', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_3.png', 'tag'),
+(5, 'liquidificador', 'teste', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>&nbsp;texto</p>', 'banner_teste_4.png', 'tag'),
+(6, 'aquecedor', 'Aquecedor', 'Aquecedores', '5', '5', '5', '5', '5', 'teste', 'teste', '9999', '<p>texto</p>', '300x100.png', 'tag'),
+(7, 'produto-liquidificador', 'Liquidificador X', 'Liquidificador', '5', '5', '5', '5', '5', 'teste', 'teste', '99999', '<p>texto</p>', '300x100_1.png', 'tag');
 
 -- --------------------------------------------------------
 
@@ -61,10 +67,24 @@ INSERT INTO `avaliacoes` (`id`, `slug`, `nome_produto`, `categoria`, `nota_desem
 
 CREATE TABLE `avaliacoes_pros_contras` (
   `id` int(11) NOT NULL,
-  `id_produto` int(11) NOT NULL,
+  `id_avaliacao` int(11) NOT NULL,
   `tipo` int(11) NOT NULL,
   `descricao` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `avaliacoes_pros_contras`
+--
+
+INSERT INTO `avaliacoes_pros_contras` (`id`, `id_avaliacao`, `tipo`, `descricao`) VALUES
+(1, 5, 1, 'Ponto Forte 1'),
+(2, 5, 1, 'Ponto Forte 2'),
+(3, 5, 1, 'Ponto Forte 3'),
+(4, 6, 1, 'Ponto Forte 4'),
+(8, 7, 2, 'Ponto Fraco 1'),
+(9, 7, 2, 'Ponto Fraco 2'),
+(11, 7, 1, 'Ponto Forte 10'),
+(12, 7, 2, 'Ponto Fraco 10');
 
 -- --------------------------------------------------------
 
@@ -101,9 +121,9 @@ CREATE TABLE `caracteristicas_categoria` (
 --
 
 INSERT INTO `caracteristicas_categoria` (`id`, `id_caracteristica`, `id_categoria`) VALUES
-(1, 3, 1),
-(2, 3, 2),
-(3, 3, 3);
+(7, 3, 2),
+(8, 3, 1),
+(9, 3, 3);
 
 -- --------------------------------------------------------
 
@@ -293,12 +313,12 @@ ALTER TABLE `videos`
 -- AUTO_INCREMENT for table `avaliacoes`
 --
 ALTER TABLE `avaliacoes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `avaliacoes_pros_contras`
 --
 ALTER TABLE `avaliacoes_pros_contras`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `caracteristicas`
 --
@@ -308,7 +328,7 @@ ALTER TABLE `caracteristicas`
 -- AUTO_INCREMENT for table `caracteristicas_categoria`
 --
 ALTER TABLE `caracteristicas_categoria`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `caracteristicas_produto`
 --
