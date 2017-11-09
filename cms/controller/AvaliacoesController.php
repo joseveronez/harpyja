@@ -46,6 +46,26 @@
                 $dados->tag = $this->requestParametrosPost["tag"];
                 $dados->save();
 
+                $pt_fortes =  json_decode($this->requestParametrosPost["jsonPtFortes"], true);				
+				$pt_fortes = $pt_fortes['itens'];
+				foreach ($pt_fortes as $fortes) {
+					$forte = new AvaliacoesProsContras();
+					$forte->id_avaliacao = $dados->id;
+					$forte->tipo = 1;
+					$forte->descricao = $fortes['valorPtForte'];
+					$forte->save();
+				}
+                
+                $pt_fracos =  json_decode($this->requestParametrosPost["jsonPtFracos"], true);				
+				$pt_fracos = $pt_fracos['itens'];
+				foreach ($pt_fracos as $fracos) {
+					$fraco = new AvaliacoesProsContras();
+					$fraco->id_avaliacao = $dados->id;
+					$fraco->tipo = 2;
+					$fraco->descricao = $fracos['valorPtFraco'];
+					$fraco->save();
+				}
+                
                 setSession("sucesso", "S");
                 $this->redirect(caminhoSite . "/avaliacoes/gerenciar-dados");
             } catch (Exception $e) {
@@ -66,10 +86,13 @@
         public function editar_dados() {
             $id = $this->requestParametrosGet[0];
             $dados = Avaliacoes::retrieveByPK($id);
+            $pontos = AvaliacoesProsContras::sql("SELECT * FROM avaliacoes_pros_contras");
+            
+            $parametros = array('pontos' => $pontos, 'dados' => $dados);
 
             setSession('paginaAtual', 'avaliacoes/gerenciar');
             setSession('blackPage', 'avaliacoes/gerenciar-dados');
-            $this->renderView('avaliacoes/editar_dados', $dados);
+            $this->renderView('avaliacoes/editar_dados', $parametros);
         }
         public function atualizar_dados(){
             try {
@@ -105,6 +128,26 @@
                 }
                 $dados->tag = $this->requestParametrosPost["tag"];
                 $dados->save();
+                
+                $pt_fortes =  json_decode($this->requestParametrosPost["jsonPtFortes"], true);				
+				$pt_fortes = $pt_fortes['itens'];
+				foreach ($pt_fortes as $fortes) {
+					$forte = new AvaliacoesProsContras();
+					$forte->id_avaliacao = $dados->id;
+					$forte->tipo = 1;
+					$forte->descricao = $fortes['valorPtForte'];
+					$forte->save();
+				}
+                
+                $pt_fracos =  json_decode($this->requestParametrosPost["jsonPtFracos"], true);				
+				$pt_fracos = $pt_fracos['itens'];
+				foreach ($pt_fracos as $fracos) {
+					$fraco = new AvaliacoesProsContras();
+					$fraco->id_avaliacao = $dados->id;
+					$fraco->tipo = 2;
+					$fraco->descricao = $fracos['valorPtFraco'];
+					$fraco->save();
+				}
 
                 setSession("sucesso", "S");
                 $this->redirect(caminhoSite . "/avaliacoes/gerenciar-dados");
@@ -126,5 +169,18 @@
                 $this->renderViewUnique('/errors/errorServidor', $e);
             }
         }
+        
+        public function excluirPontos() {
+			try {
+				$id = $this->requestParametrosGet[0];
+				$pontos = AvaliacoesProsContras::retrieveByPk($id);
+				$pontos->delete();
+
+				setSession("sucesso", "S");
+                $this->redirect(caminhoSite . "/avaliacoes/gerenciar-dados");				
+			} catch (Exception $e) {
+				echo false;
+			}
+		}
     }
 ?>

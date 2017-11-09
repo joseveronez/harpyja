@@ -68,6 +68,16 @@
                 $dados = Caracteristicas::retrieveByPK($id);
                 $dados->caracteristicas = $this->requestParametrosPost["caracteristicas"];
                 $dados->save();
+                
+                
+                $categorias =  json_decode($this->requestParametrosPost["jsonCategorias"], true);				
+				$categorias = $categorias['itens'];
+				foreach ($categorias as $categoria) {
+					$carac_categ = new CaracteristicasCategoria();
+					$carac_categ->id_caracteristica = $dados->id;
+					$carac_categ->id_categoria = $categoria['idCategoria'];
+					$carac_categ->save();
+				}
 
                 setSession("sucesso", "S");
                 $this->redirect(caminhoSite . "/caracteristicas/gerenciar-dados");
@@ -88,5 +98,18 @@
                 $this->renderViewUnique('/errors/errorServidor', $e);
             }
         }
+        
+        public function excluirCategoriaCaracteristicas() {
+			try {
+				$id = $this->requestParametrosGet[0];
+				$categoria = CaracteristicasCategoria::retrieveByPk($id);
+				$categoria->delete();
+
+				setSession("sucesso", "S");
+                $this->redirect(caminhoSite . "/caracteristicas/gerenciar-dados");				
+			} catch (Exception $e) {
+				echo false;
+			}
+		}
     }
 ?>

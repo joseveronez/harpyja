@@ -1,6 +1,7 @@
 <style type="text/css">
     .produto-item { border-bottom: 1px solid #cccccc }
-    .produto-item p { margin: 0; padding: 10px; }
+    .produto-item p { margin: 0; padding: 10px 0px; font-size: smaller; }
+    .produto-item h5 { }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10 MarginB10">
     <div class="container">
@@ -244,7 +245,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero"  style="background-image:url(<?= RAIZSITE ?>/imagens/autor.png);  background-size: cover; background-position: center center; background-repeat: no-repeat; padding-top: 100%; border-radius: 50%;">
                         </div>
                     </div>
-                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 text-justify">
+                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 text-justify padding-autor">
                         <div class="col-xs-12 padding-zero MarginT3p hidden-lg hidden-md hidden-sm"></div>
                         <h3 class="margin-zero" style="margin-bottom: 5px; margin-left: -1px;">Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</p>
@@ -261,7 +262,10 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero Relative"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
+                                <h6 style="margin: 2px 0px;">9</h6>
+                            </div>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
@@ -340,37 +344,40 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p">
             <h4>COMPARE COM PRODUTOS SEMELHANTES</h4>
             <hr class="hrTitleFull hrPadrao">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer" style="border: 1px solid #f7f7f7; padding: 0px 15px 0px 15px">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer padding-zero" style="border: 1px solid #f7f7f7; padding: 0px 15px 0px 15px">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 padding-zero">
                     <div style="height: 150px; background: #cccccc; background-size: 100%"></div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
-                        <p>LOREM IPSUM</p>
+                            <h5 class="size17">&nbsp;</h5>
+                        </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
+                        <p class="padding-sides-zero">LOREM IPSUM</p>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
-                        <p>LOREM IPSUM</p>
+                        <p class="padding-sides-zero">LOREM IPSUM</p>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
-                        <p>LOREM IPSUM</p>
+                        <p class="padding-sides-zero">LOREM IPSUM</p>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
-                        <p>LOREM IPSUM</p>
+                        <p class="padding-sides-zero">LOREM IPSUM</p>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
-                        <p>LOREM IPSUM</p>
+                        <p class="padding-sides-zero">LOREM IPSUM</p>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
-                        <p>LOREM IPSUM</p>
+                        <p class="padding-sides-zero">LOREM IPSUM</p>
                     </div>
                 </div>
-                <div class="owl-carousel">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="owl-carousel margin-zero">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero ">
                         <div style="height: 150px; background: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-size: 100%; position: relative">
-                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 Absolute text-center branco-fonte bg-nota" style="bottom: 0">
-                                <h3 style="margin: 15px 0px;">PRODUTO TAL...</h3>
-                            </div>
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
                                 <h3 style="margin: 15px 0px;">9</h3>
                             </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
+                            <h5 class="size17">PRODUTO TAL...</h5>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero produto-item">
                             <p>LOREM IPSUM</p>

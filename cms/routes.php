@@ -31,6 +31,8 @@
 	$prefixos['avaliacoes']['atualizar-dados'] = array('Controller' => 'AvaliacoesController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['avaliacoes']['excluir-dados'] = array('Controller' => 'AvaliacoesController', 'Method' => 'excluir_dados', 'logado' => true);
 
+    $prefixos['avaliacoes']['excluirPontos'] = array('Controller' => 'AvaliacoesController', 'Method' => 'excluirPontos', 'logado' => true);
+
 	$prefixos['videos']['novos-dados'] = array('Controller' => 'VideosController', 'Method' => 'novos_dados', 'logado' => true);
 	$prefixos['videos']['salvar-dados'] = array('Controller' => 'VideosController', 'Method' => 'salvar_dados', 'logado' => true);
 	$prefixos['videos']['gerenciar-dados'] = array('Controller' => 'VideosController', 'Method' => 'gerenciar_dados', 'logado' => true);
@@ -44,6 +46,8 @@
 	$prefixos['caracteristicas']['editar-dados'] = array('Controller' => 'CaracteristicasController', 'Method' => 'editar_dados', 'logado' => true);
 	$prefixos['caracteristicas']['atualizar-dados'] = array('Controller' => 'CaracteristicasController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['caracteristicas']['excluir-dados'] = array('Controller' => 'CaracteristicasController', 'Method' => 'excluir_dados', 'logado' => true);
+
+    $prefixos['caracteristicas']['excluirCategoria'] = array('Controller' => 'CaracteristicasController', 'Method' => 'excluirCategoriaCaracteristicas', 'logado' => true);
 
     $prefixos['categorias']['novos-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'novos_dados', 'logado' => true);
 	$prefixos['categorias']['salvar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'salvar_dados', 'logado' => true);

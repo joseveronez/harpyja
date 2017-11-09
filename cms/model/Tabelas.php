@@ -37,4 +37,9 @@
 		protected static
 		$table = 'caracteristicas_categoria';
 	}
+
+    class AvaliacoesProsContras extends SimpleOrm {
+		protected static
+		$table = 'avaliacoes_pros_contras';
+	}
 ?>

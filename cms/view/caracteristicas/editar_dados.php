@@ -9,7 +9,7 @@
             <h1><i class="fa fa-list" aria-hidden="true"></i>&nbsp;Caractrísticas - Editar Caracteristicas</h1>
             <h4 class="sub-title">Editar Caracteristicas</h4>
 
-            <form action="<?= caminhoSite ?>/caracteristicas/atualizar-dados" method="post" enctype="multipart/form-data">
+            <form id="carac" action="<?= caminhoSite ?>/caracteristicas/atualizar-dados" method="post" enctype="multipart/form-data">
             	<input type="hidden" name="id" value="<?= $dados->id ?>" />
 
             	<div class="box">
@@ -29,7 +29,7 @@
                 
                 <div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-paint-brush" aria-hidden="true"></i>&nbsp;&nbsp;Características</h3>
+                        <h3 class="box-title-title"><i class="fa fa-paint-brush" aria-hidden="true"></i>&nbsp;&nbsp;Categorias</h3>
                     </div>
                     <div class="box-content">
                         <div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
@@ -60,7 +60,7 @@
                                             </td>
                                             <td>
                                                 <center>
-                                                    <a href="<?= caminhoSite ?>/motos/excluirCaractristica/<?= $caracteristica->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                                    <a href="<?= caminhoSite ?>/caracteristicas/excluirCategoria/<?= $categoria->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
                                                 </center>
                                             </td>
                                         </tr>
@@ -73,8 +73,44 @@
                     </div>
                 </div><br>
                 
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;Características</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Adicionar às categorias</label>
+                            <div class="col-sm-4">
+                                <div id="ListaCateg"></div>
+                                <select id="selectCategorias" class="form-control" name="id_caracteristica">
+                                    <option selected value="">Selecione a categoria</option>
+                                    <?php foreach ($categ as $categoria): ?>
+                                    <option value="<?= $categoria->id ?>"><?= $categoria->categoria ?></option>                                        
+                                    <?php endforeach ?>
+                                </select>
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" id="btnSalvaCategoria" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
+                            </div><br>
+                            <div class="col-sm-2">&nbsp;</div>
+                            <div class="col-sm-10 pull-right">
+                                <table class="table table-striped" id="tblCategorias">
+                                    <thead>
+                                        <tr>
+                                            <th>Categoria</th>
+                                            <th>&nbsp;</th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><br>
+                    </div>
+                </div> 
 
-            	<button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
+            	<button id="caracSalvar" type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
             </form>
         </section>
         <?php include caminhoFisico . "/view/parts/footer.php" ?>

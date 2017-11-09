@@ -1,5 +1,6 @@
 <?php
-    $dados = $_SESSION["parametrosView"];
+    $dados = $_SESSION["parametrosView"]["dados"];
+    $pontos = $_SESSION["parametrosView"]["pontos"];
 ?>
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
@@ -7,7 +8,7 @@
             <h1><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Avaliações - Editar Avaliação</h1>
             <h4 class="sub-title">Editar informações da avaliação</h4>
 
-            <form action="<?= caminhoSite ?>/avaliacoes/atualizar-dados" method="post" enctype="multipart/form-data">
+            <form id="ava" action="<?= caminhoSite ?>/avaliacoes/atualizar-dados" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="id" value="<?= $dados->id ?>" />
                 <div class="box">
                     <div class="box-title">
@@ -88,8 +89,144 @@
                                 <input type="text" class="form-control" name="pontos_fracos" maxlength="255" value="<?= $dados->pontos_fracos ?>" />
                             </div>
                         </div><br>
+                        
+                        <div class="box-content">
+                            <div class="control-group row">
+                                <label class="col-sm-2 control-label" align="right">Adicionar Pontos Fortes</label>
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control" id="txtPtForte" placeholder="valor">
+                                </div>
+                                <div class="col-sm-3">
+                                    <button type="button" id="btnSalvaPtForte" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
+                                </div><br>
+                                <div class="col-sm-2">&nbsp;</div>
+                                <div class="col-sm-10 pull-right">
+                                    <table class="table table-striped" id="tblPtForte">
+                                        <thead>
+                                            <tr>
+                                                <th>Pontos Fortes</th>
+                                                <th>&nbsp;</th>
+                                                <th>&nbsp;</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><br>
+                        </div>
+                        
+                        <div class="box-content">
+                            <div class="control-group row">
+                                <label class="col-sm-2 control-label" align="right">Adicionar Pontos Fracos</label>
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control" id="txtPtFraco" placeholder="valor">
+                                </div>
+                                <div class="col-sm-3">
+                                    <button type="button" id="btnSalvaPtFraco" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
+                                </div><br>
+                                <div class="col-sm-2">&nbsp;</div>
+                                <div class="col-sm-10 pull-right">
+                                    <table class="table table-striped" id="tblPtFraco">
+                                        <thead>
+                                            <tr>
+                                                <th>Pontos Fracos</th>
+                                                <th>&nbsp;</th>
+                                                <th>&nbsp;</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><br>
+                        </div>
+                        
+                        
                     </div>
                 </div><br />
+                
+                
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-paint-brush" aria-hidden="true"></i>&nbsp;&nbsp;Pontos Fortes e Pontos Fracos</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
+                            <h3>Pontos Fortes</h3>
+                            <table id="example" class="display dataTable" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>Pontos Fortes</th>
+                                        <th>&nbsp;</th>
+                                        <th>&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                        foreach ($pontos as $forte) {
+                                            if($forte->tipo == 1){
+                                    ?>                                        
+                                        <tr>
+                                            <td>
+                                                <?= $forte->descricao ?>
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                            <td>
+                                                <center>
+                                                    <a href="<?= caminhoSite ?>/avaliacoes/excluirPontos/<?= $forte->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                                </center>
+                                            </td>
+                                        </tr>
+                                    <?php
+                                            }
+                                        }
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
+                            <h3>Pontos Fracos</h3>
+                            <table id="example" class="display dataTable" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th>&nbsp;</th>
+                                        <th>&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                        foreach ($pontos as $fraco) {
+                                            if($fraco->tipo == 2){
+                                    ?>                                        
+                                        <tr>
+                                            <td>
+                                                <?= $fraco->descricao ?>
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                            <td>
+                                                <center>
+                                                    <a href="<?= caminhoSite ?>/avaliacoes/excluirPontos/<?= $fraco->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                                </center>
+                                            </td>
+                                        </tr>
+                                    <?php
+                                            }
+                                        }
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><br>
+                
+                
                 <div class="box">
                     <div class="box-title">
                         <h3 class="box-title-title"><i class="fa fa-dollar" aria-hidden="true"></i>&nbsp;&nbsp;Preço</h3>
@@ -146,9 +283,83 @@
                         </div><br>
                     </div>
                 </div><br />
-                <button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
+                <button id="Salvar" type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
             </form>
         </section>
         <?php include caminhoFisico . "/view/parts/footer.php" ?>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#btnSalvaPtForte').click(function(event) {
+            /* Act on the event */
+            var pt_forte = $("#txtPtForte").val();
+            var registro = '<tr><td class="valPtForte">' + pt_forte + 
+                '</td><td><center><button type="button" class="btn btn-default btn-excluir btn-excluir-table"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></center></td></tr>'
+            $('#tblPtForte tbody').append(registro);           
+        });
+        
+        $('#btnSalvaPtFraco').click(function(event) {
+            /* Act on the event */
+            var pt_forte = $("#txtPtFraco").val();
+            var registro = '<tr><td class="valPtFraco">' + pt_forte + 
+                '</td><td><center><button type="button" class="btn btn-default btn-excluir btn-excluir-table"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></center></td></tr>'
+            $('#tblPtFraco tbody').append(registro);           
+        });
+        
+        $(document).on('click', '.btn-excluir-table', function(event) {
+            // event.preventDefault();
+            /* Act on the event */
+            var tr = $(this).closest('tr');
+            console.log(tr);
+            tr.remove();
+        });        
+        
+        $('#Salvar').click(function(event) {
+            /* Act on the event */
+            var itensPtFortes = '{"itens":[';
+            var count = 0;
+            // each = função para 'percorrer' todos os elementos do seletor
+            $('#tblPtForte tbody tr').each(function(index, el) {
+                if (count != 0) {
+                    itensPtFortes = itensPtFortes + ',';
+                }
+                var valorPtForte = $(this).find('.valPtForte').text();
+                
+                itensPtFortes = itensPtFortes +  
+                        '{"valorPtForte":"' + valorPtForte + '"}';
+
+                count++;
+            });
+            itensPtFortes = itensPtFortes + ']}'; 
+
+            $('#ava').append("<input type='hidden' name='jsonPtFortes' value='" + itensPtFortes + "' >");
+
+            $('#ava').submit();
+        });
+        
+        $('#Salvar').click(function(event) {
+            /* Act on the event */
+            var itensPtFracos = '{"itens":[';
+            var count = 0;
+            // each = função para 'percorrer' todos os elementos do seletor
+            $('#tblPtFraco tbody tr').each(function(index, el) {
+                if (count != 0) {
+                    itensPtFracos = itensPtFracos + ',';
+                }
+                var valorPtFraco = $(this).find('.valPtFraco').text();
+                
+                itensPtFracos = itensPtFracos +  
+                        '{"valorPtFraco":"' + valorPtFraco + '"}';
+
+                count++;
+            });
+            itensPtFracos = itensPtFracos + ']}'; 
+
+            $('#ava').append("<input type='hidden' name='jsonPtFracos' value='" + itensPtFracos + "' >");
+
+            $('#ava').submit();
+        });
+        
+    });
+</script>

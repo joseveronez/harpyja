@@ -63,6 +63,7 @@
     .margem-header {margin-top: 135px!important;}
     .margem-header-home {margin-top: 130px!important;}
     .img-comparacao{ height: 400px; }
+    
 }
 
 /* XS */
@@ -78,6 +79,7 @@
     .img-prod-semelhante { min-width: 150px; max-width: 150px;}
     .xs-padding0{padding: 0px!important;}
     .img-comparacao{ height: 200px; }
+    .padding-autor{padding: 0px!important;}
 }
 
 @media (max-width: 460px) {
@@ -216,6 +218,8 @@
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
 }
+
+.padding-sides-zero{padding-left: 0px!important; padding-right: 0px!important;}
 
 .MarginT1{margin-top: 1%!important;}
 .MarginT2{margin-top: 2%!important;}
