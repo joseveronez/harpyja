@@ -1,5 +1,6 @@
 .nav>li>a:hover {
     background-color: #666666 !important;
+    color: white!important;
 }
 .Relative {position: relative;}
 .Absolute {position: absolute;}
@@ -72,6 +73,8 @@
     .margem-header-home {margin-top: 130px!important;}
     .img-comparacao{ height: 400px; }
     .nota-ava-recentes {margin: 10px!important; font-size: 50px!important;}
+    .header-bg{background-color: #2d2d2d!important;}
+    .header-bg a{color: white!important;}
 }
 
 
@@ -92,6 +95,8 @@
     .padding-autor{padding: 0px!important;}
     .padding-mobile{padding: 0px!important;}
     .nota-ava-recentes {margin: 15px!important; font-size: 35px!important;}
+    .header-bg{background-color: #f7f7f7!important;}
+    .header-bg a{color: #2d2d2d!important;}
 }
 
 @media (max-width: 460px) {

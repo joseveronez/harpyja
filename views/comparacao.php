@@ -1,5 +1,5 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margem-header MarginB10p">
-    <div class="container">
+    <div class="container padding-mobile">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  text-center xs-padding0">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10p MarginB10p padding-zero">
                 <h3>PRODUTO A</h3>
@@ -13,43 +13,43 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit leo, ultrices non massa quis, ultrices tempus risus. Ut in justo elementum, lacinia ex nec, vestibulum lacus. Aenean porta eros quis euismod varius. In nec mi neque. Mauris facilisis ullamcorper semper. Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3p PaddingT2 PaddingB4 bg-cinza-claro text-left">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="10">9.1&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">DESIGN E ACABAMENTO</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="10">8.3&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">PRATICIDADE</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="0" aria-valuemax="10">9.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">LIMPEZA</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="10">8.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">SEGURANÇA</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2 padding-mobile">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 padding-zero MarginT3p MarginB3p">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero border-nota azul-fonte">
                             <h3 class="size50 azul-fonte">9</h3>
@@ -146,44 +146,44 @@
                 <p>Mauris at ullamcorper sem. Aliquam viverra sit amet justo vel fringilla. Suspendisse lectus justo, suscipit at viverra quis, tincidunt quis nunc. Curabitur rhoncus lectus ac augue hendrerit, in ultricies augue convallis.</p>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT3p PaddingT2 PaddingB4 bg-cinza-claro text-left">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="10">9.1&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">DESIGN E ACABAMENTO</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="10">8.3&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">PRATICIDADE</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="0" aria-valuemax="10">9.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">LIMPEZA</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="10">8.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">SEGURANÇA</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="10">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-4  col-xs-8 col-xs-offset-2 padding-zero MarginT3p MarginB3p">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2 padding-mobile">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 padding-zero MarginT3p MarginB3p">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero border-nota azul-fonte">
                             <h3 class="size50 azul-fonte">9</h3>
                             <h6 class="azul-fonte">NOTA GERAL</h6>

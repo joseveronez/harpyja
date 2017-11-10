@@ -4,51 +4,51 @@
     .produto-item h5 { }
 </style>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT10 MarginB10">
-    <div class="container">
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 MarginT7p">
+    <div class="container padding-mobile">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 MarginT7p padding-mobile">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero img-avaliacoes" style="background-image:url(<?= RAIZSITE ?>/imagens/produto.jpg);  background-size: cover; background-position: center center; background-repeat: no-repeat;"></div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT3 MarginB3">
                 <h1>Liquidificador Mondial L-66 850W</h1>
                 <h4 class="cinza-fonte MarginT3"><i class="fa fa-folder-open-o" aria-hidden="true"></i>&nbsp;<a href="#" class="cinza-fonte">Avaliações</a>, <a href="#" class="cinza-fonte">Liquidificadores</a></h4>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PaddingT2 PaddingB4 bg-cinza-claro">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">DESEMPENHO</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100">9.1&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">DESIGN E ACABAMENTO</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">8.3&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">PRATICIDADE</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100">9.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">LIMPEZA</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">8.6&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
                     <h5 class="margin-bot-zero">SEGURANÇA</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile padding-mobile">
                     <h5 class="margin-bot-zero">NOTA DO LEITOR</h5>
                     <div class="progress margin-zero">
                         <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">9.4&nbsp;&nbsp;</div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT2 padding-mobile">
                     <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-sm-offset-4 col-xs-12 padding-zero MarginT3p MarginB3p">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding-zero border-nota azul-fonte">
                             <h3 class="size50 azul-fonte">9</h3>
@@ -253,7 +253,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 MarginT7p">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 MarginT7p padding-mobile">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
                     <h4>ÚLTIMAS AVALIAÇÕES</h4>
@@ -328,7 +328,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p MarginB5p padding-mobile">
             <h4>COMPARE COM</h4>
             <hr class="hrTitleFull hrPadrao">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  padding-zero MarginT5p MarginB5p">
@@ -350,7 +350,7 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-mobile">
             <h4>COMPARE COM PRODUTOS SEMELHANTES</h4>
             <hr class="hrTitleFull hrPadrao">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer padding-zero" style="border: 1px solid #f7f7f7; padding: 0px 15px 0px 15px">

@@ -1,5 +1,5 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero Relative margem-header" >
-    <div class="container">
+    <div class="container padding-mobile ">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB3p">
             <h3>CONTATO</h3>
             <hr class="hrTitleFull hrPadrao MarginB3p">

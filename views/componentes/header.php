@@ -24,6 +24,10 @@
     @media screen and (max-width: 991px) {
         .div-search { margin-top: 8px; width: 250px; padding: 0px 15px; }
     }
+    
+    @media (max-width: 767px) {
+        .div-search { margin-top: 8px; width: 100%; padding: 0px}
+    }
 </style>
 <nav class="navbar navbar-fixed-top bg-branco" role="navigation">
     <div class="container">
@@ -52,21 +56,21 @@
             </button>
         </div>
     </div>
-    <div class="collapse navbar-collapse bg-preto" id="example-navbar-collapse">
-        <div class="container">
+    <div class="collapse navbar-collapse header-bg bg-preto" id="example-navbar-collapse" style="border-top: 1px solid rgb(204, 204, 204);">
+        <div class="container padding-mobile">
             <ul class="nav navbar-nav padding-zero">
-                <li><a href="<?= RAIZSITE ?>" class="branco-fonte">HOME</a></li>
+                <li><a href="<?= RAIZSITE ?>">HOME</a></li>
                 <li class="dropdown">
-                    <a href="<?= RAIZSITE ?>/avaliacoes" class="branco-fonte">AVALIAÇÕES</a>
+                    <a href="<?= RAIZSITE ?>/avaliacoes">AVALIAÇÕES</a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">TORRADEIRAS</a></li>
-                        <li><a href="#">LIQUIDIFICADORES</a></li>
-                        <li><a href="#">AQUECEDORES</a></li>
+                        <li><a href="#" class="preto-fonte">TORRADEIRAS</a></li>
+                        <li><a href="#" class="preto-fonte">LIQUIDIFICADORES</a></li>
+                        <li><a href="#" class="preto-fonte">AQUECEDORES</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="branco-fonte">BLOG</a></li>
-                <li><a href="<?= RAIZSITE ?>/sobre" class="branco-fonte">SOBRE</a></li>
-                <li><a href="<?= RAIZSITE ?>/contato" class="branco-fonte">CONTATO</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="<?= RAIZSITE ?>/sobre">SOBRE</a></li>
+                <li><a href="<?= RAIZSITE ?>/contato">CONTATO</a></li>
             </ul>
             <div class="input-group add-on div-search pull-right">
                 <div class="input-group-btn">
