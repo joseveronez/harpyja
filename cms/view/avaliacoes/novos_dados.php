@@ -1,3 +1,6 @@
+<?php
+    $produtos = $_SESSION["parametrosView"]["produtos"];
+?>
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
@@ -17,15 +20,15 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">nome_produto</label>
+                            <label class="col-sm-2 control-label" align="right">Produto</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="nome_produto" maxlength="255" required />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">categoria</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="categoria" maxlength="255" required />
+                                <select id="selectCategorias" class="form-control" name="produto">
+                                    <option selected value="">Selecione o Produto</option>
+                                    <?php foreach ($produtos as $produto): ?>
+                                        <option value="<?= $produto->id ?>"><?= $produto->nome ?></option>                                        
+                                    <?php endforeach ?>
+                                </select>
+                                
                             </div>
                         </div><br>
                     </div>

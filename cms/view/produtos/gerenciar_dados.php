@@ -1,25 +1,23 @@
 <?php
-    $dados = $_SESSION["parametrosView"]["dados"];
-    $produtos = $_SESSION["parametrosView"]["produtos"];
+    $dados = $_SESSION["parametrosView"];
 ?>
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
-            <h1><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Avaliações - Gerenciar</h1>
-            <h4 class="sub-title">gerenciar avaliações</h4>
+            <h1><i class="fa fa-list" aria-hidden="true"></i>&nbsp;Produtos - Gerenciar</h1>
+            <h4 class="sub-title">gerenciar produtos</h4>
 
             <div class="box">
                 <div class="box-title">
-                    <h3 class="box-title-title"><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;&nbsp;Avaliações </h3>
+                    <h3 class="box-title-title"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Produtos </h3>
                 </div>
                 <div class="box-content">
-                    <div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
+        			<div class="panel-body content table-responsive table-full-width" style="background-color:#FFFFFF; color:#000000;">
                         <table id="example" class="display" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
+                                	
                                     <th>Produto</th>
-                                    <th>Slug</th>
-                                    <th>&nbsp;</th>
                                     <th>&nbsp;</th>
                                     <th>&nbsp;</th>
                                 </tr>
@@ -29,27 +27,17 @@
                                     foreach ($dados as $item) {
                                 ?>
                                 <tr>
-                                    <td>
-                                        <?php
-                                            foreach ($produtos as $produto) {
-                                                if($produto->id == $item->id_produto){
-                                                    echo $produto->nome;
-                                                }
-                                            }
-                                        ?>
-                                    </td>
-                                    
-                                    <td>
-                                        <?= $item->slug ?>
-                                    </td>
+					                <td>
+                                    	<?= $item->nome ?>
+                               		</td>
                                     <td>
                                         <center>
-                                            <a href="<?= caminhoSite ?>/avaliacoes/editar-dados/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
+                                            <a href="<?= caminhoSite ?>/produtos/editar-dados/<?= $item->id ?>"><button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button></a>
                                         </center>
                                     </td>
-                                    <td>
+					                <td>
                                         <center>
-                                            <a href="<?= caminhoSite ?>/avaliacoes/excluir-dados/<?= $item->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
+                                            <a href="<?= caminhoSite ?>/produtos/excluir-dados/<?= $item->id ?>" class="btnDeleteAjax"><button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></a>
                                         </center>
                                     </td>
                                 </tr>
@@ -59,13 +47,17 @@
                             </tbody>
                         </table>
                     </div>
-                </div>
+        		</div>
             </div><br>
         </section>
         <?php include caminhoFisico . "/view/parts/footer.php" ?>
     </div>
 </div>
 <script type="text/javascript">
+    $("#example").dataTable({
+        "pageLength": 50
+    });
+
     $(document).ready(function() {
         $(".btnDeleteAjax").click(function(event) {
             /* Act on the event */

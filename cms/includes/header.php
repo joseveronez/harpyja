@@ -52,6 +52,19 @@
 	                        </li>
                     	</ul>
                         
+                        <li class="item <?php if($_SESSION["paginaAtual"] == "produtos/gerenciar") echo "menu-active-side" ?>">
+	                        <a href="#" class="menu-item-side"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Produtos
+	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+	                    </li>
+	                    <ul class="lista-sub-itens <?php if($_SESSION["paginaAtual"] == "produtos/gerenciar") echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "produtos/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/produtos/novos-dados">Novo Produto</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "produtos/gerenciar-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/produtos/gerenciar-dados">Gerenciar Produtos</a>
+	                        </li>
+                    	</ul>
+                        
                         <li class="item <?php if($_SESSION["paginaAtual"] == "categorias/gerenciar") echo "menu-active-side" ?>">
 	                        <a href="#" class="menu-item-side"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Categorias
 	                        <span class="glyphicon glyphicon-menu-right pull-right"></span></a>

@@ -33,6 +33,11 @@
 		$table = 'categorias';
 	}
     
+    class Produtos extends SimpleOrm {
+		protected static
+		$table = 'produtos';
+	}
+    
     class CaracteristicasCategoria extends SimpleOrm {
 		protected static
 		$table = 'caracteristicas_categoria';

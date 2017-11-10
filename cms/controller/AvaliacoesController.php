@@ -10,7 +10,11 @@
 			try {
 				setSession('paginaAtual', 'avaliacoes/gerenciar');
 				setSession('blackPage', 'avaliacoes/novos-dados');
-				$this->renderView('avaliacoes/novos_dados');
+                
+                $produtos = Produtos::sql("SELECT * FROM produtos ORDER BY id DESC");
+                $parametros = array('produtos' => $produtos);
+                
+				$this->renderView('avaliacoes/novos_dados', $parametros);
 			} catch (Exception $e) {
 				$this->renderViewUnique('/errors/errorServidor', $e);
 			}
@@ -19,8 +23,7 @@
             try {
                 $dados = new Avaliacoes();
                 $dados->slug = $this->requestParametrosPost["slug"];
-                $dados->nome_produto = $this->requestParametrosPost["nome_produto"];
-                $dados->categoria = $this->requestParametrosPost["categoria"];
+                $dados->id_produto = $this->requestParametrosPost["id_produto"];
                 $dados->nota_desempenho = $this->requestParametrosPost["nota_desempenho"];
                 $dados->nota_design_e_acabamento = $this->requestParametrosPost["nota_design_e_acabamento"];
                 $dados->nota_praticidade = $this->requestParametrosPost["nota_praticidade"];
@@ -75,10 +78,14 @@
         public function gerenciar_dados(){
             try {
                 $dados = Avaliacoes::all();
+                $produtos = Produtos::sql("SELECT * FROM produtos ORDER BY id DESC");
+                
+                $parametros = array('dados' => $dados, 'produtos' => $produtos);
+                
                 
                 setSession('paginaAtual', 'avaliacoes/gerenciar');
                 setSession('blackPage', 'avaliacoes/gerenciar-dados');
-                $this->renderView('avaliacoes/gerenciar_dados', $dados);
+                $this->renderView('avaliacoes/gerenciar_dados', $parametros);
             } catch (Exception $e) {
                 $this->renderViewUnique('/errors/errorServidor', $e);
             }
@@ -87,8 +94,9 @@
             $id = $this->requestParametrosGet[0];
             $dados = Avaliacoes::retrieveByPK($id);
             $pontos = AvaliacoesProsContras::sql("SELECT * FROM avaliacoes_pros_contras");
+            $produtos = Produtos::sql("SELECT * FROM produtos");
             
-            $parametros = array('pontos' => $pontos, 'dados' => $dados);
+            $parametros = array('pontos' => $pontos, 'dados' => $dados, 'produtos' => $produtos);
 
             setSession('paginaAtual', 'avaliacoes/gerenciar');
             setSession('blackPage', 'avaliacoes/gerenciar-dados');
@@ -99,8 +107,7 @@
                 $id = $this->requestParametrosPost["id"];
                 $dados = Avaliacoes::retrieveByPK($id);
                 $dados->slug = $this->requestParametrosPost["slug"];
-                $dados->nome_produto = $this->requestParametrosPost["nome_produto"];
-                $dados->categoria = $this->requestParametrosPost["categoria"];
+                $dados->id_produto = $this->requestParametrosPost["id_produto"];
                 $dados->nota_desempenho = $this->requestParametrosPost["nota_desempenho"];
                 $dados->nota_design_e_acabamento = $this->requestParametrosPost["nota_design_e_acabamento"];
                 $dados->nota_praticidade = $this->requestParametrosPost["nota_praticidade"];

@@ -55,4 +55,12 @@
 	$prefixos['categorias']['editar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'editar_dados', 'logado' => true);
 	$prefixos['categorias']['atualizar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['categorias']['excluir-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'excluir_dados', 'logado' => true);
+
+    $prefixos['produtos']['novos-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['produtos']['salvar-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['produtos']['gerenciar-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['produtos']['editar-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['produtos']['atualizar-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['produtos']['excluir-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'excluir_dados', 'logado' => true);
+
 ?>
