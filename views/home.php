@@ -137,23 +137,25 @@
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bloco-galeria">
     <div class="container conteudo padding-mobile">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
             <h4 class="size18 margin-zero">GALERIA DE VÍDEOS</h4>
             <hr class="hrTitleSobre hrPadrao MarginB5p">
         </div>
     </div>
     <div class="container galeria-videos padding-mobile MarginB10p">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
         <?php
             foreach ($videos as $video) {
                 ?>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 video">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero video-container">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 video-container">
                         <iframe src="<?= $video->link_video ?>" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <?php
             }
         ?>
+        </div>
     </div>
 </div>
 
