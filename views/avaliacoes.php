@@ -1,5 +1,5 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margem-header MarginB10p">
-    <div class="container">
+    <div class="container padding-mobile">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB5p">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB3p padding-zero">
                 <h3>AVALIAÇÕES RECENTES</h3>
@@ -9,17 +9,29 @@
                 <div class="owl-carousel owl-theme" id="avCarousel1">
                     <div>
                         <a href="<?= RAIZSITE ?>/avaliacao">
-                            <div class="img-avaliacoes" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
+                            <div class="img-avaliacoes Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-3 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 class="nota-ava-recentes">9</h3>
+                                </div>
+                            </div>
                         </a>
                     </div>
                     <div>
                         <a href="<?= RAIZSITE ?>/avaliacao">
-                            <div class="img-avaliacoes" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
+                            <div class="img-avaliacoes Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-3 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 class="nota-ava-recentes">9</h3>
+                                </div>
+                            </div>
                         </a>
                     </div>
                     <div>
                         <a href="<?= RAIZSITE ?>/avaliacao">
-                            <div class="img-avaliacoes" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;"></div>
+                            <div class="img-avaliacoes Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;">
+                                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 class="nota-ava-recentes">9</h3>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -34,7 +46,11 @@
                 <div class="owl-carousel owl-theme" id="avCarousel2">
                     <div>
                         <a href="<?= RAIZSITE ?>/avaliacao">
-                            <img src="<?= RAIZSITE ?>/imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
+                            <div class="img-avaliacoes Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;height: 200px;">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 style="margin: 10px;">9</h3>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -49,7 +65,11 @@
                 <div class="owl-carousel owl-theme" id="avCarousel3">
                     <div>
                         <a href="<?= RAIZSITE ?>/avaliacao">
-                            <img src="<?= RAIZSITE ?>/imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
+                            <div class="img-avaliacoes Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;height: 200px;">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 style="margin: 10px;">9</h3>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -64,7 +84,11 @@
                 <div class="owl-carousel owl-theme" id="avCarousel4">
                     <div>
                         <a href="<?= RAIZSITE ?>/avaliacao">
-                            <img src="<?= RAIZSITE ?>/imagens/teste.jpg" class="img-responsive" style="margin: 0 auto; height: 200px;">
+                            <div class="img-avaliacoes Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%;height: 200px;">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h3 style="margin: 10px;">9</h3>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>

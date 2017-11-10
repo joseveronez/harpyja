@@ -262,21 +262,10 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero Relative"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);">
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 Absolute text-center branco-fonte bg-nota position-nota">
-                                <h6 style="margin: 2px 0px;">9</h6>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
-                            <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="" class="link-default preto-fonte-alt">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-zero">
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem padding-zero Relative"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg); height: 65px;">
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h6 style="margin: 2px 0px;">9</h6>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
@@ -287,7 +276,10 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem padding-zero Relative"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg); height: 65px;">
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h6 style="margin: 2px 0px;">9</h6>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
@@ -298,7 +290,24 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 <a href="" class="link-default preto-fonte-alt">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-zero">
                         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aspect4-3 bg-imagem padding-zero"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg);">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem padding-zero Relative"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg); height: 65px;">
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h6 style="margin: 2px 0px;">9</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">
+                            <p class="size14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="link-default preto-fonte-alt">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT5p padding-zero">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 padding-zero">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-imagem padding-zero Relative"  style="background-image:url(<?= RAIZSITE ?>/imagens/teste.jpg); height: 65px;">
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h6 style="margin: 2px 0px;">9</h6>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 padding-zero-xs">

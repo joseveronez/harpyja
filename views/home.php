@@ -31,7 +31,7 @@
 </div>
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bloco-titulo padding-zero">
-    <div class="container conteudo">
+    <div class="container conteudo padding-mobile">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1>
                 Lorem ipsum
@@ -49,15 +49,21 @@
         <div class="" style="margin-top: 5px;">
             <div class="slider-pro sp-vertical" id="my-slider2">
                 <div class="sp-slides">
-                    <div class="sp-slide">
+                    <div class="sp-slide Relative">
                         <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg"/>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                            <h3 style="margin: 10px;">9</h3>
+                        </div>
                         <a href="" class="title-noticia" target="_self">
                             <h5 class="text-noticia">
                                 <b>Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing</b>
                             </h5>
                         </a>
                         <div class="sp-thumbnail">
-                            <div class="sp-thumbnail-image-container" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                            <div class="sp-thumbnail-image-container Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                                <div class="col-lg-3 col-md-3 col-sm-1 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h5 style="margin: 10px;">9</h5>
+                                </div>
                             </div>
                             <div class="sp-thumbnail-text">
                                 <div class="sp-thumbnail-title">Lorem ipsum</div>
@@ -67,13 +73,19 @@
                     </div>
                     <div class="sp-slide">
                         <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg"/>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                            <h3 style="margin: 10px;">9</h3>
+                        </div>
                         <a href="" class="title-noticia" target="_self">
                             <h5 class="text-noticia">
                                 <b>Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing</b>
                             </h5>
                         </a>
                         <div class="sp-thumbnail">
-                            <div class="sp-thumbnail-image-container" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                            <div class="sp-thumbnail-image-container Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                                <div class="col-lg-3 col-md-3 col-sm-1 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h5 style="margin: 10px;">9</h5>
+                                </div>
                             </div>
                             <div class="sp-thumbnail-text">
                                 <div class="sp-thumbnail-title">Lorem ipsum</div>
@@ -83,17 +95,23 @@
                     </div>
                     <div class="sp-slide">
                         <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg"/>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                            <h3 style="margin: 10px;">9</h3>
+                        </div>
                         <a href="" class="title-noticia" target="_self">
                             <h5 class="text-noticia">
                                 <b>Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing</b>
                             </h5>
                         </a>
                         <div class="sp-thumbnail">
-                            <div class="sp-thumbnail-image-container" style="background-image: url(imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                            <div class="sp-thumbnail-image-container Relative" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                                <div class="col-lg-3 col-md-3 col-sm-1 col-xs-2 padding-zero Absolute text-center branco-fonte bg-nota position-nota">
+                                    <h5 style="margin: 10px;">9</h5>
+                                </div>
                             </div>
                             <div class="sp-thumbnail-text">
                                 <div class="sp-thumbnail-title">Lorem ipsum</div>
-                                <div class="sp-thumbnail-description">Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing </div>
+                                <div class="sp-thumbnail-description">Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing Dolor sit amet, consectetur adipiscing</div>
                             </div>
                         </div>
                     </div>
@@ -104,12 +122,12 @@
 </div>
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-claro bloco-sobre MarginT10p">
-    <div class="container conteudo">
+    <div class="container conteudo padding-mobile PaddingT5p PaddingB5p">
         <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 padding-mobile">
             <img class="img-responsive img-circle" src="<?= RAIZSITE ?>/imagens/autor.png" style="margin: 0 auto; max-height: 300px;"><br>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 padding-mobile">
             <h3 class="margin-zero">Lorem ipsum</h3><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</p>
         </div>
@@ -118,13 +136,13 @@
 </div>
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bloco-galeria">
-    <div class="container conteudo">
+    <div class="container conteudo padding-mobile">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
             <h4 class="size18 margin-zero">GALERIA DE VÍDEOS</h4>
             <hr class="hrTitleSobre hrPadrao MarginB5p">
         </div>
     </div>
-    <div class="container galeria-videos MarginB10p">
+    <div class="container galeria-videos padding-mobile MarginB10p">
         <?php
             foreach ($videos as $video) {
                 ?>

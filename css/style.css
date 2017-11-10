@@ -52,6 +52,14 @@
 .contato-saiba { letter-spacing: 2px !important; border: 1px solid #444142; border-radius: 0 }
 .contato-saiba:hover { color: #ffffff; border: 1px solid #444142; background-color: #444142 }
 
+/* LG MD */
+@media (min-width : 992px) {
+    .nota-ava-recentes {margin: 20px!important; font-size: 50px!important;}
+}
+
+
+
+
 /* LG MD SM  */
 @media (min-width: 768px) {
     .navbar-centralizada { display: flex; justify-content: center; flex-wrap: wrap; width: 100%; }
@@ -63,8 +71,10 @@
     .margem-header {margin-top: 135px!important;}
     .margem-header-home {margin-top: 130px!important;}
     .img-comparacao{ height: 400px; }
-    
+    .nota-ava-recentes {margin: 10px!important; font-size: 50px!important;}
 }
+
+
 
 /* XS */
 @media (max-width: 767px) {
@@ -80,6 +90,8 @@
     .xs-padding0{padding: 0px!important;}
     .img-comparacao{ height: 200px; }
     .padding-autor{padding: 0px!important;}
+    .padding-mobile{padding: 0px!important;}
+    .nota-ava-recentes {margin: 15px!important; font-size: 35px!important;}
 }
 
 @media (max-width: 460px) {

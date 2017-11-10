@@ -38,7 +38,7 @@
 <footer>
     <?php if($pagina_atual != "contato") { ?>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-cinza-footer">
-        <div class="container Relative">
+        <div class="container Relative padding-mobile">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bloco-logo mobile-zero">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT3p">
                     <h4 class="size16" style="margin-top: 0px;">ACOMPANHE A HARPYJA</h4>

@@ -17,8 +17,12 @@
     .dropdown-menu { padding: 0 }
     .dropdown-menu>li>a { font-size: 15px; padding: 10px 20px; border-bottom: 1px solid #cccccc }
 
-    @media screen and (min-width: 768px) {
-        .div-search { margin-top: 8px; width: 300px; }
+    @media (min-width : 992px) {
+        .div-search { margin-top: 8px; width: 300px; padding: 0px 15px; }
+    }
+    
+    @media screen and (max-width: 991px) {
+        .div-search { margin-top: 8px; width: 250px; padding: 0px 15px; }
     }
 </style>
 <nav class="navbar navbar-fixed-top bg-branco" role="navigation">
