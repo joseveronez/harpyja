@@ -31,10 +31,6 @@
                                 
                             </div>
                         </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Caracteristicas</label>
-                            <div class="col-sm-10" id="tabelaCaracteristicas"></div>
-                        </div><br>
             		</div>
                 </div><br>
 
@@ -47,13 +43,6 @@
 
 <script type="text/javascript">
     $("#selectCategorias").change(function(){
-        var id = $("#selectCategorias").val();
-        $.ajax({
-            type: "POST",
-            url: "<?= caminhoSite ?>/produtos/categoria-ajax/"+id,
-            success: function(data){
-                $("#tabelaCaracteristicas").html(data);
-            }
-        });
+        alert($("#selectCategorias").val());
     });
 </script>

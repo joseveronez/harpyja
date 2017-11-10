@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 09-Nov-2017 às 19:37
+-- Generation Time: 10-Nov-2017 às 20:16
 -- Versão do servidor: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -31,8 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `avaliacoes` (
   `id` int(11) NOT NULL,
   `slug` varchar(255) NOT NULL,
-  `nome_produto` varchar(255) NOT NULL,
-  `categoria` varchar(255) NOT NULL,
+  `id_produto` int(11) NOT NULL,
   `nota_desempenho` varchar(10) NOT NULL,
   `nota_design_e_acabamento` varchar(10) NOT NULL,
   `nota_praticidade` varchar(10) NOT NULL,
@@ -50,14 +49,14 @@ CREATE TABLE `avaliacoes` (
 -- Extraindo dados da tabela `avaliacoes`
 --
 
-INSERT INTO `avaliacoes` (`id`, `slug`, `nome_produto`, `categoria`, `nota_desempenho`, `nota_design_e_acabamento`, `nota_praticidade`, `nota_limpeza`, `nota_seguranca`, `pontos_fortes`, `pontos_fracos`, `preco`, `texto`, `imagens`, `tag`) VALUES
-(1, 'teste', 'teste', 'teste', '3', '3', '3', '3', '3', 'teste', 'teste', 'teste', '<p>teste</p>', 'banner_teste.png', 'teste'),
-(2, 'avalicao-produto-x', 'produtox', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_1.png', 'tag'),
-(3, 'avalicao-produto-x', 'produtox', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_2.png', 'tag'),
-(4, 'avalicao-produto-x', 'produtox', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_3.png', 'tag'),
-(5, 'liquidificador', 'teste', 'Liquidificador', '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>&nbsp;texto</p>', 'banner_teste_4.png', 'tag'),
-(6, 'aquecedor', 'Aquecedor', 'Aquecedores', '5', '5', '5', '5', '5', 'teste', 'teste', '9999', '<p>texto</p>', '300x100.png', 'tag'),
-(7, 'produto-liquidificador', 'Liquidificador X', 'Liquidificador', '5', '5', '5', '5', '5', 'teste', 'teste', '99999', '<p>texto</p>', '300x100_1.png', 'tag');
+INSERT INTO `avaliacoes` (`id`, `slug`, `id_produto`, `nota_desempenho`, `nota_design_e_acabamento`, `nota_praticidade`, `nota_limpeza`, `nota_seguranca`, `pontos_fortes`, `pontos_fracos`, `preco`, `texto`, `imagens`, `tag`) VALUES
+(1, 'teste', 2, '3', '3', '3', '3', '3', 'teste', 'teste', 'teste', '<p>teste</p>', 'banner_teste.png', 'teste'),
+(2, 'avalicao-produto-x', 3, '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_1.png', 'tag'),
+(3, 'avalicao-produto-x', 2, '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_2.png', 'tag'),
+(4, 'avalicao-produto-x', 4, '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>texto</p>', 'banner_teste_3.png', 'tag'),
+(5, 'liquidificador', 3, '3', '3', '3', '3', '3', 'teste', 'teste', '9999', '<p>&nbsp;texto</p>', 'banner_teste_4.png', 'tag'),
+(6, 'aquecedor', 4, '5', '5', '5', '5', '5', 'teste', 'teste', '9999', '<p>texto</p>', '300x100.png', 'tag'),
+(7, 'produto-liquidificador', 3, '5', '5', '5', '5', '5', 'teste', 'teste', '99999', '<p>texto</p>', '300x100_1.png', 'tag');
 
 -- --------------------------------------------------------
 
@@ -102,7 +101,10 @@ CREATE TABLE `caracteristicas` (
 --
 
 INSERT INTO `caracteristicas` (`id`, `caracteristicas`) VALUES
-(3, 'Consumo de energia');
+(3, 'Consumo de energia'),
+(4, 'Caracteristica Torradeira'),
+(5, 'Caracteristica Aquecedor'),
+(6, 'Caracteristica Liquidificador');
 
 -- --------------------------------------------------------
 
@@ -123,7 +125,10 @@ CREATE TABLE `caracteristicas_categoria` (
 INSERT INTO `caracteristicas_categoria` (`id`, `id_caracteristica`, `id_categoria`) VALUES
 (7, 3, 2),
 (8, 3, 1),
-(9, 3, 3);
+(9, 3, 3),
+(10, 4, 2),
+(11, 5, 3),
+(12, 6, 1);
 
 -- --------------------------------------------------------
 
@@ -199,6 +204,27 @@ CREATE TABLE `configurar` (
 
 INSERT INTO `configurar` (`id`, `banner_topo`, `titulo`, `subtitulo`, `parallax`, `img_autor`, `titulo_autor`, `texto_autor`, `logo_cabecalho`, `logo_footer`, `facebook`, `twitter`, `youtube`, `slug_empresa`, `titulo_empresa`, `texto_empresa`, `slug_nome`, `titulo_nome`, `texto_nome`, `endereco`, `bairro`, `cidade`, `estado_uf`, `cep`, `mapa`) VALUES
 (1, 'teste', 'teste', 'teste', 'teste', 'imagem-teste.jpeg', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'teste', 'uf', 'teste', 'teste');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `produtos`
+--
+
+CREATE TABLE `produtos` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `id_categoria` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `produtos`
+--
+
+INSERT INTO `produtos` (`id`, `nome`, `id_categoria`) VALUES
+(2, 'Torradeira', 2),
+(3, 'Liquidificador', 1),
+(4, 'Aquecedor', 3);
 
 -- --------------------------------------------------------
 
@@ -294,6 +320,12 @@ ALTER TABLE `configurar`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `produtos`
+--
+ALTER TABLE `produtos`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `usuarios`
 --
 ALTER TABLE `usuarios`
@@ -323,12 +355,12 @@ ALTER TABLE `avaliacoes_pros_contras`
 -- AUTO_INCREMENT for table `caracteristicas`
 --
 ALTER TABLE `caracteristicas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `caracteristicas_categoria`
 --
 ALTER TABLE `caracteristicas_categoria`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `caracteristicas_produto`
 --
@@ -344,6 +376,11 @@ ALTER TABLE `categorias`
 --
 ALTER TABLE `configurar`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `produtos`
+--
+ALTER TABLE `produtos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `usuarios`
 --

@@ -81,5 +81,22 @@
                 $this->renderViewUnique('/errors/errorServidor', $e);
             }
         }
+        public function categoria_ajax(){
+            $id = $this->requestParametrosGet[0];
+            $caracteristicas = CaracteristicasCategoria::sql("SELECT * FROM caracteristicas_categoria LEFT JOIN caracteristicas ON(caracteristicas_categoria.id_caracteristica=caracteristicas.id) WHERE caracteristicas_categoria.id_categoria = '".$id."'");
+            $html = '';
+            
+            foreach($caracteristicas as $caracteristica){
+                $html .= '<div class="control-group row">';
+                $html .= '<label class="col-sm-2 control-label" align="right">';
+                $html .= $caracteristica->caracteristicas;
+                $html .= '</label>';
+                $html .= '<div class="col-sm-10">';
+                $html .= '<input type="text" class="form-control" name="valor[]" maxlength="255" required/>';
+                $html .= '</div></div><br>';
+            };
+            echo $html;
+        }
+        
     }
 ?>
