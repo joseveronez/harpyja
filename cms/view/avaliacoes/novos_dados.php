@@ -20,7 +20,7 @@
                         <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">Produto</label>
                             <div class="col-sm-10">
-                                <select id="selectCategorias" class="form-control" name="produto">
+                                <select class="form-control" name="id_produto">
                                     <option selected value="">Selecione o Produto</option>
                                     <?php foreach ($produtos as $produto) { ?>
                                         <option value="<?= $produto->id ?>"><?= $produto->nome ?></option>
@@ -163,10 +163,10 @@
                                 <input type="text" class="form-control" id="preco" placeholder="00,00" />
                             </div>
                             <div class="col-sm-4">
-                                <input type="text" class="form-control" id="link" placeholder="www.example.com" />
+                                <input type="text" class="form-control" id="link" placeholder="link da oferta" />
                             </div>
                             <div class="col-sm-3">
-                                <input type="text" class="form-control" id="empresa" />
+                                <input type="text" class="form-control" id="empresa" placeholder="link da logo" />
                             </div><br><br>
 
                             <label class="col-sm-2 control-label" align="right">&nbsp;</label>
