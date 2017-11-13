@@ -21,32 +21,44 @@
         public function salvar_dados() {
             try {
                 $dados = new Avaliacoes();
-                $dados->slug = $this->requestParametrosPost["slug"];
                 $dados->id_produto = $this->requestParametrosPost["id_produto"];
-                $dados->nota_desempenho = $this->requestParametrosPost["nota_desempenho"];
-                $dados->nota_design_e_acabamento = $this->requestParametrosPost["nota_design_e_acabamento"];
-                $dados->nota_praticidade = $this->requestParametrosPost["nota_praticidade"];
-                $dados->nota_limpeza = $this->requestParametrosPost["nota_limpeza"];
-                $dados->nota_seguranca = $this->requestParametrosPost["nota_seguranca"];
-                $dados->pontos_fortes = $this->requestParametrosPost["pontos_fortes"];
-                $dados->pontos_fracos = $this->requestParametrosPost["pontos_fracos"];
-                $dados->preco = $this->requestParametrosPost["preco"];
+                $dados->slug = $this->requestParametrosPost["slug"];
                 $dados->texto = $this->requestParametrosPost["texto"];
-                if (!empty($_FILES['imagens']['name'])) {
-                    $handle = new upload($_FILES['imagens']);
-                    if ($handle->uploaded) {
-                        $handle->image_resize = false;
-                        $handle->process(caminhoFisico . '/uploads/');
-                        if ($handle->processed) {
-                            $handle->clean();
-                            $dados->imagens = $handle->file_dst_name;
-                        } else {
-                            echo 'error : ' . $handle->error;
+                $dados->save();
+
+                if (!empty($_FILES['fotos'])) {
+                    $file_ary = reArrayFiles($_FILES['fotos']);
+
+                    foreach ($file_ary as $file) {
+                        $handle = new upload($file);
+                        if ($handle->uploaded) {
+                            $handle->image_resize = false;
+                            $handle->process(caminhoFisico . '/uploads/');
+
+                            if ($handle->processed) {
+                                $handle->clean();
+                                $fotos[] = $handle->file_dst_name;
+
+                                $foto = new AvaliacaoGaleria();
+                                $foto->id_avaliacao = $dados->id;
+                                $foto->imagem = $handle->file_dst_name;
+                                $foto->save();
+                            } else {
+                                echo 'error : ' . $handle->error;
+                            }
                         }
                     }
                 }
-                $dados->tag = $this->requestParametrosPost["tag"];
-                $dados->save();
+
+                $valorNotas =  json_decode($this->requestParametrosPost["jsonNotas"], true);
+                $valorNotas = $valorNotas['itens'];
+                foreach ($valorNotas as $notas) {
+                    $nota = new AvaliacaoTopicos();
+                    $nota->id_avaliacao = $dados->id;
+                    $nota->id_topico = $notas['idTopico'];
+                    $nota->descritivo = $notas['valorTopico'];
+                    $nota->save();
+                }
 
                 $pt_fortes =  json_decode($this->requestParametrosPost["jsonPtFortes"], true);				
 				$pt_fortes = $pt_fortes['itens'];
@@ -67,6 +79,17 @@
 					$fraco->descricao = $fracos['valorPtFraco'];
 					$fraco->save();
 				}
+
+                $valorPrecos =  json_decode($this->requestParametrosPost["jsonPreco"], true);
+                $valorPrecos = $valorPrecos['itens'];
+                foreach ($valorPrecos as $precos) {
+                    $nota = new AvaliacaoPrecos();
+                    $nota->id_avaliacao = $dados->id;
+                    $nota->id_empresa = $precos['idEmpresa'];
+                    $nota->link = $precos['valorLink'];
+                    $nota->valor = $precos['valorPreco'];
+                    $nota->save();
+                }
                 
                 setSession("sucesso", "S");
                 $this->redirect(caminhoSite . "/avaliacoes/gerenciar-dados");

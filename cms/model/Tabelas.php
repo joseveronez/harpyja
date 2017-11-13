@@ -62,4 +62,19 @@
 		protected static
 		$table = 'avaliacao_tags';
 	}
+
+	class AvaliacaoGaleria extends SimpleOrm {
+		protected static
+		$table = 'avaliacao_galeria';
+	}
+
+	class AvaliacaoTopicos extends SimpleOrm {
+		protected static
+		$table = 'avaliacao_topicos';
+	}
+
+	class AvaliacaoPrecos extends SimpleOrm {
+		protected static
+		$table = 'avaliacao_precos';
+	}
 ?>
