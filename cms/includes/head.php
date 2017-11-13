@@ -32,6 +32,9 @@
 
     <!-- TinyMCE JavaScript Plugin -->
     <script type="text/javascript" src="<?= caminhoPlugins ?>/tinymce/js/tinymce/tinymce.min.js"></script>
+    
+    <link type="text/css" rel="stylesheet" media="screen" href="<?= caminhoPlugins ?>/jQuery-Tags-Input-master/src/jquery.tagsinput.css">
+    <script type="text/javascript" src="<?= caminhoPlugins ?>/jQuery-Tags-Input-master/src/jquery.tagsinput.js"></script>
 
     <script>
         $(document).ready(function(){

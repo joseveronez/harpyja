@@ -52,4 +52,14 @@
 		protected static
 		$table = 'avaliacoes_pros_contras';
 	}
+
+	class Topicos extends SimpleOrm {
+		protected static
+		$table = 'topicos';
+	}
+
+	class AvaliacaoTags extends SimpleOrm {
+		protected static
+		$table = 'avaliacao_tags';
+	}
 ?>

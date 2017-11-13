@@ -4,17 +4,16 @@
 	require caminhoFisico . '/helper.php';
 
 	class AvaliacoesController extends Controller {
-
-
 		public function novos_dados() {
 			try {
+                $produtos = Produtos::sql("SELECT * FROM produtos ORDER BY id DESC");
+                $topicos = Topicos::all();
+
+                $parametros = array('produtos' => $produtos, 'topicos' => $topicos);
+                
+                $this->renderView('avaliacoes/novos_dados', $parametros);
 				setSession('paginaAtual', 'avaliacoes/gerenciar');
 				setSession('blackPage', 'avaliacoes/novos-dados');
-                
-                $produtos = Produtos::sql("SELECT * FROM produtos ORDER BY id DESC");
-                $parametros = array('produtos' => $produtos);
-                
-				$this->renderView('avaliacoes/novos_dados', $parametros);
 			} catch (Exception $e) {
 				$this->renderViewUnique('/errors/errorServidor', $e);
 			}

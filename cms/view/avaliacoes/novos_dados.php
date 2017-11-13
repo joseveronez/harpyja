@@ -1,6 +1,10 @@
 <?php
     $produtos = $_SESSION["parametrosView"]["produtos"];
+    $topicos = $_SESSION["parametrosView"]["topicos"];
 ?>
+<style type="text/css">
+    div.tagsinput { width: 100% !important }
+</style>
 <div class="col-md-9 pull-right conteudo">
     <div class="fluid content">
         <section>
@@ -10,178 +14,35 @@
             <form id="ava" action="<?= caminhoSite ?>/avaliacoes/salvar-dados" method="post" enctype="multipart/form-data">
                 <div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-info" aria-hidden="true"></i>&nbsp;&nbsp;Informações</h3>
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Informações</h3>
                     </div>
                     <div class="box-content">
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">slug</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="slug" maxlength="255" required />
-                            </div>
-                        </div><br>
                         <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">Produto</label>
                             <div class="col-sm-10">
                                 <select id="selectCategorias" class="form-control" name="produto">
                                     <option selected value="">Selecione o Produto</option>
-                                    <?php foreach ($produtos as $produto): ?>
-                                        <option value="<?= $produto->id ?>"><?= $produto->nome ?></option>                                        
-                                    <?php endforeach ?>
+                                    <?php foreach ($produtos as $produto) { ?>
+                                        <option value="<?= $produto->id ?>"><?= $produto->nome ?></option>
+                                    <?php } ?>
                                 </select>
-                                
                             </div>
                         </div><br>
-                    </div>
-                </div><br />
-                <div class="box">
-                    <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;&nbsp;Notas</h3>
-                    </div>
-                    <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">nota_desempenho</label>
+                            <label class="col-sm-2 control-label" align="right">Slug</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="nota_desempenho" maxlength="10" required />
+                                <input type="text" class="form-control" name="slug" maxlength="255" required />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">nota_design_e_acabamento</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="nota_design_e_acabamento" maxlength="10" required />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">nota_praticidade</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="nota_praticidade" maxlength="10" required />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">nota_limpeza</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="nota_limpeza" maxlength="10" required />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">nota_seguranca</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="nota_seguranca" maxlength="10" required />
-                            </div>
-                        </div><br>
-                    </div>
-                </div><br />
-                <div class="box">
-                    <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;&nbsp;Pontos fortes e Pontos fracos</h3>
-                    </div>
-                    <div class="box-content">
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">pontos_fortes</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="pontos_fortes" maxlength="255" required />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">pontos_fracos</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="pontos_fracos" maxlength="255" required />
-                            </div>
-                        </div><br>
-                    
-                        <div class="box-content">
-                            <div class="control-group row">
-                                <label class="col-sm-2 control-label" align="right">Adicionar Pontos Fortes</label>
-                                <div class="col-sm-7">
-                                    <input type="text" class="form-control" id="txtPtForte" placeholder="valor">
-                                </div>
-                                <div class="col-sm-3">
-                                    <button type="button" id="btnSalvaPtForte" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
-                                </div><br>
-                                <div class="col-sm-2">&nbsp;</div>
-                                <div class="col-sm-10 pull-right">
-                                    <table class="table table-striped" id="tblPtForte">
-                                        <thead>
-                                            <tr>
-                                                <th>Pontos Fortes</th>
-                                                <th>&nbsp;</th>
-                                                <th>&nbsp;</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div><br>
-                        </div>
-                        
-                        <div class="box-content">
-                            <div class="control-group row">
-                                <label class="col-sm-2 control-label" align="right">Adicionar Pontos Fracos</label>
-                                <div class="col-sm-7">
-                                    <input type="text" class="form-control" id="txtPtFraco" placeholder="valor">
-                                </div>
-                                <div class="col-sm-3">
-                                    <button type="button" id="btnSalvaPtFraco" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
-                                </div><br>
-                                <div class="col-sm-2">&nbsp;</div>
-                                <div class="col-sm-10 pull-right">
-                                    <table class="table table-striped" id="tblPtFraco">
-                                        <thead>
-                                            <tr>
-                                                <th>Pontos Fracos</th>
-                                                <th>&nbsp;</th>
-                                                <th>&nbsp;</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div><br>
-                        </div>
-                        
-                    </div>
-                </div><br />
-                <div class="box">
-                    <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-dollar" aria-hidden="true"></i>&nbsp;&nbsp;Preço</h3>
-                    </div>
-                    <div class="box-content">
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">preco</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="preco" maxlength="255" required />
-                            </div>
-                        </div><br>
-                    </div>
-                </div><br />
-                <div class="box">
-                    <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;Tags</h3>
-                    </div>
-                    <div class="box-content">
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">tag</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="tag" maxlength="255" required />
-                            </div>
-                        </div><br>
-                    </div>
-                </div><br />
-                <div class="box">
-                    <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-text-height" aria-hidden="true"></i>&nbsp;&nbsp;Texto e Imagens</h3>
-                    </div>
-                    <div class="box-content">
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">texto</label>
+                            <label class="col-sm-2 control-label" align="right">Descritivo</label>
 
                             <div class="col-sm-10">
                                 <textarea name="texto" type="text" class="form-control tinyMCE" cols="10" rows="10"></textarea>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">imagens</label>
+                            <label class="col-sm-2 control-label" align="right">Galeria de imagens</label>
 
                             <div class="col-sm-10">
                                 <input type="file" name="imagens" id="imagens" class="inputfile inputfile-1" required />
@@ -189,7 +50,163 @@
                             </div>
                         </div><br>
                     </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Notas</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">&nbsp;</label>
+                            <div class="col-sm-4">
+                                <select id="selectTopicos" class="form-control" name="produto">
+                                    <option selected value="">Selecione o tópico</option>
+                                    <?php foreach ($topicos as $topico) { ?>
+                                        <option value="<?= $topico->id ?>"><?= $topico->nome ?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="valorTopico" placeholder="0.0">
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" id="btnSalvaNota" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
+                            </div><br>
+
+                            <div class="col-sm-2">&nbsp;</div>
+                            <div class="col-sm-10 pull-right">
+                                <table class="table table-striped" id="tblNotas">
+                                    <thead>
+                                        <tr>
+                                            <th>tópico</th>
+                                            <th>&nbsp;</th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Pontos fortes</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">&nbsp;</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="txtPtForte" placeholder="valor">
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" id="btnSalvaPtForte" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
+                            </div><br>
+                            <div class="col-sm-2">&nbsp;</div>
+                            <div class="col-sm-10 pull-right">
+                                <table class="table table-striped" id="tblPtForte">
+                                    <thead>
+                                        <tr>
+                                            <th>pontos fortes</th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Pontos fracos</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">&nbsp;</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="txtPtFraco" placeholder="valor">
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" id="btnSalvaPtFraco" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
+                            </div><br>
+                            <div class="col-sm-2">&nbsp;</div>
+                            <div class="col-sm-10 pull-right">
+                                <table class="table table-striped" id="tblPtFraco">
+                                    <thead>
+                                        <tr>
+                                            <th>pontos fracos</th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Preço</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">&nbsp;</label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="preco" placeholder="00,00" />
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="link" placeholder="www.example.com" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="empresa" />
+                            </div><br><br>
+
+                            <label class="col-sm-2 control-label" align="right">&nbsp;</label>
+                            <div class="col-sm-3">
+                                <button type="button" id="btnSalvaPreco" class="btn btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Inserir</button>
+                            </div><br>
+
+                            <div class="col-sm-2">&nbsp;</div>
+                            <div class="col-sm-10 pull-right">
+                                <table class="table table-striped" id="tblPrecos">
+                                    <thead>
+                                        <tr>
+                                            <th>preco</th>
+                                            <th>link</th>
+                                            <th>empresa</th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Tags</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">&nbsp;</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="tags" id="tags" maxlength="255" required />
+                            </div>
+                        </div><br>
+                    </div>
                 </div><br />
+                
                 <button id="Salvar" type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             </form>
         </section>
@@ -198,35 +215,71 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function() {
+        $('#tags').tagsInput();
+
+        $('#btnSalvaNota').click(function(event) {
+            var id = $("#selectTopicos").val();
+            var topico = $("#selectTopicos option:selected").text();
+            var valorTopico = $("#valorTopico").val();
+
+            var registro = '<tr><td data-id="' +  id + '" class="topicoNome">' + topico + 
+                '</td><td class="valorTopico">' + valorTopico + 
+                '</td><td><center><button type="button" class="btn btn-default btn-excluir btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></center></td></tr>'
+            $('#tblNotas tbody').append(registro);
+        });
+
         $('#btnSalvaPtForte').click(function(event) {
-            /* Act on the event */
             var pt_forte = $("#txtPtForte").val();
             var registro = '<tr><td class="valPtForte">' + pt_forte + 
                 '</td><td><center><button type="button" class="btn btn-default btn-excluir btn-excluir-table"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></center></td></tr>'
-            $('#tblPtForte tbody').append(registro);           
+            $('#tblPtForte tbody').append(registro);
         });
         
         $('#btnSalvaPtFraco').click(function(event) {
-            /* Act on the event */
             var pt_forte = $("#txtPtFraco").val();
             var registro = '<tr><td class="valPtFraco">' + pt_forte + 
                 '</td><td><center><button type="button" class="btn btn-default btn-excluir btn-excluir-table"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></center></td></tr>'
-            $('#tblPtFraco tbody').append(registro);           
+            $('#tblPtFraco tbody').append(registro);
+        });
+
+        $('#btnSalvaPreco').click(function(event) {
+            var preco = $("#preco").val();
+            var link = $("#link").val();
+            var empresa = $("#empresa").val();
+
+            var registro = '<tr><td class="valorPreco">' + preco + 
+                '</td><td class="valorLink">' + link + 
+                '</td><td class="valorEmpresa">' + empresa + 
+                '</td><td><center><button type="button" class="btn btn-default btn-excluir btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button></center></td></tr>'
+            $('#tblPrecos tbody').append(registro);
         });
         
         $(document).on('click', '.btn-excluir-table', function(event) {
-            // event.preventDefault();
-            /* Act on the event */
             var tr = $(this).closest('tr');
             console.log(tr);
             tr.remove();
-        });        
+        });
         
         $('#Salvar').click(function(event) {
-            /* Act on the event */
+            var itensNotas = '{"itens":[';
+            var count = 0;
+            $('#tblNotas tbody tr').each(function(index, el) {
+                if (count != 0) {
+                    itensNotas = itensNotas + ',';
+                }
+
+                var idTopico = $(this).find('.topicoNome').attr('data-id');
+                var valorTopico = $(this).find('.valorTopico').text();
+                
+                itensNotas = itensNotas + '{"idTopico":"' + idTopico + '", "valorTopico":"' + valorTopico + '"}';
+
+                count++;
+            });
+            itensNotas = itensNotas + ']}';
+            $('#ava').append("<input type='hidden' name='jsonNotas' value='" + itensNotas + "' >");
+
             var itensPtFortes = '{"itens":[';
             var count = 0;
-            // each = função para 'percorrer' todos os elementos do seletor
             $('#tblPtForte tbody tr').each(function(index, el) {
                 if (count != 0) {
                     itensPtFortes = itensPtFortes + ',';
@@ -238,18 +291,11 @@
 
                 count++;
             });
-            itensPtFortes = itensPtFortes + ']}'; 
-
+            itensPtFortes = itensPtFortes + ']}';
             $('#ava').append("<input type='hidden' name='jsonPtFortes' value='" + itensPtFortes + "' >");
 
-            $('#ava').submit();
-        });
-        
-        $('#Salvar').click(function(event) {
-            /* Act on the event */
             var itensPtFracos = '{"itens":[';
             var count = 0;
-            // each = função para 'percorrer' todos os elementos do seletor
             $('#tblPtFraco tbody tr').each(function(index, el) {
                 if (count != 0) {
                     itensPtFracos = itensPtFracos + ',';
@@ -261,12 +307,28 @@
 
                 count++;
             });
-            itensPtFracos = itensPtFracos + ']}'; 
-
+            itensPtFracos = itensPtFracos + ']}';
             $('#ava').append("<input type='hidden' name='jsonPtFracos' value='" + itensPtFracos + "' >");
+
+            var itensPreco = '{"itens":[';
+            var count = 0;
+            $('#tblPrecos tbody tr').each(function(index, el) {
+                if (count != 0) {
+                    itensPreco = itensPreco + ',';
+                }
+
+                var valorPreco = $(this).find('.valorPreco').text();
+                var valorLink = $(this).find('.valorLink').text();
+                var valorEmpresa = $(this).find('.valorEmpresa').text();
+                
+                itensPreco = itensPreco + '{"valorPreco":"' + valorPreco + '", "valorLink":"' + valorLink + '", "valorEmpresa":"' + valorEmpresa + '"}';
+
+                count++;
+            });
+            itensPreco = itensPreco + ']}';
+            $('#ava').append("<input type='hidden' name='jsonPreco' value='" + itensPreco + "' >");
 
             $('#ava').submit();
         });
-        
     });
 </script>
