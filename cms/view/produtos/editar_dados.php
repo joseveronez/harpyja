@@ -42,6 +42,10 @@
                                 </select>
                             </div>
                         </div><br>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Caracteristicas</label><br>
+                            <div class="col-sm-10" id="tabelaCaracteristicas"></div>
+                        </div><br>
             		</div>
                 </div><br>
             	<button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
@@ -50,3 +54,55 @@
         <?php include caminhoFisico . "/view/parts/footer.php" ?>
     </div>
 </div>
+<script type="text/javascript">
+    $("#selectCategorias").change(function(){
+        var id = $("#selectCategorias").val();
+        $.ajax({
+            type: "POST",
+            url: "<?= caminhoSite ?>/produtos/categoria-ajax-editar/"+<?= $dados->id ?>,
+            success: function(data){
+                $("#tabelaCaracteristicas").html(data);
+            }
+        });
+    });
+
+    $(document).ready(function() {
+        var id = $("#selectCategorias").val();
+        $.ajax({
+            type: "POST",
+            url: "<?= caminhoSite ?>/produtos/categoria-ajax-editar/"+<?= $dados->id ?>,
+            success: function(data){
+                $("#tabelaCaracteristicas").html(data);
+            }
+        });
+
+
+
+        $("#salvaProd").click(function(event){
+            var itensCaracteristicas = '{"itens":[';
+            var count = 0;
+
+            $('.caractProd').each(function(index, el) {
+                if (count != 0) {
+                    itensCaracteristicas = itensCaracteristicas + ',';
+                }
+
+                var idCaracteristica = $(this).attr('id');
+                var valor = $(this).val();
+
+                itensCaracteristicas = itensCaracteristicas + 
+                        '{"idCaracteristica":"' + idCaracteristica + '", "valorCaracteristica":"'+ valor +'"}';
+                count++;
+            });
+
+
+            itensCaracteristicas = itensCaracteristicas + ']}';
+
+            console.log(itensCaracteristicas);
+
+            $('#formProd').append("<input type='hidden' name='jsonCaracteristicas' value='" + itensCaracteristicas + "' >");
+            $('#formProd').submit();
+
+        });
+    });
+</script>

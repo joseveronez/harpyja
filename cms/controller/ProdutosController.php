@@ -26,6 +26,17 @@
                 $dados->id_categoria = $this->requestParametrosPost["id_categoria"];
                 $dados->save();
 
+                $caracteristicas = json_decode($this->requestParametrosPost["jsonCaracteristicas"], true);               
+                $caracteristicas = $caracteristicas['itens'];
+                foreach ($caracteristicas as $caracteristica) {
+                    $caract = new CaracteristicasProduto();
+                    $caract->id_produto = $dados->id;
+                    $caract->valor = $caracteristica['valorCaracteristica'];
+                    $caract->id_caracteristica = $caracteristica['idCaracteristica'];
+                    $caract->save();
+                }
+
+
                 setSession("sucesso", "S");
                 $this->redirect(caminhoSite . "/produtos/gerenciar-dados");
             } catch (Exception $e) {
@@ -92,7 +103,25 @@
                 $html .= $caracteristica->caracteristicas;
                 $html .= '</label>';
                 $html .= '<div class="col-sm-10">';
-                $html .= '<input type="text" class="form-control" name="valor[]" maxlength="255" required/>';
+                $html .= '<input type="text" class="form-control caractProd" name="valor[]" maxlength="255" id="'.$caracteristica->id.'" required/>';
+                $html .= '</div></div><br>';
+            };
+            echo $html;
+        }
+
+        public function categoria_ajax_editar(){
+            $id = $this->requestParametrosGet[0];
+            $caracteristicas = CaracteristicasProduto::sql("SELECT * FROM caracteristicas_produto WHERE id_produto = '".$id."'");
+            $carac = Caracteristicas::sql("SELECT * FROM caracteristicas");
+            $html = '';
+            
+            foreach($caracteristicas as $caracteristica){
+                $html .= '<div class="control-group row">';
+                $html .= '<label class="col-sm-2 control-label" align="right">';
+                $html .= $caracteristica->caracteristicas;
+                $html .= '</label>';
+                $html .= '<div class="col-sm-10">';
+                $html .= '<input type="text" class="form-control caractProd" name="valor[]" maxlength="255" id="'.$caracteristica->id.'" required/>';
                 $html .= '</div></div><br>';
             };
             echo $html;

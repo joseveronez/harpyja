@@ -43,6 +43,11 @@
 		$table = 'caracteristicas_categoria';
 	}
 
+	class CaracteristicasProduto extends SimpleOrm {
+		protected static
+		$table = 'caracteristicas_produto';
+	}
+
     class AvaliacoesProsContras extends SimpleOrm {
 		protected static
 		$table = 'avaliacoes_pros_contras';

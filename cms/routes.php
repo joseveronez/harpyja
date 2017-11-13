@@ -63,5 +63,6 @@
 	$prefixos['produtos']['atualizar-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['produtos']['excluir-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'excluir_dados', 'logado' => true);
 	$prefixos['produtos']['categoria-ajax'] = array('Controller' => 'ProdutosController', 'Method' => 'categoria_ajax', 'logado' => true);
+	$prefixos['produtos']['categoria-ajax-editar'] = array('Controller' => 'ProdutosController', 'Method' => 'categoria_ajax_editar', 'logado' => true);
 
 ?>

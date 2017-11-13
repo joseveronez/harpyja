@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
--- https://www.phpmyadmin.net/
+-- version 4.5.1
+-- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 10-Nov-2017 às 20:16
--- Versão do servidor: 10.1.25-MariaDB
--- PHP Version: 7.1.7
+-- Generation Time: 13-Nov-2017 às 15:00
+-- Versão do servidor: 10.1.19-MariaDB
+-- PHP Version: 5.6.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -143,6 +141,14 @@ CREATE TABLE `caracteristicas_produto` (
   `id_caracteristica` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Extraindo dados da tabela `caracteristicas_produto`
+--
+
+INSERT INTO `caracteristicas_produto` (`id`, `id_produto`, `valor`, `id_caracteristica`) VALUES
+(1, 7, '231', 3),
+(2, 7, '12321', 6);
+
 -- --------------------------------------------------------
 
 --
@@ -224,7 +230,8 @@ CREATE TABLE `produtos` (
 INSERT INTO `produtos` (`id`, `nome`, `id_categoria`) VALUES
 (2, 'Torradeira', 2),
 (3, 'Liquidificador', 1),
-(4, 'Aquecedor', 3);
+(4, 'Aquecedor', 3),
+(7, 'Liquidificador', 1);
 
 -- --------------------------------------------------------
 
@@ -365,7 +372,7 @@ ALTER TABLE `caracteristicas_categoria`
 -- AUTO_INCREMENT for table `caracteristicas_produto`
 --
 ALTER TABLE `caracteristicas_produto`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `categorias`
 --
@@ -380,7 +387,7 @@ ALTER TABLE `configurar`
 -- AUTO_INCREMENT for table `produtos`
 --
 ALTER TABLE `produtos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `usuarios`
 --
@@ -390,8 +397,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT for table `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;COMMIT;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
