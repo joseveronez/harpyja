@@ -19,14 +19,14 @@
         public function atualizar_pagina() {
             try {
                 $dados = Configurar::retrieveByPK(1);
-                if (!empty($_FILES['banner_topo']['name'])) {
-                    $handle = new upload($_FILES['banner_topo']);
+                if (!empty($_FILES['banner_empresa']['name'])) {
+                    $handle = new upload($_FILES['banner_empresa']);
                     if ($handle->uploaded) {
                         $handle->image_resize = false;
                         $handle->process(caminhoFisico . '/uploads/');
                         if ($handle->processed) {
                             $handle->clean();
-                            $dados->banner_topo = $handle->file_dst_name;
+                            $dados->banner_empresa = $handle->file_dst_name;
                         } else {
                             echo 'error : ' . $handle->error;
                         }
@@ -75,14 +75,27 @@
                         }
                     }
                 }
-                if (!empty($_FILES['logo_footer']['name'])) {
-                    $handle = new upload($_FILES['logo_footer']);
+                if (!empty($_FILES['banner_nome']['name'])) {
+                    $handle = new upload($_FILES['banner_nome']);
                     if ($handle->uploaded) {
                         $handle->image_resize = false;
                         $handle->process(caminhoFisico . '/uploads/');
                         if ($handle->processed) {
                             $handle->clean();
-                            $dados->logo_footer = $handle->file_dst_name;
+                            $dados->banner_nome = $handle->file_dst_name;
+                        } else {
+                            echo 'error : ' . $handle->error;
+                        }
+                    }
+                }
+                if (!empty($_FILES['banner_sobre']['name'])) {
+                    $handle = new upload($_FILES['banner_sobre']);
+                    if ($handle->uploaded) {
+                        $handle->image_resize = false;
+                        $handle->process(caminhoFisico . '/uploads/');
+                        if ($handle->processed) {
+                            $handle->clean();
+                            $dados->banner_sobre = $handle->file_dst_name;
                         } else {
                             echo 'error : ' . $handle->error;
                         }

@@ -18,6 +18,9 @@
     require RAIZ.'/cms/includes/config.php';
     require RAIZ.'/cms/model/Tabelas.php';
 ?>
+<?php
+    $config = Configurar::sql("SELECT * FROM configurar", SimpleOrm::FETCH_ONE);
+?>
 <!DOCTYPE html>
 <html>
 <head>

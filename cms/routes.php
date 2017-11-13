@@ -56,6 +56,13 @@
 	$prefixos['categorias']['atualizar-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'atualizar_dados', 'logado' => true);
 	$prefixos['categorias']['excluir-dados'] = array('Controller' => 'CategoriasController', 'Method' => 'excluir_dados', 'logado' => true);
 
+	$prefixos['banners_home']['novos-dados'] = array('Controller' => 'BannersHomeController', 'Method' => 'novos_dados', 'logado' => true);
+	$prefixos['banners_home']['salvar-dados'] = array('Controller' => 'BannersHomeController', 'Method' => 'salvar_dados', 'logado' => true);
+	$prefixos['banners_home']['gerenciar-dados'] = array('Controller' => 'BannersHomeController', 'Method' => 'gerenciar_dados', 'logado' => true);
+	$prefixos['banners_home']['editar-dados'] = array('Controller' => 'BannersHomeController', 'Method' => 'editar_dados', 'logado' => true);
+	$prefixos['banners_home']['atualizar-dados'] = array('Controller' => 'BannersHomeController', 'Method' => 'atualizar_dados', 'logado' => true);
+	$prefixos['banners_home']['excluir-dados'] = array('Controller' => 'BannersHomeController', 'Method' => 'excluir_dados', 'logado' => true);
+
     $prefixos['produtos']['novos-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'novos_dados', 'logado' => true);
 	$prefixos['produtos']['salvar-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'salvar_dados', 'logado' => true);
 	$prefixos['produtos']['gerenciar-dados'] = array('Controller' => 'ProdutosController', 'Method' => 'gerenciar_dados', 'logado' => true);

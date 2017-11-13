@@ -21,10 +21,21 @@
                 <div id="sidebar-wrapper" style="background-color:#17181b">
                 	<ul class="lista">
 
-						<li class="item <?php if($_SESSION["paginaAtual"] == "configurar/gerenciar") echo "menu-active-side" ?>">
-                            <a href="<?= caminhoSite ?>/configurar/gerenciar-pagina"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Configuracoes
+						<li class="item <?php if(($_SESSION["paginaAtual"] == "configurar/gerenciar") || ($_SESSION["paginaAtual"] == "banners_home/gerenciar")) echo "menu-active-side" ?>">
+                            <a href="#" class="menu-item-side"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Configurações
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
+                        <ul class="lista-sub-itens <?php if(($_SESSION["paginaAtual"] == "configurar/gerenciar") || ($_SESSION["paginaAtual"] == "banners_home/gerenciar")) echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "configurar/gerenciar") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/configurar/gerenciar-pagina">Configurações</a>
+	                        </li>
+	                    	<li class="sub-item <?php if($_SESSION["blackPage"] == "banners_home/novos-dados") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/banners_home/novos-dados">Adicionar Banner</a>
+	                        </li>
+	                        <li class="sub-item <?php if($_SESSION["blackPage"] == "banners_home/gerenciar") echo "black" ?>">
+	                            <a href="<?= caminhoSite ?>/banners_home/gerenciar-dados">Gerenciar Banners</a>
+	                        </li>
+                    	</ul>
 
 						<li class="item <?php if($_SESSION["paginaAtual"] == "avaliacoes/gerenciar") echo "menu-active-side" ?>">
 	                        <a href="#" class="menu-item-side"><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;&nbsp;Avaliações

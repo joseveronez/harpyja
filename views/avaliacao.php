@@ -1,3 +1,6 @@
+<?php
+    $config = Configurar::sql("SELECT * FROM configurar", SimpleOrm::FETCH_ONE);
+?>
 <style type="text/css">
     .produto-item { border-bottom: 1px solid #cccccc }
     .produto-item p { margin: 0; padding: 10px 0px; font-size: smaller; }
@@ -242,13 +245,13 @@ Vestibulum pulvinar, dolor sed elementum rutrum, tellus ipsum tempor nunc, at gr
                 <hr class="hrTitleFull hrPadrao">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT5p MarginB5p">
                     <div class="col-lg-2 col-md-2 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-4 padding-zero">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero"  style="background-image:url(<?= RAIZSITE ?>/imagens/autor.png);  background-size: cover; background-position: center center; background-repeat: no-repeat; padding-top: 100%; border-radius: 50%;">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero"  style="background-image:url(<?= RAIZSITE ?>/cms/uploads/<?= $config->img_autor ?>);  background-size: cover; background-position: center center; background-repeat: no-repeat; padding-top: 100%; border-radius: 50%;">
                         </div>
                     </div>
                     <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 text-justify padding-autor">
                         <div class="col-xs-12 padding-zero MarginT3p hidden-lg hidden-md hidden-sm"></div>
-                        <h3 class="margin-zero" style="margin-bottom: 5px; margin-left: -1px;">Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</p>
+                        <h3 class="margin-zero" style="margin-bottom: 5px; margin-left: -1px;"><?= $config->titulo_autor ?></h3>
+                        <?= $config->texto_autor ?>
                     </div>
                 </div>
             </div>

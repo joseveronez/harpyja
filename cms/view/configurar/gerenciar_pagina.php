@@ -82,7 +82,7 @@
                         <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">Link Mapa</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="mapa" maxlength="255" value="<?= $dados->mapa ?>" />
+                                <input type="text" class="form-control" name="mapa" maxlength="500" value="<?= $dados->mapa ?>" />
                             </div>
                         </div><br>
                     </div>
@@ -106,22 +106,6 @@
 
                                 <input type="file" name="logo_cabecalho" id="logo_cabecalho" class="inputfile inputfile-1" />
                                 <label for="logo_cabecalho"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Logo Rodapé</label>
-
-                            <div class="col-sm-10">
-                                <?php
-                                    if (!empty($dados->logo_footer)) {
-                                ?>
-                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->logo_footer ?><br />
-                                <?php
-                                    }
-                                ?>
-
-                                <input type="file" name="logo_footer" id="logo_footer" class="inputfile inputfile-1" />
-                                <label for="logo_footer"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
                             </div>
                         </div><br>
                         <div class="control-group row">
@@ -149,50 +133,6 @@
                         <h3 class="box-title-title"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Home</h3>
                     </div>
                     <div class="box-content">
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">banner_topo</label>
-
-                            <div class="col-sm-10">
-                                <?php
-                                    if (!empty($dados->banner_topo)) {
-                                ?>
-                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->banner_topo ?><br />
-                                <?php
-                                    }
-                                ?>
-
-                                <input type="file" name="banner_topo" id="banner_topo" class="inputfile inputfile-1" />
-                                <label for="banner_topo"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="titulo" maxlength="255" value="<?= $dados->titulo ?>" />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">subtitulo</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="subtitulo" maxlength="255" value="<?= $dados->subtitulo ?>" />
-                            </div>
-                        </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">banner_topo</label>
-
-                            <div class="col-sm-10">
-                                <?php
-                                    if (!empty($dados->banner_topo)) {
-                                ?>
-                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->banner_topo ?><br />
-                                <?php
-                                    }
-                                ?>
-
-                                <input type="file" name="banner_topo" id="banner_topo" class="inputfile inputfile-1" />
-                                <label for="banner_topo"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
-                            </div>
-                        </div><br>
                         <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">Titulo Página Home</label>
                             <div class="col-sm-10">
@@ -227,11 +167,44 @@
                     <div class="box-title">
                         <h3 class="box-title-title"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;Sobre</h3>
                     </div>
+                    <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Banner Página Sobre</label>
+
+                            <div class="col-sm-10">
+                                <?php
+                                    if (!empty($dados->banner_sobre)) {
+                                ?>
+                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->banner_sobre ?><br />
+                                <?php
+                                    }
+                                ?>
+
+                                <input type="file" name="banner_sobre" id="banner_sobre" class="inputfile inputfile-1" />
+                                <label for="banner_sobre"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
+                            </div>
+                        </div><br>
                     <div class="box-content">
                         <div class="control-group row">
                             <label class="col-sm-2 control-label" align="right">Slug Empresa</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="slug_empresa" maxlength="255" value="<?= $dados->slug_empresa ?>" />
+                            </div>
+                        </div><br>
+
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Banner Página Empresa</label>
+
+                            <div class="col-sm-10">
+                                <?php
+                                    if (!empty($dados->banner_empresa)) {
+                                ?>
+                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->banner_empresa ?><br />
+                                <?php
+                                    }
+                                ?>
+
+                                <input type="file" name="banner_empresa" id="banner_empresa" class="inputfile inputfile-1" />
+                                <label for="banner_empresa"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
                             </div>
                         </div><br>
                         <div class="control-group row">
@@ -251,6 +224,24 @@
                             <label class="col-sm-2 control-label" align="right">Slug Nome</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="slug_nome" maxlength="255" value="<?= $dados->slug_nome ?>" />
+                            </div>
+                        </div><br>
+
+
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Banner Página O Nome</label>
+
+                            <div class="col-sm-10">
+                                <?php
+                                    if (!empty($dados->banner_nome)) {
+                                ?>
+                                    <i class="fa fa-file-archive-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<?= $dados->banner_nome ?><br />
+                                <?php
+                                    }
+                                ?>
+
+                                <input type="file" name="banner_nome" id="banner_nome" class="inputfile inputfile-1" />
+                                <label for="banner_nome"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Escolha o arquivo&hellip;</span></label>
                             </div>
                         </div><br>
                         <div class="control-group row">

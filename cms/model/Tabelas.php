@@ -77,4 +77,9 @@
 		protected static
 		$table = 'avaliacao_precos';
 	}
+
+	class BannersHome extends SimpleOrm {
+		protected static
+		$table = 'banners_home';
+	}
 ?>

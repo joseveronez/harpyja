@@ -1,5 +1,6 @@
 <?php
     $videos = Videos::sql("SELECT * FROM videos ORDER BY id DESC");
+    $config = Configurar::sql("SELECT * FROM configurar", SimpleOrm::FETCH_ONE);
 ?>
 
 <style type="text/css">
@@ -15,6 +16,8 @@
     .bloco-titulo .conteudo { margin-top: 50px; margin-bottom: 25px }
     .bloco-sobre .conteudo { padding-top: 65px; padding-bottom: 50px }
     .bloco-sobre .conteudo p { font-size: 16px; text-align: justify }
+    .parallax-img {background-image: url(<?= RAIZSITE ?>/cms/uploads/<?= $config->parallax ?>);}
+    .parallax-default { background-size: cover; height: 300px; background-attachment: fixed; background-position: center left;}
 </style>
 <div class="slider-pro margem-header-home" id="my-slider">
     <div class="sp-slides">
@@ -34,11 +37,11 @@
     <div class="container conteudo padding-mobile">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1>
-                Lorem ipsum
+                <?= $config->titulo ?>
                 <hr class="hrTitle hrPadrao hidden-sm hidden-xs">
             </h1>
             <h2>
-                Lorem ipsum dolor sit amet.
+                <?= $config->subtitulo ?>
             </h2>
         </div>
     </div>
@@ -125,11 +128,11 @@
     <div class="container conteudo padding-mobile PaddingT5p PaddingB5p">
         <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 padding-mobile">
-            <img class="img-responsive img-circle" src="<?= RAIZSITE ?>/imagens/autor.png" style="margin: 0 auto; max-height: 300px;"><br>
+            <img class="img-responsive img-circle" src="<?= RAIZSITE ?>/cms/uploads/<?= $config->img_autor ?>" style="margin: 0 auto; max-height: 300px;"><br>
         </div>
         <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 padding-mobile">
-            <h3 class="margin-zero">Lorem ipsum</h3><br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis quis lorem volutpat vestibulum. In quis vulputate dolor, eget feugiat neque. Donec mauris tellus, vulputate ut ligula eget, ullamcorper semper erat. Donec nulla tortor, malesuada ac nisi vitae, porta interdum magna. Suspendisse ex elit, rhoncus nec risus et, interdum gravida lacus.</p>
+            <h3 class="margin-zero"><?= $config->titulo_autor ?></h3><br>
+            <?= $config->texto_autor ?>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs">&nbsp;</div>
     </div>

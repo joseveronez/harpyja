@@ -1,33 +1,38 @@
 <?php 
-    $qualquer = $_GET['inst']
+    $url = explode('/', $_SERVER['REQUEST_URI']);
+    $slug = end($url);
+    $config = Configurar::sql("SELECT * FROM configurar", SimpleOrm::FETCH_ONE);
 ?>
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margem-header">
     <div class="container padding-mobile">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB7p" style="background-image: url(<?= RAIZSITE ?>/imagens/teste.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; background-origin: content-box ; height: 250px;">
-        </div>
+        
         <?php
-            if ($qualquer == 1){
+            if ($slug == 'empresa'){
                 ?>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB7p" style="background-image: url(<?= RAIZSITE ?>/cms/uploads/<?= $config->banner_empresa ?>); background-position: center center; background-repeat: no-repeat; background-size: cover; background-origin: content-box ; height: 430px;">
+                </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
-                        <h3 class="size18">A EMPRESA</h3>
+                        <h3 class="size18"><?= $config->titulo_empresa ?></h3>
                         <hr class="hrTitleSobre hrPadrao MarginB2p">
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
-                        <p class="size13 justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum, augue a varius lobortis, ipsum velit ornare augue, et consequat sem massa quis nulla. Aenean venenatis vulputate odio quis laoreet. Nulla aliquam urna leo, nec euismod tortor mollis id. Fusce dictum quam sit amet ante pellentesque, nec luctus elit aliquet. Nunc iaculis purus non egestas semper. Duis condimentum dictum mattis. Nullam ultrices nulla sit amet eros dignissim semper. Cras sagittis diam mauris, et ullamcorper nisl interdum id. Maecenas fermentum tempus urna, at dapibus tortor varius ac. Phasellus vitae tempus nulla, sed iaculis ligula. Ut et tellus ac lorem sagittis efficitur. Donec vitae risus dictum, consequat nibh id, finibus turpis. Sed nec nunc orci. Nunc faucibus turpis ut lorem convallis, id volutpat tortor dictum.</p>
+                        <p class="size13 justify"><?= $config->texto_empresa ?></p>
                     </div>
                 </div>
                 <?php
-            } else {
+            } else if($slug == 'o-nome') {
                 ?>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginB7p" style="background-image: url(<?= RAIZSITE ?>/cms/uploads/<?= $config->banner_nome ?>); background-position: center center; background-repeat: no-repeat; background-size: cover; background-origin: content-box ; height: 300px;">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB10p">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
-                        <h3 class="size18">O NOME</h3>
+                        <h3 class="size18"><?= $config->titulo_nome ?></h3>
                         <hr class="hrTitleSobre hrPadrao MarginB2p">
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-mobile">
-                        <p class="size13 justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum, augue a varius lobortis, ipsum velit ornare augue, et consequat sem massa quis nulla. Aenean venenatis vulputate odio quis laoreet. Nulla aliquam urna leo, nec euismod tortor mollis id. Fusce dictum quam sit amet ante pellentesque, nec luctus elit aliquet. Nunc iaculis purus non egestas semper. Duis condimentum dictum mattis. Nullam ultrices nulla sit amet eros dignissim semper. Cras sagittis diam mauris, et ullamcorper nisl interdum id. Maecenas fermentum tempus urna, at dapibus tortor varius ac. Phasellus vitae tempus nulla, sed iaculis ligula. Ut et tellus ac lorem sagittis efficitur. Donec vitae risus dictum, consequat nibh id, finibus turpis. Sed nec nunc orci. Nunc faucibus turpis ut lorem convallis, id volutpat tortor dictum.</p>
+                        <p class="size13 justify"><?= $config->texto_nome; ?></p>
                     </div>
                 </div>
                 <?php
