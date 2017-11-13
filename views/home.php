@@ -1,6 +1,7 @@
 <?php
     $videos = Videos::sql("SELECT * FROM videos ORDER BY id DESC");
     $config = Configurar::sql("SELECT * FROM configurar", SimpleOrm::FETCH_ONE);
+    $banners = BannersHome::sql("SELECT * FROM banners_home");
 ?>
 
 <style type="text/css">
@@ -19,18 +20,14 @@
     .parallax-img {background-image: url(<?= RAIZSITE ?>/cms/uploads/<?= $config->parallax ?>);}
     .parallax-default { background-size: cover; height: 300px; background-attachment: fixed; background-position: center left;}
 </style>
-<div class="slider-pro margem-header-home" id="my-slider">
-    <div class="sp-slides">
-        <div class="sp-slide">
-            <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg">
-        </div>
-        <div class="sp-slide">
-            <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg">
-        </div>
-        <div class="sp-slide">
-            <img class="sp-image" src="<?= RAIZSITE ?>/imagens/teste.jpg">
-        </div>
-    </div>
+<div class="owl-carousel margem-header-home" id="owl">
+    <?php 
+        foreach ($banners as $banner) { ?>
+            <div class="">
+                <img class="" src="<?= RAIZSITE ?>/cms/uploads/<?= $banner->imagem ?>" style="height: 550px;">
+            </div>
+        <?php }
+    ?>
 </div>
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bloco-titulo padding-zero">
@@ -167,22 +164,23 @@
 </div>
 
 <script type="text/javascript">
-        jQuery( document ).ready(function( $ ) {
-		  $( '#my-slider' ).sliderPro({
-              width: '100%',
-              height: 350,
-              buttons: false,
-              breakpoints: {
-                1000:{
-                },
-				800: {
-                    height: 380,
-				},
-				500: {
-                    height: 300,
-				}
-			}
-          });
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            })
         });
         $( '#my-slider2' ).sliderPro({
               width: 620,

@@ -63,9 +63,9 @@
                 <li class="dropdown">
                     <a href="<?= RAIZSITE ?>/avaliacoes">AVALIAÇÕES</a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"><span class="preto-fonte">TORRADEIRAS</span></a></li>
-                        <li><a href="#"><span class="preto-fonte">LIQUIDIFICADORES</span></a></li>
-                        <li><a href="#"><span class="preto-fonte">AQUECEDORES</span></a></li>
+                        <li><a href="<?= RAIZSITE ?>/categoria/torradeiras"><span class="preto-fonte">TORRADEIRAS</span></a></li>
+                        <li><a href="<?= RAIZSITE ?>/categoria/liquidificadores"><span class="preto-fonte">LIQUIDIFICADORES</span></a></li>
+                        <li><a href="<?= RAIZSITE ?>/categoria/aquecedores"><span class="preto-fonte">AQUECEDORES</span></a></li>
                     </ul>
                 </li>
                 <li><a href="#">BLOG</a></li>

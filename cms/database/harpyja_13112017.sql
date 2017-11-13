@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 13-Nov-2017 às 21:31
+-- Generation Time: 13-Nov-2017 às 22:07
 -- Versão do servidor: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -87,8 +87,8 @@ CREATE TABLE `banners_home` (
 --
 
 INSERT INTO `banners_home` (`id`, `titulo`, `imagem`) VALUES
-(3, 'Banner Harpyja', 'IMG_0661.jpg'),
-(4, 'Banner Harpyja 2', 'Harpia-harpyja-001.jpg');
+(3, 'Banner Harpyja', 'Harpia-harpyja-001.jpg'),
+(5, 'Banner Logo', '1500x500.jpg');
 
 -- --------------------------------------------------------
 
@@ -398,7 +398,7 @@ ALTER TABLE `avaliacoes_pros_contras`
 -- AUTO_INCREMENT for table `banners_home`
 --
 ALTER TABLE `banners_home`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `caracteristicas`
 --

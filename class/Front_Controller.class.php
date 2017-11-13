@@ -13,6 +13,7 @@
             'contato'=>array('layout'=>'default','view'=>'contato'),
             'sobre'=>array('layout'=>'default','view'=>'sobre'),
             'institucional'=>array('layout'=>'default','view'=>'institucional'),
+            'categoria'=>array('layout'=>'default','view'=>'categoria'),
             
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada
