@@ -8,7 +8,7 @@
             <h1><i class="fa fa-list" aria-hidden="true"></i>&nbsp;Produtos - Editar Produto</h1>
             <h4 class="sub-title">Editar Produto</h4>
 
-            <form action="<?= caminhoSite ?>/produtos/atualizar-dados" method="post" enctype="multipart/form-data">
+            <form id="formProd" action="<?= caminhoSite ?>/produtos/atualizar-dados" method="post" enctype="multipart/form-data">
             	<input type="hidden" name="id" value="<?= $dados->id ?>" />
 
             	<div class="box">
@@ -48,7 +48,7 @@
                         </div><br>
             		</div>
                 </div><br>
-            	<button type="submit" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
+            	<button id="salvaProd" type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Atualizar</button>
             </form>
         </section>
         <?php include caminhoFisico . "/view/parts/footer.php" ?>
@@ -87,11 +87,12 @@
                     itensCaracteristicas = itensCaracteristicas + ',';
                 }
 
+                var id = $(this).attr('data-id');
                 var idCaracteristica = $(this).attr('id');
                 var valor = $(this).val();
 
                 itensCaracteristicas = itensCaracteristicas + 
-                        '{"idCaracteristica":"' + idCaracteristica + '", "valorCaracteristica":"'+ valor +'"}';
+                        '{"id":"' + id + '", "idCaracteristica":"' + idCaracteristica + '", "valorCaracteristica":"'+ valor +'"}';
                 count++;
             });
 

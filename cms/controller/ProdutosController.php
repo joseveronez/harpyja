@@ -73,6 +73,16 @@
                 $dados->id_categoria = $this->requestParametrosPost["id_categoria"];
                 $dados->save();
 
+                $caracteristicas = json_decode($this->requestParametrosPost["jsonCaracteristicas"], true);               
+                $caracteristicas = $caracteristicas['itens'];
+                foreach ($caracteristicas as $caracteristica) {
+                    $caract = CaracteristicasProduto::retrieveByPK($caracteristica['id']);
+                    $caract->id_produto = $dados->id;
+                    $caract->valor = $caracteristica['valorCaracteristica'];
+                    $caract->id_caracteristica = $caracteristica['idCaracteristica'];
+                    $caract->save();
+                }
+
                 setSession("sucesso", "S");
                 $this->redirect(caminhoSite . "/produtos/gerenciar-dados");
             } catch (Exception $e) {
@@ -108,20 +118,28 @@
             };
             echo $html;
         }
-
+        //tras cada caracteristica e seu valor da tabela caracteristicas_produto
         public function categoria_ajax_editar(){
             $id = $this->requestParametrosGet[0];
+            //tras todas as caracteriscas que tenham o id_produto igual ao produto que esta sendo editado
             $caracteristicas = CaracteristicasProduto::sql("SELECT * FROM caracteristicas_produto WHERE id_produto = '".$id."'");
             $carac = Caracteristicas::sql("SELECT * FROM caracteristicas");
+            $nome = '';
             $html = '';
-            
             foreach($caracteristicas as $caracteristica){
+                //busca o nome da caracteristica e atribui ele à variavel $nome
+                foreach ($carac as $cara) {
+                    if ($cara->id == $caracteristica->id_caracteristica) {
+                        $nome = $cara->caracteristicas;
+                    }
+                }
+
                 $html .= '<div class="control-group row">';
                 $html .= '<label class="col-sm-2 control-label" align="right">';
-                $html .= $caracteristica->caracteristicas;
+                $html .= $nome;
                 $html .= '</label>';
                 $html .= '<div class="col-sm-10">';
-                $html .= '<input type="text" class="form-control caractProd" name="valor[]" maxlength="255" id="'.$caracteristica->id.'" required/>';
+                $html .= '<input type="text" class="form-control caractProd" name="valor[]" data-id="'.$caracteristica->id.'" maxlength="255" id="'.$caracteristica->id_caracteristica.'" value="'.$caracteristica->valor.'" required/>';
                 $html .= '</div></div><br>';
             };
             echo $html;
