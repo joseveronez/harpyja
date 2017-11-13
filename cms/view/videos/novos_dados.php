@@ -11,13 +11,13 @@
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">link_video</label>
+                            <label class="col-sm-2 control-label" align="right">Link do Vídeo (Embed)</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="link_video" maxlength="255"  />
                             </div>
                         </div><br>
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Título</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="Titulo" maxlength="255"  />
                             </div>

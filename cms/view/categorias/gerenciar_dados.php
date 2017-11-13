@@ -16,8 +16,7 @@
                         <table id="example" class="display" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
-                                	
-                                    <th>Categoria</th>
+                                    <th>Nome da Categoria</th>
                                     <th>&nbsp;</th>
                                     <th>&nbsp;</th>
                                 </tr>

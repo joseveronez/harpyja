@@ -16,13 +16,13 @@
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">slug</label>
+                            <label class="col-sm-2 control-label" align="right">Slug</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="slug" maxlength="255" value="<?= $dados->slug ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">categoria</label>
+                            <label class="col-sm-2 control-label" align="right">Categoria</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="categoria" maxlength="255" value="<?= $dados->categoria ?>" />
                             </div>

@@ -17,7 +17,7 @@
                             <thead>
                                 <tr>
                                 	
-                                    <th>caracteristicas</th>
+                                    <th>Nome da Característica</th>
                                     <th>&nbsp;</th>
                                     <th>&nbsp;</th>
                                 </tr>

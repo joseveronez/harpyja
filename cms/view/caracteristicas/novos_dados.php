@@ -14,7 +14,7 @@
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">caracteristicas</label>
+                            <label class="col-sm-2 control-label" align="right">Nome da Característica</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="caracteristicas" maxlength="255" required />
                             </div>
@@ -24,7 +24,7 @@
                     
                     <div class="box-content">
                     <div class="control-group row">
-                        <label class="col-sm-2 control-label" align="right">Adicionar às categorias</label>
+                        <label class="col-sm-2 control-label" align="right">Adicionar à(s) categoria(s)</label>
                         <div class="col-sm-4">
                             <div id="ListaCateg"></div>
                             <select id="selectCategorias" class="form-control" name="id_caracteristica">

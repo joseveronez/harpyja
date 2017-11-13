@@ -10,7 +10,7 @@
             <form id="formProd" action="<?= caminhoSite ?>/produtos/salvar-dados" method="post" enctype="multipart/form-data" id="formInserirDados">
             	<div class="box">
                     <div class="box-title">
-                        <h3 class="box-title-title"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Categorias</h3>
+                        <h3 class="box-title-title"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Informações do produto</h3>
                     </div>
                     <div class="box-content">
             			<div class="control-group row">
@@ -31,13 +31,18 @@
                                 
                             </div>
                         </div><br>
-                        <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">Caracteristicas</label><br>
-                            <div class="col-sm-10" id="tabelaCaracteristicas"></div>
-                        </div><br>
             		</div>
                 </div><br>
-
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-title-title"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Características</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="control-group row">
+                            <div class="col-sm-12" id="tabelaCaracteristicas"></div>
+                        </div><br>
+                    </div>
+                </div><br>
             	<button id="salvaProd" type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             </form>
         </section>

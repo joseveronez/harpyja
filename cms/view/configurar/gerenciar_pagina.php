@@ -14,7 +14,7 @@
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">img_autor</label>
+                            <label class="col-sm-2 control-label" align="right">Foto Autor</label>
 
                             <div class="col-sm-10">
                                 <?php
@@ -30,13 +30,13 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo_autor</label>
+                            <label class="col-sm-2 control-label" align="right">Titulo Autor</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo_autor" maxlength="255" value="<?= $dados->titulo_autor ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">texto_autor</label>
+                            <label class="col-sm-2 control-label" align="right">Texto Autor</label>
 
                             <div class="col-sm-10">
                                 <textarea name="texto_autor" type="text" class="form-control wmd-container" cols="10" rows="10"><?= $dados->texto_autor ?></textarea>
@@ -50,37 +50,37 @@
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">endereco</label>
+                            <label class="col-sm-2 control-label" align="right">Endereço</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="endereco" maxlength="255" value="<?= $dados->endereco ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">bairro</label>
+                            <label class="col-sm-2 control-label" align="right">Bairro</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="bairro" maxlength="255" value="<?= $dados->bairro ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">cidade</label>
+                            <label class="col-sm-2 control-label" align="right">Cidade</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="cidade" maxlength="255" value="<?= $dados->cidade ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">estado_uf</label>
+                            <label class="col-sm-2 control-label" align="right">Estado (UF)</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="estado_uf" maxlength="2" value="<?= $dados->estado_uf ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">cep</label>
+                            <label class="col-sm-2 control-label" align="right">CEP</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="cep" maxlength="255" value="<?= $dados->cep ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">mapa</label>
+                            <label class="col-sm-2 control-label" align="right">Link Mapa</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="mapa" maxlength="255" value="<?= $dados->mapa ?>" />
                             </div>
@@ -93,7 +93,7 @@
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">logo_cabecalho</label>
+                            <label class="col-sm-2 control-label" align="right">Logo Cabeçalho</label>
 
                             <div class="col-sm-10">
                                 <?php
@@ -109,7 +109,7 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">logo_footer</label>
+                            <label class="col-sm-2 control-label" align="right">Logo Rodapé</label>
 
                             <div class="col-sm-10">
                                 <?php
@@ -125,19 +125,19 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">facebook</label>
+                            <label class="col-sm-2 control-label" align="right">Facebook</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="facebook" maxlength="255" value="<?= $dados->facebook ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">twitter</label>
+                            <label class="col-sm-2 control-label" align="right">Twitter</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="twitter" maxlength="255" value="<?= $dados->twitter ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">youtube</label>
+                            <label class="col-sm-2 control-label" align="right">Youtube</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="youtube" maxlength="255" value="<?= $dados->youtube ?>" />
                             </div>
@@ -194,19 +194,19 @@
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo</label>
+                            <label class="col-sm-2 control-label" align="right">Titulo Página Home</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo" maxlength="255" value="<?= $dados->titulo ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">subtitulo</label>
+                            <label class="col-sm-2 control-label" align="right">Subtítulo Página Home</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="subtitulo" maxlength="255" value="<?= $dados->subtitulo ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">parallax</label>
+                            <label class="col-sm-2 control-label" align="right">Parallax</label>
 
                             <div class="col-sm-10">
                                 <?php
@@ -229,38 +229,38 @@
                     </div>
                     <div class="box-content">
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">slug_empresa</label>
+                            <label class="col-sm-2 control-label" align="right">Slug Empresa</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="slug_empresa" maxlength="255" value="<?= $dados->slug_empresa ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo_empresa</label>
+                            <label class="col-sm-2 control-label" align="right">Titulo Empresa</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo_empresa" maxlength="255" value="<?= $dados->titulo_empresa ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">texto_empresa</label>
+                            <label class="col-sm-2 control-label" align="right">Texto Empresa</label>
 
                             <div class="col-sm-10">
                                 <textarea name="texto_empresa" type="text" class="form-control wmd-container" cols="10" rows="10"><?= $dados->texto_empresa ?></textarea>
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">slug_nome</label>
+                            <label class="col-sm-2 control-label" align="right">Slug Nome</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="slug_nome" maxlength="255" value="<?= $dados->slug_nome ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">titulo_nome</label>
+                            <label class="col-sm-2 control-label" align="right">Titulo Nome</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="titulo_nome" maxlength="255" value="<?= $dados->titulo_nome ?>" />
                             </div>
                         </div><br>
                         <div class="control-group row">
-                            <label class="col-sm-2 control-label" align="right">texto_nome</label>
+                            <label class="col-sm-2 control-label" align="right">Texto Nome</label>
 
                             <div class="col-sm-10">
                                 <textarea name="texto_nome" type="text" class="form-control wmd-container" cols="10" rows="10"><?= $dados->texto_nome ?></textarea>
